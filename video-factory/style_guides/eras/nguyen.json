@@ -1,0 +1,11 @@
+{
+  "era_name": "Triều Nguyễn",
+  "time_period": "1802 - 1945",
+  "prompt_addition": "Nguyen dynasty Vietnam, Hue Imperial City, last Vietnamese dynasty, French colonization begins",
+  "architecture": ["Hue Imperial Citadel", "Ngo Mon gate", "Forbidden Purple City", "royal tombs"],
+  "clothing": ["áo dài ngũ thân", "khăn đóng", "Nguyen-style crown (mũ miện)", "mandarin robes with rank badges"],
+  "weapons": ["muskets", "cannons", "traditional swords alongside firearms"],
+  "key_elements": ["Hue as capital", "Nguyen dynasty court", "arrival of French", "Treaty of Saigon"],
+  "color_palette": {"primary": "#FFD700", "secondary": "#800020", "accent": "#000080", "background": "#FFFAF0"},
+  "notes": "Phong cách hoàng gia, ảnh hưởng nhà Thanh. Giai đoạn sau: tương phản Đông-Tây"
+}

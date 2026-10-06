@@ -1,0 +1,11 @@
+{
+  "era_name": "Nhà Hồ và Hậu Trần",
+  "time_period": "1400 - 1428",
+  "prompt_addition": "Ho dynasty and post-Tran resistance, Ming Chinese occupation of Vietnam, Le Loi uprising beginnings",
+  "architecture": ["Ho citadel (Thanh Hoa)", "Ming-style fortifications", "resistance camps in mountains"],
+  "clothing": ["Ho dynasty court dress", "Ming Chinese military uniforms", "Vietnamese resistance fighter clothes"],
+  "weapons": ["early Vietnamese cannons", "Ming crossbows", "guerrilla weapons"],
+  "key_elements": ["Ho Quy Ly reforms", "Ming invasion", "20 years of resistance", "Lam Son uprising origins"],
+  "color_palette": {"primary": "#696969", "secondary": "#8B0000", "accent": "#2F4F4F", "background": "#C0C0C0"},
+  "notes": "Thời kỳ bị Minh đô hộ, không khí u ám nhưng có tinh thần phản kháng"
+}

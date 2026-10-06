@@ -1,0 +1,610 @@
+[
+  {
+    "scene_number": 1,
+    "visual_brief": "Aerial establishing shot of a massive ancient spiral citadel rising from misty rice paddies at dawn. Golden light breaks through fog, revealing the fortress silhouette. Camera slowly pushes in toward the citadel.",
+    "visual_type": "video",
+    "mood": "mysterious",
+    "color_tone": "warm",
+    "transition_note": ""
+  },
+  {
+    "scene_number": 2,
+    "visual_brief": "Top-down aerial view revealing three concentric spiral walls of the citadel with deep moats between them. Water glimmers in the moats. A crossbow weapon silhouette appears in the foreground corner, hinting at power.",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "cool",
+    "transition_note": "Crossfade from scene 1"
+  },
+  {
+    "scene_number": 3,
+    "visual_brief": "Dynamic medium shot of a massive crossbow mechanism firing hundreds of bronze arrows in a volley. Arrows streak across the sky in arcs against orange sunset. Enemy soldiers below scatter in panic.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "warm",
+    "transition_note": "Cut — fast pacing for hook"
+  },
+  {
+    "scene_number": 4,
+    "visual_brief": "Quick montage-style wide shot of northern armies retreating from the citadel walls in disarray. Broken banners, fallen soldiers, dust clouds. The citadel stands untouched behind them. Repeated defeat visualized.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "muted",
+    "transition_note": "Cut — maintain fast hook rhythm"
+  },
+  {
+    "scene_number": 5,
+    "visual_brief": "Close-up of cracks spreading across the citadel wall surface. Camera slowly pulls back to show the fortress beginning to crumble. Dramatic shadow falls over the structure.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Cut — tonal shift"
+  },
+  {
+    "scene_number": 6,
+    "visual_brief": "Medium shot from inside the citadel looking inward — a shadowy figure stands within the walls, back turned. The threat comes from within, not outside. Ominous red-orange light casts long shadows.",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "dark",
+    "transition_note": "Crossfade — reveal moment"
+  },
+  {
+    "scene_number": 7,
+    "visual_brief": "Wide establishing shot of ancient northern Vietnam landscape, 3rd century BC. Lush green river delta with scattered thatched-roof villages. Title text overlay: 'Cổ Loa — Thế kỷ III TCN'. Calm, informational tone.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Fade to black then fade in — new chapter"
+  },
+  {
+    "scene_number": 8,
+    "visual_brief": "Split composition: left side shows Lạc Việt farmers in conical hats working wet rice paddies in the lowlands; right side shows Âu Việt mountain warriors in highland forest. River divides the two groups. Warm sunlight.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 9,
+    "visual_brief": "Medium shot of Lạc Việt villagers transplanting rice in flooded paddies, water buffaloes nearby. Peaceful rural scene. Mountains visible in the distant background where Âu Việt people live.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 10,
+    "visual_brief": "Medium shot of Âu Việt mountain warriors training with spears and shields in a highland clearing. They look fierce and battle-hardened. In background, a Hùng king's banner hangs limp and faded, symbolizing waning power.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 11,
+    "visual_brief": "Epic wide shot of Thục Phán leading Âu Việt warriors charging across a battlefield. He stands on a war elephant, arm raised with sword. Opposing Hùng army retreats. Dust and banners fill the frame. Dramatic sky.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "warm",
+    "transition_note": "Cut — action sequence"
+  },
+  {
+    "scene_number": 12,
+    "visual_brief": "Medium close-up of An Dương Vương (Thục Phán) in royal attire, seated on throne, looking contemplative and worried. He gazes northward through a palace window. Map scroll visible beside him showing northern threats.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "warm",
+    "transition_note": "Crossfade — shift to political drama"
+  },
+  {
+    "scene_number": 13,
+    "visual_brief": "Wide shot looking north — massive Qin dynasty army stretches across horizon like a dark wave, banners with Qin characters. An Dương Vương's silhouette in foreground looking at this threat. Ominous dark clouds gather.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Crossfade — zoom effect on image"
+  },
+  {
+    "scene_number": 14,
+    "visual_brief": "Aerial shot of the Cổ Loa site at the confluence of three rivers. An Dương Vương points to the location from a hilltop, advisors beside him. Rivers branch out in three directions. Strategic position clearly visible.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 15,
+    "visual_brief": "Bird's-eye map-style illustration showing Cổ Loa's strategic position. Rivers flow from multiple directions, rice paddies behind, waterways in front. Arrows indicate control of water routes. Clean infographic style within 2D art.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 16,
+    "visual_brief": "Dramatic aerial pull-back revealing the full spiral design of Cổ Loa — three concentric walls coiling like a snail shell. Workers and soldiers populate the walls. Scale is immense, stretching across the landscape.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade — grand reveal"
+  },
+  {
+    "scene_number": 17,
+    "visual_brief": "Cross-section illustration showing the citadel wall structure: massive earth wall with 20m-wide base, deep moat filled with water connected to Hoàng Giang river. Boats navigate the moat. Technical yet artistic rendering.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 18,
+    "visual_brief": "Wide shot inside the spiral passage between walls. Enemy soldiers enter the outer gate but face a confusing maze of curved paths. Arrows rain down from defenders on the walls above. Boats carry supplies through moats.",
+    "visual_type": "video",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 19,
+    "visual_brief": "High-angle shot looking down into the kill zone between walls. Trapped enemy soldiers are surrounded, arrows flying from all directions. Defenders on the spiral walls above have clear line of sight. Claustrophobic, deadly composition.",
+    "visual_type": "video",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Cut — intense action"
+  },
+  {
+    "scene_number": 20,
+    "visual_brief": "Majestic wide shot of completed Cổ Loa citadel at golden hour. The spiral fortress gleams in sunset light. An Dương Vương stands atop the central tower surveying his creation. Southeast Asia's greatest ancient fortress.",
+    "visual_type": "image",
+    "mood": "epic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade — moment of pride"
+  },
+  {
+    "scene_number": 21,
+    "visual_brief": "Close-up detail shot of the nỏ liên châu (repeating crossbow). Intricate bronze mechanism shown clearly. Multiple arrow slots visible. A soldier's hands demonstrate the loading mechanism. Warm torchlight illuminates the weapon.",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 22,
+    "visual_brief": "Medium shot of archaeological display — thousands of three-edged bronze arrowheads arranged in rows. Cut to illustration of the aerodynamic design with motion lines showing penetration power. Scientific yet artistic presentation.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 23,
+    "visual_brief": "Wide shot of Âu Lạc weapons workshop. Craftsmen forge bronze arrowheads and crossbow parts. Sparks fly, molten metal glows. An Dương Vương inspects the weapons with satisfaction. Advanced military technology on display.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 24,
+    "visual_brief": "Split screen: left — An Dương Vương stands confidently atop Cổ Loa walls, arms crossed, fortress strong behind him. Right — dark storm clouds gather over the northern horizon. Contrast between confidence and looming threat.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "muted",
+    "transition_note": "Crossfade — tonal pivot"
+  },
+  {
+    "scene_number": 25,
+    "visual_brief": "Wide shot of the Qin dynasty collapsing — burning palaces, fleeing officials, chaos. Dark red and orange fire tones dominate. Smoke rises from multiple points. The great empire crumbles.",
+    "visual_type": "video",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Fade to black then fade in — new chapter"
+  },
+  {
+    "scene_number": 26,
+    "visual_brief": "Medium shot of Triệu Đà — a cunning middle-aged military commander in Chinese armor — standing before a map, pointing at territories he has conquered. Nam Hải, Quế Lâm, Tượng Quận marked. Calculating expression, cold eyes.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "cool",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 27,
+    "visual_brief": "Wide establishing shot of Phiên Ngung (Guangzhou) — Triệu Đà's capital city. Bustling port with Chinese-style architecture, trading vessels, military camps. Nam Việt kingdom banner flies prominently.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "cool",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 28,
+    "visual_brief": "Flashback montage — young Triệu Đà as a Qin general leading southern campaigns through jungles and mountains. He studies local terrain, talks with locals, learns their tactics. Experienced and dangerous warrior.",
+    "visual_type": "video",
+    "mood": "tense",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 29,
+    "visual_brief": "Close-up of Triệu Đà's face — shrewd, patient eyes studying a map of Âu Lạc. His finger traces the route south toward Cổ Loa. Candlelight flickers across his calculating expression. A long-term strategist.",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "dark",
+    "transition_note": "Crossfade — slow zoom into face"
+  },
+  {
+    "scene_number": 30,
+    "visual_brief": "Wide shot of Triệu Đà's army marching toward Cổ Loa citadel. The massive spiral fortress looms ahead. Cut to: army smashing against the walls and retreating in chaos. The citadel is impenetrable.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "warm",
+    "transition_note": "Cut — battle sequence begins"
+  },
+  {
+    "scene_number": 31,
+    "visual_brief": "High-angle action shot inside the spiral walls — Nam Việt soldiers trapped in the curved corridors. Bronze arrows rain down like a storm from Âu Lạc defenders above. Bodies fall, shields shatter. Nỏ liên châu devastates waves of attackers.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "dark",
+    "transition_note": "Cut — fast battle rhythm"
+  },
+  {
+    "scene_number": 32,
+    "visual_brief": "Wide shot of Triệu Đà's defeated army retreating across a river, banners torn. Deep moats block all approaches. Triệu Đà watches from horseback, frustrated but not defeated — his jaw clenches, eyes narrow with a new idea forming.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "muted",
+    "transition_note": "Crossfade — battle ends"
+  },
+  {
+    "scene_number": 33,
+    "visual_brief": "Close-up of Triệu Đà in his war tent at night, illuminated by a single oil lamp. He pushes aside military maps and pulls out a diplomatic scroll. His expression shifts from frustration to cunning calculation. 'If not from outside... then from within.'",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "dark",
+    "transition_note": "Crossfade — slow zoom in"
+  },
+  {
+    "scene_number": 34,
+    "visual_brief": "Medium shot of two delegations meeting on neutral ground. Triệu Đà's envoys present peace gifts and a marriage proposal scroll to An Dương Vương's court. Triệu Đà smiles diplomatically. No swords — but the real weapon is the scroll.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 35,
+    "visual_brief": "Medium two-shot: Trọng Thủy (young, handsome, composed) and Mị Châu (young princess, innocent, beautiful in traditional Âu Lạc dress with feather ornaments). They stand side by side for the first time. Triệu Đà watches from behind with hidden satisfaction.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 36,
+    "visual_brief": "Medium shot of An Dương Vương on his throne, nodding approval of the marriage. He looks confident, even amused. Behind him, the citadel walls are visible through the palace window — his source of overconfidence. Advisors exchange uneasy glances.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 37,
+    "visual_brief": "Wide shot of the main gate of Cổ Loa opening. Trọng Thủy walks through the massive gate into the citadel, wedding procession behind him. The gate that held back armies now welcomes the enemy's son. Dramatic irony in the composition.",
+    "visual_type": "video",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade — key turning point"
+  },
+  {
+    "scene_number": 38,
+    "visual_brief": "Close-up of An Dương Vương's face — confident, almost dismissive. His eyes show no suspicion. Behind him in soft focus, Trọng Thủy's eyes scan the walls, the guards, the weapon stores. Two expressions, two agendas.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 39,
+    "visual_brief": "Wide shot of An Dương Vương standing atop the inner citadel wall at sunset, arms spread wide, surveying his kingdom. Cổ Loa stretches out below — impregnable. His posture radiates absolute confidence. 'Who could possibly defeat me?'",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 40,
+    "visual_brief": "Close-up of a crack forming in a stone wall — metaphorical. Dissolve to: Trọng Thủy walking through the citadel corridors at night, studying the wall structures, counting guard positions. Shadow and torchlight create an espionage atmosphere.",
+    "visual_type": "video",
+    "mood": "mysterious",
+    "color_tone": "dark",
+    "transition_note": "Fade to black then fade in — new chapter: betrayal"
+  },
+  {
+    "scene_number": 41,
+    "visual_brief": "Medium shot of Trọng Thủy and Mị Châu together in their quarters. While Mị Châu sleeps peacefully, Trọng Thủy sits awake, sketching the citadel layout on a hidden scroll by moonlight. Dual identity — husband and spy.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 42,
+    "visual_brief": "Montage of Trọng Thủy's espionage activities: watching guard rotations from a window, memorizing paths between spiral walls, peering at the crossbow armory through a doorway crack. Each shot uses shadows and low angles to emphasize secrecy.",
+    "visual_type": "video",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Cut — quick montage rhythm"
+  },
+  {
+    "scene_number": 43,
+    "visual_brief": "Close-up of Trọng Thủy's hands reaching toward the nỏ liên châu mechanism in a dimly lit armory. The golden trigger mechanism (lẫy nỏ/vuốt rùa vàng) glows in torchlight. His fingers hover over it — the moment of theft approaches.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Crossfade — slow zoom in"
+  },
+  {
+    "scene_number": 44,
+    "visual_brief": "Close-up of the golden turtle claw trigger (vuốt rùa vàng) — the core component of the divine crossbow. It gleams with mystical light. Without it, the weapon is just wood and string. The most important military secret of Âu Lạc.",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 45,
+    "visual_brief": "Medium shot of Trọng Thủy carefully swapping the real trigger mechanism with a fake replica in the dark armory. His hands tremble slightly. Sweat on his brow. The real trigger goes into a hidden pouch.",
+    "visual_type": "video",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 46,
+    "visual_brief": "Wide shot of a secret messenger riding horseback at night through dark forest, carrying a sealed package north to Triệu Đà. The stolen military secret leaves Cổ Loa under cover of darkness. An Dương Vương's palace sleeps peacefully, unaware.",
+    "visual_type": "video",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 47,
+    "visual_brief": "Medium shot of Trọng Thủy at the citadel gate, dressed for travel, saying farewell. He bows to An Dương Vương who waves casually. Trọng Thủy's face shows a flash of guilt before he turns to leave.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 48,
+    "visual_brief": "Close-up two-shot of Trọng Thủy holding Mị Châu's hands. He asks his question — 'How will I find you?' — with calculated concern disguised as love. Mị Châu looks up at him with pure trust and innocence.",
+    "visual_type": "image",
+    "mood": "sad",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 49,
+    "visual_brief": "Close-up of Mị Châu showing Trọng Thủy her goose-feather coat. She plucks a feather and lets it drift in the air. Soft, tragic innocence — she is unknowingly revealing the method of her own pursuit. Warm but melancholic lighting.",
+    "visual_type": "image",
+    "mood": "sad",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 50,
+    "visual_brief": "Extreme close-up of Trọng Thủy's eyes — cold, calculating, absorbing the information. Hard cut to: the same question echoing visually as text — 'Ta biết tìm nàng ở đâu?' — not a husband's worry, but a spy's final briefing.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Cut — dramatic reveal"
+  },
+  {
+    "scene_number": 51,
+    "visual_brief": "Wide shot of Triệu Đà's massive army mobilizing — tens of thousands of soldiers, war chariots, cavalry. Triệu Đà in full armor on horseback at the front, sword raised. This time the invasion force is overwhelming.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "dark",
+    "transition_note": "Fade to black then fade in — the attack begins"
+  },
+  {
+    "scene_number": 52,
+    "visual_brief": "Medium shot of An Dương Vương receiving news of the attack, sitting calmly on his throne, smirking. He waves dismissively and orders the crossbow brought. His overconfidence is complete. Guards rush to fetch the weapon.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 53,
+    "visual_brief": "Close-up of the crossbow firing — but the arrows fall weakly, clattering harmlessly to the ground. The fake trigger fails. Cut to An Dương Vương's face — smirk collapses into shock and horror. The weapon is useless.",
+    "visual_type": "video",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Cut — shock moment"
+  },
+  {
+    "scene_number": 54,
+    "visual_brief": "Wide shot of Cổ Loa's walls from outside — the once-mighty fortress now looks vulnerable. No arrow volleys defend it. Triệu Đà's soldiers pour through breaches. The three spiral walls are just empty earthen barriers without firepower.",
+    "visual_type": "video",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Cut — battle continues"
+  },
+  {
+    "scene_number": 55,
+    "visual_brief": "Dynamic medium shot of An Dương Vương in panic, lifting Mị Châu onto a horse. He whips the horse south. Behind them, Cổ Loa burns as Triệu Đà's forces overrun the citadel. Chaos, fire, screaming.",
+    "visual_type": "video",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Cut — urgent escape"
+  },
+  {
+    "scene_number": 56,
+    "visual_brief": "Medium tracking shot from behind as Mị Châu on horseback drops goose feathers one by one along the forest path. White feathers float in the wind against dark forest. She doesn't realize she's marking the trail for the enemy.",
+    "visual_type": "video",
+    "mood": "sad",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 57,
+    "visual_brief": "Wide shot of a rocky coastal cliff. An Dương Vương and Mị Châu reach the sea — waves crash against rocks. Behind them, a trail of white feathers leads directly to them. Enemy cavalry appears on the horizon following the trail. Realization dawns.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 58,
+    "visual_brief": "Close-up of An Dương Vương's anguished face as he draws his sword. Tears stream down. Mị Châu kneels before him, understanding. He strikes — then his silhouette falls backward toward the sea. Stylized, no graphic violence — shadow and color convey tragedy.",
+    "visual_type": "video",
+    "mood": "sad",
+    "color_tone": "dark",
+    "transition_note": "Cut — climactic moment"
+  },
+  {
+    "scene_number": 59,
+    "visual_brief": "Wide shot of the sea at dusk. Blood dissolves into water, transforming into swirling red that flows toward oysters on the sea floor. Mystical, legendary quality. Above, a kingdom's flag sinks beneath waves. The end of Âu Lạc.",
+    "visual_type": "video",
+    "mood": "sad",
+    "color_tone": "dark",
+    "transition_note": "Crossfade — slow, mournful"
+  },
+  {
+    "scene_number": 60,
+    "visual_brief": "Medium shot of Trọng Thủy arriving at the empty, ruined Cổ Loa. He searches frantically for Mị Châu. Finding nothing, he stands at the edge of an ancient well inside the citadel. He jumps. Ripples spread across dark water.",
+    "visual_type": "video",
+    "mood": "sad",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 61,
+    "visual_brief": "Mystical close-up: a pearl from an oyster is washed in well water, and it glows with brilliant iridescence. Beautiful, ethereal light emanates. Legend made visual — the connection between Mị Châu's blood and Trọng Thủy's tears.",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "cool",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 62,
+    "visual_brief": "Wide shot returning to reality — the ruined walls of Cổ Loa stand silent. Camera slowly pans across the empty fortress. Text overlay potential: the fortress had everything — walls, weapons, warriors. What was missing?",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "muted",
+    "transition_note": "Fade to black then fade in — lesson chapter"
+  },
+  {
+    "scene_number": 63,
+    "visual_brief": "Medium shot of An Dương Vương in a memory/flashback pose — standing proudly atop his walls, blind to the danger. Walls and weapons surround him but a shadow creeps behind him. Visual metaphor for overconfidence.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 64,
+    "visual_brief": "Graphic illustration showing three pillars of An Dương Vương's defense — tall walls, deep moats, powerful crossbow — but the foundation beneath them (labeled 'cảnh giác' / vigilance) is cracked and crumbling.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 65,
+    "visual_brief": "Medium shot recreation: the citadel gate opens (callback to scene 37), Trọng Thủy walking in — but now rendered in shadow and red warning tones. The same event, reframed as a fatal mistake. Audience now sees what An Dương Vương didn't.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 66,
+    "visual_brief": "Split composition: left — Triệu Đà's peace envoy arrives with gifts and smiles; right — behind a curtain, Triệu Đà's generals plan the real invasion. The duality of deception. An Dương Vương visible only on the naive left side.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 67,
+    "visual_brief": "Symbolic illustration: a massive sword (military might) broken in half by a thin silk thread (intelligence/espionage). A towering fortress crumbles from a single small crack within. Simple, powerful visual metaphor.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "muted",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 68,
+    "visual_brief": "Wide shot of a timeline ribbon flowing through Vietnamese history — showing repeated cycles of vigilance (bright) and complacency (dark). The Cổ Loa incident is one point among many. The pattern repeats across centuries.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 69,
+    "visual_brief": "Dark wide shot showing moments of Vietnamese defeat/occupation — shadows falling over the land whenever complacency set in. Wilting banners, open gates, unguarded walls. A visual pattern of repeated vulnerability.",
+    "visual_type": "image",
+    "mood": "tense",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 70,
+    "visual_brief": "Bright, inspiring wide shot of Vietnamese heroes through history standing united — warriors, generals, people — in a golden light montage. Bà Trưng, Lý Bí, Ngô Quyền silhouettes in heroic poses. When vigilant and united, invincible.",
+    "visual_type": "image",
+    "mood": "epic",
+    "color_tone": "vibrant",
+    "transition_note": "Crossfade — tonal uplift"
+  },
+  {
+    "scene_number": 71,
+    "visual_brief": "Wide shot of present-day Cổ Loa ruins in Đông Anh, Hanoi. The ancient earthen walls remain, now covered in grass and trees. Museum display case with thousands of bronze arrowheads. History preserved, lesson enduring.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 72,
+    "visual_brief": "Close-up of a single bronze arrowhead held in a modern hand, reflecting light. Pull back to reveal the Cổ Loa ruins in background. The 2000-year-old question posed visually: power without vigilance means nothing.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "warm",
+    "transition_note": "Crossfade — contemplative zoom"
+  },
+  {
+    "scene_number": 73,
+    "visual_brief": "Wide shot of the fallen Âu Lạc kingdom — darkness covers the land. But small flames of resistance appear scattered across the map. Transition to 1000 years of Bắc thuộc, but the spirit endures. Bridge to future stories.",
+    "visual_type": "image",
+    "mood": "dramatic",
+    "color_tone": "dark",
+    "transition_note": "Crossfade"
+  },
+  {
+    "scene_number": 74,
+    "visual_brief": "Quick montage of Vietnamese heroes in action: Hai Bà Trưng on war elephants, Lý Bí declaring independence — each in heroic 2D cartoon style, dynamic poses, vibrant colors. Each generation rises. Energy builds.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "vibrant",
+    "transition_note": "Cut — fast montage"
+  },
+  {
+    "scene_number": 75,
+    "visual_brief": "Epic wide shot of Ngô Quyền at the Battle of Bạch Đằng River — iron-tipped stakes in the river, enemy ships impaled, Vietnamese warriors victorious. The ultimate callback — vigilance and strategy triumph. Peak energy.",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "vibrant",
+    "transition_note": "Cut — climactic montage"
+  },
+  {
+    "scene_number": 76,
+    "visual_brief": "End screen: channel logo centered over a stylized Cổ Loa citadel background. Subscribe button animation, two video recommendation boxes. Warm colors, inviting design. 'Hẹn gặp lại ở tập tiếp theo' text overlay.",
+    "visual_type": "image",
+    "mood": "calm",
+    "color_tone": "warm",
+    "transition_note": "Crossfade — fade out with music"
+  }
+]

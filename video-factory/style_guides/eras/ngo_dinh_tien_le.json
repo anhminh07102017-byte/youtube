@@ -1,0 +1,11 @@
+{
+  "era_name": "Thời Ngô-Đinh-Tiền Lê",
+  "time_period": "938 - 1009",
+  "prompt_addition": "early independent Vietnam, Ngo Quyen Bach Dang victory, Dinh Bo Linh unification, Le Hoan era",
+  "architecture": ["Hoa Lu ancient capital", "stone citadels", "early Vietnamese temples"],
+  "clothing": ["early Vietnamese royal robes", "military armor (local style)", "Buddhist monk robes"],
+  "weapons": ["iron-tipped stakes", "swords", "spears", "war boats"],
+  "key_elements": ["Bach Dang 938 victory", "Hoa Lu capital", "12 warlords period", "early statebuilding"],
+  "color_palette": {"primary": "#556B2F", "secondary": "#8B4513", "accent": "#DAA520", "background": "#D2C4A5"},
+  "notes": "Giai đoạn lập quốc, từ 12 sứ quân đến thống nhất"
+}

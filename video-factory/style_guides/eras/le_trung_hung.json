@@ -1,0 +1,11 @@
+{
+  "era_name": "Lê Trung Hưng",
+  "time_period": "1533 - 1789",
+  "prompt_addition": "restored Le dynasty Vietnam, Trinh lords controlling the North, ceremonial kings, bureaucratic state",
+  "architecture": ["Thang Long under Trinh control", "Trinh lord's palace", "Le king's symbolic court"],
+  "clothing": ["Le king ceremonial robes", "Trinh lord military dress", "bureaucrat uniforms"],
+  "weapons": ["combination of traditional and early firearms"],
+  "key_elements": ["puppet kings", "Trinh lords real power", "Confucian bureaucracy", "cultural flourishing"],
+  "color_palette": {"primary": "#800000", "secondary": "#4A4A4A", "accent": "#FFD700", "background": "#E8D8C8"},
+  "notes": "Vua Lê chỉ là hình thức, chúa Trịnh nắm quyền thực"
+}

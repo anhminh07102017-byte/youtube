@@ -1,0 +1,11 @@
+{
+  "era_name": "Thời hiện đại",
+  "time_period": "1945 - nay",
+  "prompt_addition": "modern Vietnamese history, independence movement, post-war reconstruction",
+  "architecture": ["government buildings", "rural villages modernizing", "urban development"],
+  "clothing": ["áo dài (formal)", "modern Vietnamese clothing", "military uniforms"],
+  "weapons": ["modern military equipment"],
+  "key_elements": ["independence declaration", "nation building", "reform and modernization"],
+  "color_palette": {"primary": "#DC143C", "secondary": "#FFD700", "accent": "#006400", "background": "#F5F5F5"},
+  "notes": "Cẩn thận với nội dung nhạy cảm chính trị. Tuân thủ pháp luật VN"
+}

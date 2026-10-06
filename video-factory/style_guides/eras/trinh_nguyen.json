@@ -1,0 +1,11 @@
+{
+  "era_name": "Trịnh-Nguyễn phân tranh",
+  "time_period": "1627 - 1672 (chiến tranh), kéo dài đến 1786",
+  "prompt_addition": "divided Vietnam, Trinh lords in the North vs Nguyen lords in the South, Gianh river border",
+  "architecture": ["Northern citadels (Thăng Long)", "Southern frontier forts", "defensive walls at Gianh river"],
+  "clothing": ["Trinh lord court dress", "Nguyen lord court dress", "regional soldier uniforms"],
+  "weapons": ["early firearms (Portuguese influence)", "war elephants", "naval vessels"],
+  "key_elements": ["Gianh river division", "two competing courts", "European traders arriving", "Hoi An trading port"],
+  "color_palette": {"primary": "#4A4A4A", "secondary": "#8B4513", "accent": "#B8860B", "background": "#DEB887"},
+  "notes": "Thể hiện sự chia cắt Bắc-Nam, hai triều đình đối lập"
+}

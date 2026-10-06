@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build
+.next/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data & DB
+*.sqlite3
+*.db
+backend_data/
+
+# Docker volumes
+video-factory/projects/*/videos/*/audio/
+video-factory/projects/*/videos/*/assets/
+video-factory/projects/*/characters/*/reference.png
+
+# Playwright browser profile
+.video-factory-browser/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+/tmp/
+
+# Screenshots & test files
+*.png
+*.srt
+!video-factory/frontend/public/**
+
+# Claude
+.claude/
+.playwright-mcp/

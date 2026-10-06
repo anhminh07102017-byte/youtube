@@ -1,0 +1,19 @@
+{
+  "id": "lich-su-viet-nam",
+  "name": "Lịch sử Việt Nam",
+  "type": "custom",
+  "era": "",
+  "time_period": null,
+  "tone": "dramatic_narrative",
+  "target_duration": 600,
+  "sources": [
+    "Đại Việt Sử Ký Toàn Thư|||https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t_s%E1%BB%AD_k%C3%BD_to%C3%A0n_th%C6%B0",
+    "Việt Nam Sử Lược - Trần Trọng Kim|||https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Nam_s%E1%BB%AD_l%C6%B0%E1%BB%A3c",
+    "Đại Nam Thực Lục|||https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Nam_th%E1%BB%B1c_l%E1%BB%A5c"
+  ],
+  "notes": "Dự án kênh YouTube về lịch sử Việt Nam từ thời dựng nước đến hiện đại, phong cách hoạt hình 2D.",
+  "style_override": null,
+  "flow_project_id": "22630a5c-d01a-466f-ab0c-4eaf5f1a2b4d",
+  "created_at": "2026-10-05T07:59:39.265321",
+  "updated_at": "2026-10-06T03:27:28.063546"
+}

@@ -1,0 +1,11 @@
+{
+  "era_name": "Thời Tây Sơn",
+  "time_period": "1771 - 1802",
+  "prompt_addition": "Tay Son rebellion and dynasty, peasant uprising, Quang Trung emperor, defeating Qing China invasion",
+  "architecture": ["humble origins - peasant villages", "later: royal palaces at Phu Xuan (Hue)", "battlefield camps"],
+  "clothing": ["peasant rebel clothing (early)", "Tay Son military uniforms", "Quang Trung royal attire"],
+  "weapons": ["peasant weapons upgraded to military", "cannons", "fast cavalry", "naval fleet"],
+  "key_elements": ["three Tay Son brothers", "Quang Trung's lightning march to Thang Long", "defeating 200,000 Qing troops", "Tet offensive 1789"],
+  "color_palette": {"primary": "#CD853F", "secondary": "#8B0000", "accent": "#FFD700", "background": "#D2B48C"},
+  "notes": "Từ nông dân nổi dậy đến hoàng đế. Không khí cách mạng, tốc độ"
+}

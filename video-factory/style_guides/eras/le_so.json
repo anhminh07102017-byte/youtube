@@ -1,0 +1,11 @@
+{
+  "era_name": "Triều Lê sơ",
+  "time_period": "1428 - 1527",
+  "prompt_addition": "Le dynasty Vietnam, post-Ming liberation, Confucian golden age, Le Loi and Le Thanh Tong era",
+  "architecture": ["Kinh Thien palace (Điện Kính Thiên)", "Confucian temples", "Van Mieu (Temple of Literature)", "fortified walls"],
+  "clothing": ["dragon robes (long bào)", "Confucian scholar robes", "mandarin court dress", "Ming-influenced style"],
+  "weapons": ["Le Loi's legendary sword", "cavalry", "infantry formations"],
+  "key_elements": ["Lam Son uprising", "sword of Le Loi", "Confucian examinations", "territorial expansion"],
+  "color_palette": {"primary": "#B22222", "secondary": "#FFD700", "accent": "#2F4F4F", "background": "#FAEBD7"},
+  "notes": "Ảnh hưởng Nho giáo, phong cách trang phục gần Minh triều. Thời kỳ thịnh trị"
+}

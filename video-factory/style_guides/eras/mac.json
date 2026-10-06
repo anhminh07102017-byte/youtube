@@ -1,0 +1,11 @@
+{
+  "era_name": "Nhà Mạc",
+  "time_period": "1527 - 1592 (chính thức), đến 1677 (tàn dư)",
+  "prompt_addition": "Mac dynasty Vietnam, rival Southern Le court, political instability, trade expansion",
+  "architecture": ["Mac dynasty palaces", "trading ports", "fortified cities"],
+  "clothing": ["Mac court robes (Ming-influenced)", "merchant clothing", "military attire"],
+  "weapons": ["firearms (Portuguese trade)", "traditional weapons"],
+  "key_elements": ["Mac Dang Dung usurpation", "Le-Mac civil war", "foreign trade expansion", "ceramic trade"],
+  "color_palette": {"primary": "#4682B4", "secondary": "#DAA520", "accent": "#8B4513", "background": "#F5F5DC"},
+  "notes": "Thời kỳ chia cắt Nam-Bắc triều, thương mại phát triển"
+}

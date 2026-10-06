@@ -1,0 +1,22 @@
+{
+  "id": "",
+  "name": "",
+  "historical_name": "",
+  "era": "",
+  "age_range": "",
+  "reference_description": "",
+  "visual_prompt_base": "",
+  "visual_variants": {
+    "formal": "",
+    "battle": "",
+    "casual": ""
+  },
+  "color_palette": {
+    "skin": "",
+    "hair": "",
+    "primary_outfit": "",
+    "secondary_outfit": ""
+  },
+  "consistency_anchors": [],
+  "appears_in_videos": []
+}

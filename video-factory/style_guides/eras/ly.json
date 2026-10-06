@@ -1,0 +1,11 @@
+{
+  "era_name": "Triều Lý",
+  "time_period": "1009 - 1225",
+  "prompt_addition": "Ly dynasty Vietnam, Buddhist golden age, Thang Long capital, delicate Vietnamese dragon motifs",
+  "architecture": ["One Pillar Pagoda (Chùa Một Cột)", "Thang Long Imperial Citadel", "Buddhist temples", "tiled roofs"],
+  "clothing": ["royal court robes with Ly-style dragon embroidery", "Buddhist monk robes", "soldier armor with ornate designs"],
+  "weapons": ["decorated swords", "crossbows", "war elephants"],
+  "key_elements": ["slender Ly dynasty dragons", "lotus flowers", "Buddhist influence", "Thang Long city"],
+  "color_palette": {"primary": "#FFD700", "secondary": "#006400", "accent": "#8B0000", "background": "#F0E68C"},
+  "notes": "Rồng thời Lý mảnh mai, uốn lượn. Ảnh hưởng Phật giáo đậm"
+}

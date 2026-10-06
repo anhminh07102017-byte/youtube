@@ -1,0 +1,11 @@
+{
+  "era_name": "Thời Hùng Vương - Văn Lang - Âu Lạc",
+  "time_period": "2879 TCN - 179 TCN",
+  "prompt_addition": "ancient Vietnamese Lac Viet civilization, bronze age Southeast Asia, Dong Son culture",
+  "architecture": ["stilt houses (nhà sàn)", "thatched roofs", "bamboo structures", "bronze drum decorations"],
+  "clothing": ["loincloth (đóng khố)", "feathered headdress", "bronze jewelry", "animal skin cloaks"],
+  "weapons": ["bronze axes (rìu đồng)", "spears", "bows and arrows", "Dong Son bronze daggers"],
+  "key_elements": ["Dong Son bronze drums", "rice paddies", "water buffalo", "river settlements"],
+  "color_palette": {"primary": "#8B4513", "secondary": "#228B22", "accent": "#DAA520", "background": "#F5DEB3"},
+  "notes": "Chú ý: hoa văn trống đồng Đông Sơn, nhà sàn, cảnh sông nước"
+}

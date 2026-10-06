@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "nói xin chào trong 5 từ",
+      "timestamp": "2026-10-05T13:41:22.112319+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Xin chào bạn, rất vui!",
+      "timestamp": "2026-10-05T13:41:29.112346+00:00"
+    }
+  ]
+}

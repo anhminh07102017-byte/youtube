@@ -1,0 +1,14 @@
+{
+  "era_name": "Thời Pháp thuộc",
+  "time_period": "1858 - 1945",
+  "prompt_addition": "French colonial Vietnam, Indochina, colonial architecture mixed with Vietnamese villages, resistance movements",
+  "architecture": ["thatched-roof villages (làng quê)", "French colonial buildings", "plantations", "prisons"],
+  "clothing": {
+    "vietnamese": ["áo dài", "áo bà ba", "nón lá", "khăn rằn"],
+    "french": ["blue military uniforms", "pith helmets (mũ cối)", "colonial officer dress"]
+  },
+  "weapons": ["rifles", "bayonets", "guerrilla weapons (bamboo spears, traps)"],
+  "key_elements": ["contrast between French and Vietnamese", "resistance fighters", "Can Vuong movement", "villages vs colonial cities"],
+  "color_palette": {"primary": "#1C1C1C", "secondary": "#8B4513", "accent": "#556B2F", "background": "#D2B48C"},
+  "notes": "Tone tối, tương phản giàu-nghèo, Đông-Tây. Tinh thần phản kháng"
+}

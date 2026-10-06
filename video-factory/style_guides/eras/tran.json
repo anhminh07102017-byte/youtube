@@ -1,0 +1,11 @@
+{
+  "era_name": "Triều Trần",
+  "time_period": "1225 - 1400",
+  "prompt_addition": "Tran dynasty Vietnam, Mongol invasion era, powerful military, Bach Dang river battles",
+  "architecture": ["Thang Long citadel (expanded)", "military camps", "wooden warships", "riverside fortifications"],
+  "clothing": ["red and gold military armor", "Tran dynasty court robes", "soldier battle gear"],
+  "weapons": ["iron-tipped wooden stakes", "warships", "swords and spears", "crossbows"],
+  "key_elements": ["Bach Dang river stakes", "Tran Hung Dao", "Mongol invaders contrast", "Hoi Nghi Dien Hong"],
+  "color_palette": {"primary": "#8B0000", "secondary": "#FFD700", "accent": "#006400", "background": "#F5DEB3"},
+  "notes": "Không khí chiến tranh, hào hùng. Rồng thời Trần mạnh mẽ hơn thời Lý"
+}

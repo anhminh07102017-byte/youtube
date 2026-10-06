@@ -1,0 +1,11 @@
+{
+  "era_name": "Thời Bắc thuộc",
+  "time_period": "179 TCN - 938",
+  "prompt_addition": "Chinese-ruled Vietnam period, Han dynasty to Tang dynasty influence, Vietnamese resistance",
+  "architecture": ["Chinese-style citadels", "Vietnamese villages contrast", "watchtowers"],
+  "clothing": ["Chinese official robes (for rulers)", "simple Vietnamese peasant clothes", "armor mixing Chinese and local styles"],
+  "weapons": ["Chinese crossbows", "Vietnamese guerrilla weapons", "elephant cavalry"],
+  "key_elements": ["Hai Ba Trung uprising", "Lady Trieu", "Ly Bi", "Vietnamese identity forming under Chinese rule"],
+  "color_palette": {"primary": "#4A6741", "secondary": "#8B0000", "accent": "#C5B358", "background": "#D2C4A5"},
+  "notes": "Tương phản giữa quan lại Trung Hoa và dân Việt, tinh thần phản kháng"
+}
