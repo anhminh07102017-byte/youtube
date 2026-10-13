@@ -1,6 +1,7 @@
 "use client";
 
-import { Image, Video, Check, RotateCcw } from "lucide-react";
+import { useRef } from "react";
+import { Image, Video, Check, RotateCcw, Upload } from "lucide-react";
 import { StatusBadge } from "./StatusBadge";
 import { assetUrl } from "@/lib/api";
 import type { Scene } from "@/lib/api";
@@ -9,12 +10,14 @@ interface SceneCardProps {
   scene: Scene;
   onApprove?: (sceneNumber: number) => void;
   onRedo?: (sceneNumber: number) => void;
+  onUpload?: (sceneNumber: number, file: File) => void;
   onClick?: (scene: Scene) => void;
 }
 
-export function SceneCard({ scene, onApprove, onRedo, onClick }: SceneCardProps) {
+export function SceneCard({ scene, onApprove, onRedo, onUpload, onClick }: SceneCardProps) {
   const TypeIcon = scene.visual_type === "video" ? Video : Image;
   const formatTime = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   return (
     <div className="bg-white rounded-2xl overflow-hidden hover:shadow-md transition-all group cursor-pointer border border-transparent hover:border-gray-100"
@@ -52,6 +55,13 @@ export function SceneCard({ scene, onApprove, onRedo, onClick }: SceneCardProps)
             className="flex-1 flex items-center justify-center gap-1.5 px-3 py-1.5 text-[11px] font-semibold rounded-lg bg-amber-50 text-amber-600 hover:bg-amber-100 transition-colors">
             <RotateCcw className="w-3.5 h-3.5" /> Làm lại
           </button>
+          <button onClick={(e) => { e.stopPropagation(); fileInputRef.current?.click(); }}
+            className="flex items-center justify-center gap-1.5 px-3 py-1.5 text-[11px] font-semibold rounded-lg bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors" title="Upload ảnh/video">
+            <Upload className="w-3.5 h-3.5" />
+          </button>
+          <input ref={fileInputRef} type="file" accept="image/*,video/*" className="hidden"
+            onClick={(e) => e.stopPropagation()}
+            onChange={(e) => { const f = e.target.files?.[0]; if (f) onUpload?.(scene.scene_number, f); e.target.value = ""; }} />
         </div>
       </div>
     </div>

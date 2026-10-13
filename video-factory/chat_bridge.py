@@ -3375,7 +3375,7 @@ async def generate_scene_assets_bulk(project_id: str, video_id: str, mode: str =
                 scenes = [s for s in scenes if s.get("visual_type") == visual_type_filter]
 
             if mode == "missing":
-                target_scenes = [s for s in scenes if s.get("veo3_prompt") and not s.get("asset_path")]
+                target_scenes = [s for s in scenes if s.get("veo3_prompt") and (not s.get("asset_path") or s.get("status") in ("pending", "redo"))]
             else:
                 target_scenes = [s for s in scenes if s.get("veo3_prompt")]
 

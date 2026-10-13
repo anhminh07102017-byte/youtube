@@ -5,7 +5,7 @@ from typing import Any, Dict, Optional
 
 from typing import List
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from sqlalchemy import select, delete
@@ -287,12 +287,21 @@ async def batch_clear_assets(
         )
     )
     scenes = result.scalars().all()
+    assets_dir = Path(PROJECTS_DIR) / project_id / "videos" / video_id / "assets"
     cleared = 0
     for scene in scenes:
         if scene.asset_path:
-            asset_file = Path(scene.asset_path)
+            # Xóa file thực — dùng PROJECTS_DIR để resolve đúng path
+            asset_file = Path(PROJECTS_DIR).parent / scene.asset_path
             if asset_file.exists():
                 asset_file.unlink()
+            # Xóa cả file theo naming convention trong cả images/ và videos/
+            for subdir in [assets_dir / "images", assets_dir / "videos"]:
+                if subdir.exists():
+                    pattern = f"scene_{scene.scene_number:03d}"
+                    for f in subdir.iterdir():
+                        if f.stem.startswith(pattern):
+                            f.unlink()
             scene.asset_path = None
             scene.asset_version = 0
             scene.status = "pending" if not scene.veo3_prompt else "review"
@@ -372,24 +381,21 @@ async def clear_all_assets(
         select(Scene).where(Scene.video_id == video_id, Scene.project_id == project_id)
     )
     scenes = result.scalars().all()
+    # Xóa toàn bộ thư mục assets trước (xóa sạch file trên disk)
+    assets_dir = Path(PROJECTS_DIR) / project_id / "videos" / video_id / "assets"
+    if assets_dir.exists():
+        shutil.rmtree(assets_dir)
+
+    # Clear DB records
     cleared = 0
     for scene in scenes:
         if scene.asset_path:
-            # Xóa file thực
-            asset_file = Path(scene.asset_path)
-            if asset_file.exists():
-                asset_file.unlink()
             scene.asset_path = None
             scene.asset_version = 0
             scene.status = "pending" if not scene.veo3_prompt else "review"
             scene.updated_at = datetime.now(timezone.utc)
             cleared += 1
     await db.commit()
-
-    # Xóa toàn bộ thư mục assets
-    assets_dir = Path(PROJECTS_DIR) / project_id / "videos" / video_id / "assets"
-    if assets_dir.exists():
-        shutil.rmtree(assets_dir)
 
     return {"status": "ok", "cleared": cleared}
 
@@ -423,6 +429,58 @@ async def get_scene_asset(
             return FileResponse(str(f))
 
     raise HTTPException(status_code=404, detail="Asset not found")
+
+
+@router.post("/{scene_number}/upload-asset")
+async def upload_scene_asset(
+    project_id: str,
+    video_id: str,
+    scene_number: int,
+    file: UploadFile = File(...),
+    is_short: bool = False,
+    db: AsyncSession = Depends(get_db),
+):
+    """Upload ảnh/video thủ công cho một cảnh."""
+    await _get_video_or_404(project_id, video_id, db)
+    scene = await _get_scene_or_404(project_id, video_id, scene_number, db, is_short)
+
+    # Validate file type
+    content_type = file.content_type or ""
+    if not (content_type.startswith("image/") or content_type.startswith("video/")):
+        raise HTTPException(400, "Chỉ chấp nhận file ảnh hoặc video.")
+
+    is_video = content_type.startswith("video/")
+    ext = file.filename.rsplit(".", 1)[-1].lower() if file.filename and "." in file.filename else ("mp4" if is_video else "jpg")
+
+    # Determine save directory
+    video_dir = Path(PROJECTS_DIR) / project_id / "videos" / video_id
+    sub_base = video_dir / "shorts" if is_short else video_dir
+    sub_dir = sub_base / "assets" / ("videos" if is_video else "images")
+    sub_dir.mkdir(parents=True, exist_ok=True)
+
+    # Version numbering
+    existing = sorted(sub_dir.glob(f"scene_{scene_number:03d}_v*.{ext}"))
+    next_v = 1
+    if existing:
+        try:
+            next_v = int(existing[-1].stem.split("_v")[-1]) + 1
+        except (ValueError, IndexError):
+            next_v = len(existing) + 1
+
+    save_path = sub_dir / f"scene_{scene_number:03d}_v{next_v}.{ext}"
+    data = await file.read()
+    save_path.write_bytes(data)
+
+    # Update DB
+    scene.asset_path = str(save_path)
+    scene.asset_version = next_v
+    scene.status = "review"
+    scene.visual_type = "video" if is_video else "image"
+    scene.updated_at = datetime.now(timezone.utc)
+    await db.commit()
+    await db.refresh(scene)
+
+    return scene.to_dict()
 
 
 @router.get("/{scene_number}/versions")

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { Check, RotateCcw, Loader2, Image, Video, Eye, Clock, X, Sparkles, Merge, Trash2, CheckSquare, Square } from "lucide-react";
+import { useState, useRef } from "react";
+import { Check, RotateCcw, Loader2, Image, Video, Eye, Clock, X, Sparkles, Merge, Trash2, CheckSquare, Square, Upload } from "lucide-react";
 import { StatusBadge } from "./StatusBadge";
 import { assetUrl, mergeScenes, batchClearPrompts, batchClearAssets } from "@/lib/api";
 import type { Scene } from "@/lib/api";
@@ -12,6 +12,7 @@ interface SceneTimelineProps {
   videoId: string;
   onApprove: (sceneNumber: number) => void;
   onRedo: (sceneNumber: number) => void;
+  onUpload?: (sceneNumber: number, file: File) => void;
   onClickScene: (scene: Scene) => void;
   onGeneratePrompt?: (sceneNumber: number) => void;
   promptingScenes?: Set<number>;
@@ -30,6 +31,7 @@ function SceneCell({
   scene,
   onApprove,
   onRedo,
+  onUpload,
   onClick,
   onGeneratePrompt,
   isPrompting,
@@ -40,6 +42,7 @@ function SceneCell({
   scene: Scene;
   onApprove: (n: number) => void;
   onRedo: (n: number) => void;
+  onUpload?: (n: number, file: File) => void;
   onClick: () => void;
   onGeneratePrompt?: (n: number) => void;
   isPrompting?: boolean;
@@ -48,6 +51,7 @@ function SceneCell({
   onToggleSelect: (n: number) => void;
 }) {
   const [previewOpen, setPreviewOpen] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
   const duration = scene.timestamp_end - scene.timestamp_start;
   const hasAsset = !!scene.asset_url;
 
@@ -187,6 +191,16 @@ function SceneCell({
               <RotateCcw className="w-3 h-3" /> Tạo lại
             </button>
             <button
+              onClick={(e) => { e.stopPropagation(); fileInputRef.current?.click(); }}
+              className="py-1.5 px-2 text-[10px] font-semibold rounded-lg bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors"
+              title="Upload ảnh/video"
+            >
+              <Upload className="w-3 h-3" />
+            </button>
+            <input ref={fileInputRef} type="file" accept="image/*,video/*" className="hidden"
+              onClick={(e) => e.stopPropagation()}
+              onChange={(e) => { const f = e.target.files?.[0]; if (f) onUpload?.(scene.scene_number, f); e.target.value = ""; }} />
+            <button
               onClick={onClick}
               className="py-1.5 px-2 text-[10px] font-semibold rounded-lg bg-gray-50 text-gray-500 hover:bg-gray-100 transition-colors"
             >
@@ -227,7 +241,7 @@ function isConsecutive(nums: number[]): boolean {
   return true;
 }
 
-export function SceneTimeline({ scenes, projectId, videoId, onApprove, onRedo, onClickScene, onGeneratePrompt, promptingScenes, onScenesUpdated, onGenerateAssets, generatingAssets }: SceneTimelineProps) {
+export function SceneTimeline({ scenes, projectId, videoId, onApprove, onRedo, onUpload, onClickScene, onGeneratePrompt, promptingScenes, onScenesUpdated, onGenerateAssets, generatingAssets }: SceneTimelineProps) {
   const [selected, setSelected] = useState<Set<number>>(new Set());
   const [actionLoading, setActionLoading] = useState(false);
 
@@ -349,6 +363,7 @@ export function SceneTimeline({ scenes, projectId, videoId, onApprove, onRedo, o
             scene={scene}
             onApprove={onApprove}
             onRedo={onRedo}
+            onUpload={onUpload}
             onClick={() => onClickScene(scene)}
             onGeneratePrompt={onGeneratePrompt}
             isPrompting={promptingScenes?.has(scene.scene_number)}

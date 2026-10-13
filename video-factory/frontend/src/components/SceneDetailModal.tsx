@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { X, Check, RotateCcw, Image, Video, Clock, Volume2 } from "lucide-react";
+import { useState, useRef } from "react";
+import { X, Check, RotateCcw, Image, Video, Clock, Volume2, Upload } from "lucide-react";
 import { StatusBadge } from "./StatusBadge";
 import { assetUrl } from "@/lib/api";
 import type { Scene } from "@/lib/api";
@@ -11,6 +11,7 @@ interface SceneDetailModalProps {
   onClose: () => void;
   onApprove?: (sceneNumber: number) => void;
   onRedo?: (sceneNumber: number) => void;
+  onUpload?: (sceneNumber: number, file: File) => void;
   onUpdatePrompt?: (sceneNumber: number, prompt: string) => void;
 }
 
@@ -36,10 +37,11 @@ function parseVideoPrompt(prompt: string) {
   return timestamps.length > 0 ? { sections, timestamps } : null;
 }
 
-export function SceneDetailModal({ scene, onClose, onApprove, onRedo, onUpdatePrompt }: SceneDetailModalProps) {
+export function SceneDetailModal({ scene, onClose, onApprove, onRedo, onUpload, onUpdatePrompt }: SceneDetailModalProps) {
   const [editedPrompt, setEditedPrompt] = useState(scene.veo3_prompt);
   const [isEditingPrompt, setIsEditingPrompt] = useState(false);
   const formatTime = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const isVideo = scene.visual_type === "video";
   const parsed = isVideo && scene.veo3_prompt ? parseVideoPrompt(scene.veo3_prompt) : null;
@@ -216,6 +218,12 @@ export function SceneDetailModal({ scene, onClose, onApprove, onRedo, onUpdatePr
               className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-xl bg-amber-500 text-white hover:bg-amber-600 transition-colors shadow-sm">
               <RotateCcw className="w-4 h-4" /> Đánh dấu làm lại
             </button>
+            <button onClick={() => fileInputRef.current?.click()}
+              className="flex items-center justify-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-xl bg-indigo-500 text-white hover:bg-indigo-600 transition-colors shadow-sm">
+              <Upload className="w-4 h-4" /> Upload
+            </button>
+            <input ref={fileInputRef} type="file" accept="image/*,video/*" className="hidden"
+              onChange={(e) => { const f = e.target.files?.[0]; if (f) onUpload?.(scene.scene_number, f); e.target.value = ""; }} />
           </div>
         </div>
       </div>

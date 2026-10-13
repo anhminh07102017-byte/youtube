@@ -454,6 +454,29 @@ export async function cancelCharacterGeneration(projectId: string, videoId: stri
   });
 }
 
+// ---- Scene Asset Upload (manual) ----
+
+export async function uploadSceneAsset(
+  projectId: string,
+  videoId: string,
+  sceneNumber: number,
+  file: File,
+  isShort: boolean = false
+): Promise<Scene> {
+  const qs = isShort ? '?is_short=true' : '';
+  const formData = new FormData();
+  formData.append('file', file);
+  const res = await fetch(`${API_BASE}/projects/${projectId}/videos/${videoId}/scenes/${sceneNumber}/upload-asset${qs}`, {
+    method: 'POST',
+    body: formData,
+  });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(text || res.statusText);
+  }
+  return res.json();
+}
+
 // ---- Scene Asset Generation ----
 
 export async function generateSceneAsset(projectId: string, videoId: string, sceneNumber: number): Promise<{ status: string; scene_number: number; asset_path?: string; version?: number }> {

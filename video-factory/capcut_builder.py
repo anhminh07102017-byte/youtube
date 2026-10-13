@@ -874,7 +874,8 @@ def _make_key_value_entry(material_name: str, material_subcategory: str = "local
 
 def _update_root_meta_info(capcut_dir: str, project_dir: Path, draft_id: str,
                            folder_name: str, total_duration: int,
-                           draft_info_size: int):
+                           draft_info_size: int,
+                           canvas_width: int = 1920, canvas_height: int = 1080):
     """Đăng ký project mới vào root_meta_info.json."""
     root_meta_path = Path(capcut_dir) / "root_meta_info.json"
     now_us = int(time.time() * US_PER_SEC)
@@ -1497,6 +1498,7 @@ def build_capcut_project(
     _update_root_meta_info(
         capcut_dir, project_dir, draft_id, folder_name,
         total_duration, draft_info_size,
+        canvas_width=canvas_width, canvas_height=canvas_height,
     )
 
     scenes_used = len(video_segments)

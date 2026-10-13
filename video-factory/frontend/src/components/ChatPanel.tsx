@@ -147,7 +147,7 @@ export function ChatPanel({ projectId, videoId, onFinalized, chatType = "video" 
   if (online === null) return <div className="flex items-center justify-center py-12"><Loader2 className="w-6 h-6 text-indigo-500 animate-spin" /></div>;
 
   return (
-    <div className="flex flex-col h-[calc(100vh-300px)] min-h-[400px]">
+    <div className="flex flex-col h-[calc(100vh-200px)] lg:h-[calc(100vh-280px)] min-h-[350px]">
       <div className="flex items-center justify-between pb-3 border-b border-gray-100">
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />

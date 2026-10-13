@@ -26,6 +26,7 @@ import {
   Sparkles,
   Edit3,
   Image,
+  Film,
 } from "lucide-react";
 import { StatusBadge } from "@/components/StatusBadge";
 import { GuideEditor } from "@/components/GuideEditor";
@@ -81,6 +82,7 @@ import {
   clearSceneCharacters,
   getGenerationErrors,
   clearGenerationErrors,
+  uploadSceneAsset,
 } from "@/lib/api";
 import type { BatchPromptEvent, SceneAssetEvent, GenerationError } from "@/lib/api";
 import type { Video, Script, Scene, Character, SceneBulkItem } from "@/lib/api";
@@ -159,6 +161,16 @@ export default function VideoDetailPage() {
   useEffect(() => {
     fetchData();
   }, [projectId, videoId]);
+
+  // Sync selectedScene khi scenes array thay đổi (VD: tạo lại prompt, edit_plan mới)
+  useEffect(() => {
+    if (selectedScene) {
+      const updated = scenes.find((s) => s.scene_number === selectedScene.scene_number);
+      if (updated && JSON.stringify(updated) !== JSON.stringify(selectedScene)) {
+        setSelectedScene(updated);
+      }
+    }
+  }, [scenes]);
 
   useEffect(() => {
     const guideMap: Record<string, [typeof narration, typeof setNarration, string]> = {
@@ -273,19 +285,38 @@ export default function VideoDetailPage() {
 
   const handleRedoScene = async (sceneNumber: number) => {
     try {
-      await updateSceneStatus(projectId, videoId, sceneNumber, "pending");
+      await updateScene(projectId, videoId, sceneNumber, { status: "pending", asset_path: null as any, asset_version: null as any });
       setScenes((prev) =>
         prev.map((s) =>
-          s.scene_number === sceneNumber ? { ...s, status: "pending" } : s
+          s.scene_number === sceneNumber ? { ...s, status: "pending", asset_path: "", asset_version: undefined } : s
         )
       );
       if (selectedScene?.scene_number === sceneNumber) {
         setSelectedScene((prev) =>
-          prev ? { ...prev, status: "pending" } : null
+          prev ? { ...prev, status: "pending", asset_path: "", asset_version: undefined } : null
         );
       }
     } catch (err) {
       console.error("Failed to redo scene:", err);
+    }
+  };
+
+  const handleUploadSceneAsset = async (sceneNumber: number, file: File) => {
+    try {
+      const updated = await uploadSceneAsset(projectId, videoId, sceneNumber, file);
+      setScenes((prev) =>
+        prev.map((s) =>
+          s.scene_number === sceneNumber
+            ? { ...s, asset_path: updated.asset_path, asset_version: updated.asset_version, asset_url: updated.asset_url, status: updated.status, visual_type: updated.visual_type }
+            : s
+        )
+      );
+      if (selectedScene?.scene_number === sceneNumber) {
+        setSelectedScene((prev) => prev ? { ...prev, asset_path: updated.asset_path, asset_version: updated.asset_version, asset_url: updated.asset_url, status: updated.status, visual_type: updated.visual_type } : null);
+      }
+    } catch (err) {
+      console.error("Failed to upload scene asset:", err);
+      alert("Upload thất bại. Vui lòng thử lại.");
     }
   };
 
@@ -356,17 +387,17 @@ export default function VideoDetailPage() {
       {/* Back Link */}
       <Link
         href={`/projects/${projectId}`}
-        className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-indigo-500 mb-6 transition-colors"
+        className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-indigo-500 mb-3 lg:mb-6 transition-colors"
       >
         <ArrowLeft className="w-4 h-4" />
         Quay lại dự án
       </Link>
 
       {/* Video Header */}
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-3 lg:mb-6">
         <div>
           <h1 className="text-xl font-bold text-gray-800">{video.title}</h1>
-          <div className="flex items-center gap-3 mt-1">
+          <div className="flex flex-wrap items-center gap-3 mt-1">
             {video.created_at && (
               <p className="text-[12px] text-gray-400">
                 Ngày tạo {new Date(video.created_at).toLocaleDateString()}
@@ -376,8 +407,8 @@ export default function VideoDetailPage() {
               <span className="text-[12px] text-gray-400 whitespace-nowrap">Flow Project ID</span>
               <input
                 id="flow-project-id-input"
-                className="text-[12px] text-gray-500 bg-gray-50 border border-gray-200 rounded-lg px-2 py-1 w-80 focus:outline-none focus:border-indigo-300"
-                placeholder="VD: a86abc69-5508-4d56-931e-e587312105f2"
+                className="text-[12px] text-gray-500 bg-gray-50 border border-gray-200 rounded-lg px-2 py-1 w-60 lg:w-80 focus:outline-none focus:border-indigo-300"
+                placeholder="VD: a86abc69-5508-..."
                 defaultValue={video.flow_project_id || ""}
               />
               <button
@@ -404,7 +435,7 @@ export default function VideoDetailPage() {
       </div>
 
       {/* Tabs */}
-      <div className="border-b border-gray-100 mb-6 overflow-x-auto">
+      <div className="border-b border-gray-100 mb-3 lg:mb-6 overflow-x-auto">
         <div className="flex gap-1 min-w-max">
           {tabs.map((tab, i) => {
             const Icon = tab.icon;
@@ -416,7 +447,7 @@ export default function VideoDetailPage() {
                 )}
                 <button
                   onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center gap-2 px-4 py-3 text-[13px] font-medium border-b-2 transition-colors whitespace-nowrap ${
+                  className={`flex items-center gap-2 px-3 lg:px-4 py-2 lg:py-3 text-[12px] lg:text-[13px] font-medium border-b-2 transition-colors whitespace-nowrap ${
                     activeTab === tab.id
                       ? tab.group === "short" ? "border-purple-500 text-purple-500" : "border-indigo-500 text-indigo-600"
                       : "border-transparent text-gray-400 hover:text-gray-600"
@@ -436,8 +467,8 @@ export default function VideoDetailPage() {
         {/* Brainstorm Tab */}
         {activeTab === "brainstorm" && (
           <div>
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-[17px] font-bold text-gray-800">Lên kịch bản</h2>
+            <div className="flex items-center justify-between mb-2 lg:mb-4">
+              <h2 className="text-[15px] lg:text-[17px] font-bold text-gray-800">Lên kịch bản</h2>
               {script?.content && (
                 <button
                   onClick={() => setActiveTab("script")}
@@ -547,6 +578,7 @@ export default function VideoDetailPage() {
             videoId={videoId}
             onApprove={handleApproveScene}
             onRedo={handleRedoScene}
+            onUpload={handleUploadSceneAsset}
             onApproveAll={handleApproveAll}
             allScenesApproved={allScenesApproved}
             onClickScene={setSelectedScene}
@@ -580,6 +612,8 @@ export default function VideoDetailPage() {
                   const updated = await getShortGuide(projectId, videoId, "script");
                   setShortScript(updated);
                 }}
+                placeholder="Nhập kịch bản short..."
+                emptyMessage="Chưa có kịch bản short. Vào tab Short: Ý tưởng để chat với Claude."
               />
             </div>
             <div>
@@ -593,6 +627,8 @@ export default function VideoDetailPage() {
                   const updated = await getShortGuide(projectId, videoId, "narration");
                   setShortNarration(updated);
                 }}
+                placeholder="Nhập nội dung voice short..."
+                emptyMessage="Chưa có nội dung voice short."
               />
             </div>
           </div>
@@ -751,6 +787,7 @@ export default function VideoDetailPage() {
           onClose={() => setSelectedScene(null)}
           onApprove={handleApproveScene}
           onRedo={handleRedoScene}
+          onUpload={handleUploadSceneAsset}
           onUpdatePrompt={handleUpdatePrompt}
         />
       )}
@@ -1235,9 +1272,22 @@ function ShortShotlistTab({ projectId, videoId, onClickScene }: { projectId: str
 
   const handleRedo = async (n: number) => {
     try {
-      await updateSceneStatus(projectId, videoId, n, "redo", true);
-      setScenes(prev => prev.map(s => s.scene_number === n ? { ...s, status: "redo" } : s));
+      await updateScene(projectId, videoId, n, { status: "redo", asset_path: null as any, asset_version: null as any }, true);
+      setScenes(prev => prev.map(s => s.scene_number === n ? { ...s, status: "redo", asset_path: "", asset_version: undefined } : s));
     } catch { /* ignore */ }
+  };
+
+  const handleUpload = async (n: number, file: File) => {
+    try {
+      const updated = await uploadSceneAsset(projectId, videoId, n, file, true);
+      setScenes(prev => prev.map(s => s.scene_number === n
+        ? { ...s, asset_path: updated.asset_path, asset_version: updated.asset_version, asset_url: updated.asset_url, status: updated.status, visual_type: updated.visual_type }
+        : s
+      ));
+    } catch (err) {
+      console.error("Failed to upload short scene asset:", err);
+      alert("Upload thất bại. Vui lòng thử lại.");
+    }
   };
 
   if (loading) return <div className="flex justify-center py-12"><Loader2 className="w-6 h-6 animate-spin text-purple-400" /></div>;
@@ -1257,6 +1307,8 @@ function ShortShotlistTab({ projectId, videoId, onClickScene }: { projectId: str
   const scenesMissingAsset = scenes.filter(s => s.veo3_prompt && !s.asset_path).length;
   const scenesWithAsset = scenes.filter(s => s.asset_path).length;
   const pendingApproval = scenes.filter(s => s.status !== "approved").length;
+  const scenesMissingVideo = scenes.filter(s => s.veo3_prompt && !s.asset_path && s.visual_type === 'video').length;
+  const scenesMissingImage = scenes.filter(s => s.veo3_prompt && !s.asset_path && s.visual_type === 'image').length;
 
   return (
     <div>
@@ -1303,6 +1355,23 @@ function ShortShotlistTab({ projectId, videoId, onClickScene }: { projectId: str
             <button onClick={() => handleGenerateAllAssets('all')} disabled={generatingAssets || promptingAll}
               className="flex items-center gap-2 px-3 py-1.5 text-[12px] font-semibold rounded-lg bg-gray-500 text-white hover:bg-gray-600 disabled:opacity-50 transition-colors shadow-sm">
               <Image className="w-3.5 h-3.5" /> Tạo lại tất cả ảnh/video
+            </button>
+          )}
+
+          {/* Tạo riêng video / ảnh chưa tạo */}
+          {(scenesMissingVideo > 0 || scenesMissingImage > 0) && <div className="w-px h-6 bg-gray-200" />}
+          {scenesMissingVideo > 0 && (
+            <button onClick={() => handleGenerateSelectedAssets(scenes.filter(s => s.veo3_prompt && !s.asset_path && s.visual_type === 'video').map(s => s.scene_number), 'video')} disabled={generatingAssets || promptingAll}
+              className="flex items-center gap-2 px-3 py-1.5 text-[12px] font-semibold rounded-lg bg-blue-500 text-white hover:bg-blue-600 disabled:opacity-50 transition-colors shadow-sm">
+              {generatingAssets ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Film className="w-3.5 h-3.5" />}
+              Tạo video chưa tạo ({scenesMissingVideo})
+            </button>
+          )}
+          {scenesMissingImage > 0 && (
+            <button onClick={() => handleGenerateSelectedAssets(scenes.filter(s => s.veo3_prompt && !s.asset_path && s.visual_type === 'image').map(s => s.scene_number), 'image')} disabled={generatingAssets || promptingAll}
+              className="flex items-center gap-2 px-3 py-1.5 text-[12px] font-semibold rounded-lg bg-cyan-500 text-white hover:bg-cyan-600 disabled:opacity-50 transition-colors shadow-sm">
+              {generatingAssets ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Image className="w-3.5 h-3.5" />}
+              Tạo ảnh chưa tạo ({scenesMissingImage})
             </button>
           )}
 
@@ -1439,6 +1508,7 @@ function ShortShotlistTab({ projectId, videoId, onClickScene }: { projectId: str
           videoId={videoId}
           onApprove={handleApprove}
           onRedo={handleRedo}
+          onUpload={handleUpload}
           onClickScene={onClickScene}
           onGeneratePrompt={handleGeneratePrompt}
           promptingScenes={promptingScenes}
@@ -1458,6 +1528,7 @@ function ShotlistTab({
   videoId,
   onApprove,
   onRedo,
+  onUpload,
   onApproveAll,
   allScenesApproved,
   onClickScene,
@@ -1471,6 +1542,7 @@ function ShotlistTab({
   videoId: string;
   onApprove: (n: number) => void;
   onRedo: (n: number) => void;
+  onUpload: (n: number, file: File) => void;
   onApproveAll: () => void;
   allScenesApproved: boolean;
   onClickScene: (scene: Scene) => void;
@@ -1730,6 +1802,8 @@ function ShotlistTab({
   const scenesWithAsset = scenes.filter((s) => s.asset_path).length;
   const scenesWithCharacters = scenes.filter((s) => s.flow_characters && s.flow_characters.length > 0).length;
   const pendingApproval = scenes.filter((s) => s.status !== "approved").length;
+  const scenesMissingVideo = scenes.filter((s) => s.veo3_prompt && !s.asset_path && s.visual_type === 'video').length;
+  const scenesMissingImage = scenes.filter((s) => s.veo3_prompt && !s.asset_path && s.visual_type === 'image').length;
 
   return (
     <div>
@@ -1794,6 +1868,29 @@ function ShotlistTab({
             >
               {generatingAssets ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Grid3X3 className="w-3.5 h-3.5" />}
               Tạo lại tất cả ảnh/video
+            </button>
+          )}
+
+          {/* Tạo riêng video / ảnh chưa tạo */}
+          {(scenesMissingVideo > 0 || scenesMissingImage > 0) && <div className="w-px h-6 bg-gray-200" />}
+          {scenesMissingVideo > 0 && (
+            <button
+              onClick={() => handleGenerateAllAssets('missing', scenes.filter(s => s.veo3_prompt && !s.asset_path && s.visual_type === 'video').map(s => s.scene_number), 'video')}
+              disabled={generatingAssets || promptingAll}
+              className="flex items-center gap-2 px-3 py-1.5 text-[12px] font-semibold rounded-lg bg-blue-500 text-white hover:bg-blue-600 disabled:opacity-50 transition-colors shadow-sm"
+            >
+              {generatingAssets ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Film className="w-3.5 h-3.5" />}
+              Tạo video chưa tạo ({scenesMissingVideo})
+            </button>
+          )}
+          {scenesMissingImage > 0 && (
+            <button
+              onClick={() => handleGenerateAllAssets('missing', scenes.filter(s => s.veo3_prompt && !s.asset_path && s.visual_type === 'image').map(s => s.scene_number), 'image')}
+              disabled={generatingAssets || promptingAll}
+              className="flex items-center gap-2 px-3 py-1.5 text-[12px] font-semibold rounded-lg bg-cyan-500 text-white hover:bg-cyan-600 disabled:opacity-50 transition-colors shadow-sm"
+            >
+              {generatingAssets ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Image className="w-3.5 h-3.5" />}
+              Tạo ảnh chưa tạo ({scenesMissingImage})
             </button>
           )}
 
@@ -2050,6 +2147,7 @@ function ShotlistTab({
           videoId={videoId}
           onApprove={onApprove}
           onRedo={onRedo}
+          onUpload={onUpload}
           onClickScene={onClickScene}
           onGeneratePrompt={handleGeneratePrompt}
           promptingScenes={promptingScenes}
