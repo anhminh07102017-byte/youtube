@@ -52,6 +52,7 @@ async def scan_projects(db: AsyncSession):
                 target_duration=data.get("target_duration", 600),
                 sources=data.get("sources", []),
                 notes=data.get("notes"),
+                base_style=data.get("base_style", "base_2d_style"),
                 style_override=data.get("style_override"),
             )
             db.add(project)
@@ -65,6 +66,7 @@ async def scan_projects(db: AsyncSession):
             existing.target_duration = data.get("target_duration", existing.target_duration)
             existing.sources = data.get("sources", existing.sources)
             existing.notes = data.get("notes", existing.notes)
+            existing.base_style = data.get("base_style", existing.base_style)
             existing.style_override = data.get("style_override", existing.style_override)
             existing.updated_at = datetime.now(timezone.utc)
 
@@ -158,7 +160,17 @@ async def sync_video_status(db: AsyncSession, video: Video, video_path: Path = N
 
 
 async def _sync_scenes_from_shotlist(db: AsyncSession, video: Video, shotlist_path: Path):
-    """Import scenes from a shot_list.json file into the database."""
+    """Import scenes from a shot_list.json file into the database.
+    Only imports if NO scenes exist yet (initial import).
+    Once scenes are in DB, the DB is the source of truth — not the file.
+    """
+    # Skip if scenes already exist in DB (DB is source of truth after initial import)
+    existing_count = await db.execute(
+        select(Scene).where(Scene.video_id == video.id, Scene.project_id == video.project_id).limit(1)
+    )
+    if existing_count.scalar_one_or_none() is not None:
+        return
+
     try:
         with open(shotlist_path, "r", encoding="utf-8") as f:
             data = json.load(f)

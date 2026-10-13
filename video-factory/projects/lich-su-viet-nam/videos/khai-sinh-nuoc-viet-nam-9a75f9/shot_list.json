@@ -1,615 +1,595 @@
 {
   "project_id": "lich-su-viet-nam",
   "video_id": "khai-sinh-nuoc-viet-nam-9a75f9",
-  "total_scenes": 76,
+  "total_scenes": 98,
   "scenes": [
     {
       "scene_number": 1,
-      "timestamp_start": 0.1,
-      "timestamp_end": 4.77,
-      "script_text": "hơn 2.000 năm trước giữa đồng bằng Bắc Bộ có một pháo đài mà không đội quân nào phá nổi",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 0.0,
+      "timestamp_end": 5.133,
+      "script_text": "Hơn 2000 năm trước, giữa đồng bằng Bắc Bộ, có một pháo đài mà không đội quân nào phá nổi."
     },
     {
       "scene_number": 2,
-      "timestamp_start": 5.5,
-      "timestamp_end": 9.4,
-      "script_text": "BA vòng thanh xoắn ốc hào nước sâu bao quanh và một loại vũ khí",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 5.133,
+      "timestamp_end": 8.316,
+      "script_text": "Ba vòng thành xoắn ốc. Hào nước sâu bao quanh."
     },
     {
       "scene_number": 3,
-      "timestamp_start": 9.53,
-      "timestamp_end": 14.6,
-      "script_text": "có thể bắn hàng ngàn mũi tên chỉ trong một phát đội quân nào kéo đến cũng phải rút lui",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 8.316,
+      "timestamp_end": 12.183,
+      "script_text": "Và một loại vũ khí có thể bắn hàng ngàn mũi tên chỉ trong một phát."
     },
     {
       "scene_number": 4,
-      "timestamp_start": 14.93,
-      "timestamp_end": 18.73,
-      "script_text": "kẻ thù phương Bắc đánh đi đánh lại thua thua nữa thua mãi thua",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 12.183,
+      "timestamp_end": 14.767,
+      "script_text": "Đội quân nào kéo đến cũng phải rút lui."
     },
     {
       "scene_number": 5,
-      "timestamp_start": 19.27,
-      "timestamp_end": 22.6,
-      "script_text": "nhưng rồi pháo đài ấy sụp đổ không phải vì một trận đánh",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 14.767,
+      "timestamp_end": 19.0,
+      "script_text": "Kẻ thù phương Bắc đánh đi đánh lại — thua. Thua nữa. Thua mãi."
     },
     {
       "scene_number": 6,
-      "timestamp_start": 22.93,
-      "timestamp_end": 27.17,
-      "script_text": "không phải vì quân địch quá mạnh mà vì một Sai lầm của chính người bên trong",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 19.0,
+      "timestamp_end": 21.3,
+      "script_text": "Nhưng rồi, pháo đài ấy sụp đổ."
     },
     {
       "scene_number": 7,
-      "timestamp_start": 28.07,
-      "timestamp_end": 32.3,
-      "script_text": "đây là câu chuyện về thành của loa khoảng thế kỷ thứ BA trước Công Nguyên",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 21.3,
+      "timestamp_end": 24.766,
+      "script_text": "Không phải vì một trận đánh. Không phải vì quân địch quá mạnh."
     },
     {
       "scene_number": 8,
-      "timestamp_start": 32.47,
-      "timestamp_end": 37.2,
-      "script_text": "vùng đất Bắc Bộ Việt Nam ngày nay có 2 nhóm người lớn người Lạc Việt con cháu các vua Hùng",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 24.766,
+      "timestamp_end": 27.616,
+      "script_text": "Mà vì một sai lầm — của chính người bên trong."
     },
     {
       "scene_number": 9,
-      "timestamp_start": 37.5,
-      "timestamp_end": 41.47,
-      "script_text": "sinh sống chủ yếu ở đồng bằng trong lúa nước và người Âu Việt ở vùng núi phía Bắc",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 27.616,
+      "timestamp_end": 30.216,
+      "script_text": "Đây là câu chuyện về thành Cổ Loa."
     },
     {
       "scene_number": 10,
-      "timestamp_start": 41.7,
-      "timestamp_end": 45.97,
-      "script_text": "quen Trinh chiến hiện đánh trận khi sức mạnh của các vua Hùng suy yếu",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 30.216,
+      "timestamp_end": 35.35,
+      "script_text": "Khoảng thế kỷ thứ 3 trước Công nguyên, vùng đất Bắc Bộ Việt Nam ngày nay có hai nhóm người lớn:"
     },
     {
       "scene_number": 11,
-      "timestamp_start": 46.2,
-      "timestamp_end": 53.67,
-      "script_text": "Thục phán thủ lĩnh của người Âu Việt đã nhân cơ hội đánh bại vua Hùng thứ 18 và thống nhất 2 nhóm Âu Việt Lạc Việt thành một quốc gia mới nước Âu Lạc",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 35.35,
+      "timestamp_end": 43.65,
+      "script_text": "người Lạc Việt — con cháu các Vua Hùng, sinh sống chủ yếu ở đồng bằng, trồng lúa nước — và người Âu Việt ở vùng núi phía Bắc, quen chinh chiến, thiện đánh trận."
     },
     {
       "scene_number": 12,
-      "timestamp_start": 54.13,
-      "timestamp_end": 61.2,
-      "script_text": "ông lên ngôi xưng là an Dương Vương nhưng An Dương Vương hiểu rằng thống nhất đất nước chỉ là bước đầu mối đe dọa thực sự",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 43.65,
+      "timestamp_end": 53.9,
+      "script_text": "Khi sức mạnh của các Vua Hùng suy yếu, Thục Phán — thủ lĩnh của người Âu Việt — đã nhân cơ hội đánh bại Vua Hùng thứ 18 và thống nhất hai nhóm Âu Việt - Lạc Việt thành một quốc gia mới: nước Âu Lạc."
     },
     {
       "scene_number": 13,
-      "timestamp_start": 61.3,
-      "timestamp_end": 68.37,
-      "script_text": "nằm ở phương Bắc nơi mà đế chế tần đang Bành chướng và nuốt chửng từng vùng đất để bảo vệ quốc gia non trẻ ông cần một pháo đài",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 53.9,
+      "timestamp_end": 56.35,
+      "script_text": "Ông lên ngôi, xưng là An Dương Vương."
     },
     {
       "scene_number": 14,
-      "timestamp_start": 69.13,
-      "timestamp_end": 76.67,
-      "script_text": "và ông chọn của loa này thuộc huyện Đông anh Hà Nội làm kinh đô vị trí này không phải ngẫu nhiên một cổ loa nằm ở ngã BA sông",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 56.35,
+      "timestamp_end": 65.633,
+      "script_text": "Nhưng An Dương Vương hiểu rằng thống nhất đất nước chỉ là bước đầu. Mối đe dọa thực sự nằm ở phương Bắc — nơi mà đế chế Tần đang bành trướng và nuốt chửng từng vùng đất."
     },
     {
       "scene_number": 15,
-      "timestamp_start": 76.97,
-      "timestamp_end": 84.4,
-      "script_text": "có thể kiểm soát đường thủy từ mọi hướng phía sau lưng là đồng bằng phi nhiêu đuôi quân phía trước là hệ thống sông ngòi tạo phòng tuyến tự nhiên",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 65.633,
+      "timestamp_end": 68.75,
+      "script_text": "Để bảo vệ quốc gia non trẻ, ông cần một pháo đài."
     },
     {
       "scene_number": 16,
-      "timestamp_start": 85.27,
-      "timestamp_end": 93.3,
-      "script_text": "thanh cổ loa được thiết kế Theo hình xoắn ốc BA vòng thành lồng vào nhau tổng Chu VI lên tới hàng 10km dòng thành ngoài cùng Cao từ 4 đến 5m",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 68.75,
+      "timestamp_end": 72.833,
+      "script_text": "Và ông chọn Cổ Loa — nay thuộc huyện Đông Anh, Hà Nội — làm kinh đô."
     },
     {
       "scene_number": 17,
-      "timestamp_start": 93.5,
-      "timestamp_end": 100.1,
-      "script_text": "chân thành rộng hơn 20m giữa các vòng thành là hào nước sâu nối liền với sông Hoàng Giang vừa để phòng thủ vừa",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 72.833,
+      "timestamp_end": 79.15,
+      "script_text": "Vị trí này không phải ngẫu nhiên. Cổ Loa nằm ở ngã ba sông, có thể kiểm soát đường thủy từ mọi hướng."
     },
     {
       "scene_number": 18,
-      "timestamp_start": 100.2,
-      "timestamp_end": 108.57,
-      "script_text": "để vận chuyển quân lương bằng thuyền tấu trúc xoắn ốc này cực kỳ nguy hiểm Cho quân tấn công khi lọt vào vòng ngoài quân địch sẽ bị mắc kẹt giữa các vòng thành",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 79.15,
+      "timestamp_end": 84.833,
+      "script_text": "Phía sau lưng là đồng bằng phì nhiêu nuôi quân, phía trước là hệ thống sông ngòi tạo phòng tuyến tự nhiên."
     },
     {
       "scene_number": 19,
-      "timestamp_start": 108.77,
-      "timestamp_end": 115.7,
-      "script_text": "không tìm được đường vào trung tâm họ trở thành mục tiêu dễ dàng Cho cung thủ phía trên bị bắn từ mọi hướng mà không có chỗ ẩn nấp",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 84.833,
+      "timestamp_end": 90.916,
+      "script_text": "Thành Cổ Loa được thiết kế theo hình xoắn ốc — ba vòng thành lồng vào nhau, tổng chu vi lên tới hàng chục ki-lô-mét."
     },
     {
       "scene_number": 20,
-      "timestamp_start": 116.6,
-      "timestamp_end": 124.47,
-      "script_text": "đây là một trong những công trình phong thủ quân sự lớn nhất và tinh vì nhất Đông Nam Á thời cổ đại nhưng An Dương Vương còn có thêm một lợi thế nữa",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 90.916,
+      "timestamp_end": 95.166,
+      "script_text": "Vòng thành ngoài cùng cao từ 4 đến 5 mét, chân thành rộng hơn 20 mét."
     },
     {
       "scene_number": 21,
-      "timestamp_start": 124.6,
-      "timestamp_end": 131.9,
-      "script_text": "nỏ liên châu Theo sử sách đây là loại nỏ có cơ chế đặc biệt có thể bắn nhiều mũi tên cùng một lúc tầm sát thương rất xa",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 95.166,
+      "timestamp_end": 102.25,
+      "script_text": "Giữa các vòng thành là hào nước sâu, nối liền với sông Hoàng Giang, vừa để phòng thủ vừa để vận chuyển quân lương bằng thuyền."
     },
     {
       "scene_number": 22,
-      "timestamp_start": 132.4,
-      "timestamp_end": 140.2,
-      "script_text": "các cuộc khai quật tại của loa đã tìm thấy hàng vạn mũi tên đồng BA cạnh loại mũi tên được thiết kế khí động học xuyên giáp hiệu quả bằng chứng Cho thấy người Âu Lạc",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 102.25,
+      "timestamp_end": 110.367,
+      "script_text": "Cấu trúc xoắn ốc này cực kỳ nguy hiểm cho quân tấn công: khi lọt vào vòng ngoài, quân địch sẽ bị mắc kẹt giữa các vòng thành, không tìm được đường vào trung tâm."
     },
     {
       "scene_number": 23,
-      "timestamp_start": 140.33,
-      "timestamp_end": 147.3,
-      "script_text": "sở hữu công nghệ chế tạo vũ khí vượt trội so với các nước lân bang thanh vững vũ khí mạnh quân đội thiện chiến",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 110.367,
+      "timestamp_end": 116.15,
+      "script_text": "Họ trở thành mục tiêu dễ dàng cho cung thủ phía trên, bị bắn từ mọi hướng mà không có chỗ ẩn nấp."
     },
     {
       "scene_number": 24,
-      "timestamp_start": 147.7,
-      "timestamp_end": 154.77,
-      "script_text": "vị trí chiến lược An Dương Vương có mọi thứ để giữ nước nhưng trong khi An Dương Vương xây dựng của lọa ở phương Nam",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 116.15,
+      "timestamp_end": 121.85,
+      "script_text": "Đây là một trong những công trình phòng thủ quân sự lớn nhất và tinh vi nhất Đông Nam Á thời cổ đại."
     },
     {
       "scene_number": 25,
-      "timestamp_start": 154.9,
-      "timestamp_end": 160.6,
-      "script_text": "thì phương Bắc đang biến động dữ dội nhà tân súc đồ trong cơn hỗn loạn đó một viên quan",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 121.85,
+      "timestamp_end": 125.55,
+      "script_text": "Nhưng An Dương Vương còn có thêm một lợi thế nữa: nỏ liên châu."
     },
     {
       "scene_number": 26,
-      "timestamp_start": 160.77,
-      "timestamp_end": 166.67,
-      "script_text": "CAI trị vùng Nam Hải tên là triệu Đà đã tách Ra thôn tính thêm Quế Lâm và tượng quận lập nên nước Nam Việt",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 125.55,
+      "timestamp_end": 132.15,
+      "script_text": "Theo sử sách, đây là loại nỏ có cơ chế đặc biệt, có thể bắn nhiều mũi tên cùng một lúc, tầm sát thương rất xa."
     },
     {
       "scene_number": 27,
-      "timestamp_start": 166.8,
-      "timestamp_end": 172.33,
-      "script_text": "đóng đô ở phiên ngông này là Quảng Châu Trung Quốc chiều Đà là một nhà quân sự lão luyện",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 132.15,
+      "timestamp_end": 144.0,
+      "script_text": "Các cuộc khai quật tại Cổ Loa đã tìm thấy hàng vạn mũi tên đồng ba cạnh — loại mũi tên được thiết kế khí động học, xuyên giáp hiệu quả — bằng chứng cho thấy người Âu Lạc sở hữu công nghệ chế tạo vũ khí vượt trội so với các nước lân bang."
     },
     {
       "scene_number": 28,
-      "timestamp_start": 172.7,
-      "timestamp_end": 178.9,
-      "script_text": "xuất thân là tướng nhà Tần ông ta từng tham gia Chinh phục phương Nam am hiểu địa hình con người và cách đánh trận ở vùng này",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 144.0,
+      "timestamp_end": 148.95,
+      "script_text": "Thành vững. Vũ khí mạnh. Quân đội thiện chiến. Vị trí chiến lược."
     },
     {
       "scene_number": 29,
-      "timestamp_start": 179.4,
-      "timestamp_end": 186.47,
-      "script_text": "ông ta không phải kẻ thù tầm thường mà là một chiến lược gia biết tính đường dài và mục tiêu tiếp Theo của ông ta là Âu Lạc",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 148.95,
+      "timestamp_end": 151.783,
+      "script_text": "An Dương Vương có mọi thứ để giữ nước."
     },
     {
       "scene_number": 30,
-      "timestamp_start": 187.2,
-      "timestamp_end": 192.47,
-      "script_text": "triệu Đà đem quân đánh Âu Lạc nhưng quân Nam Việt lần nào cũng thua thành của loài như một mê cung",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 151.783,
+      "timestamp_end": 156.967,
+      "script_text": "Trong khi An Dương Vương xây dựng Cổ Loa ở phương Nam, thì phương Bắc đang biến động dữ dội."
     },
     {
       "scene_number": 31,
-      "timestamp_start": 192.6,
-      "timestamp_end": 199.27,
-      "script_text": "quân triệu Đà càng tiến sâu càng bị vầy tên đồng bắn như mưa từ trên các vòng thành nỏ liên châu quét sạch từng đợt tấn công",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 156.967,
+      "timestamp_end": 158.633,
+      "script_text": "Nhà Tần sụp đổ."
     },
     {
       "scene_number": 32,
-      "timestamp_start": 199.53,
-      "timestamp_end": 206.67,
-      "script_text": "hào nước ngăn mọi đường tiếp cận 3.000.000 Đà 7 bại hoàn toàn trên chiến trường nhưng triệu Đà không phải người dễ bỏ cuộc",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 158.633,
+      "timestamp_end": 169.85,
+      "script_text": "Trong cơn hỗn loạn đó, một viên quan cai trị vùng Nam Hải tên là Triệu Đà đã tách ra, thôn tính thêm Quế Lâm và Tượng Quận, lập nên nước Nam Việt, đóng đô ở Phiên Ngung — nay là Quảng Châu, Trung Quốc."
     },
     {
       "scene_number": 33,
-      "timestamp_start": 207.13,
-      "timestamp_end": 212.6,
-      "script_text": "sau nhiều lần thua trận ông ta rút Ra một kết luận không thể phá thành từ bên ngoài thì phải phá từ bên trong",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 169.85,
+      "timestamp_end": 179.15,
+      "script_text": "Triệu Đà là một nhà quân sự lão luyện. Xuất thân là tướng nhà Tần, ông ta từng tham gia chinh phục phương Nam, am hiểu địa hình, con người và cách đánh trận ở vùng này."
     },
     {
       "scene_number": 34,
-      "timestamp_start": 213.67,
-      "timestamp_end": 220.53,
-      "script_text": "vũ khí mới của triệu Đà không phải gươm giáo mà là mưu kế triệu Đà Xin giảng hòa 2 bên ngừng chiến",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 179.15,
+      "timestamp_end": 183.667,
+      "script_text": "Ông ta không phải kẻ thù tầm thường — mà là một chiến lược gia biết tính đường dài."
     },
     {
       "scene_number": 35,
-      "timestamp_start": 220.97,
-      "timestamp_end": 226.2,
-      "script_text": "rồi ông ta đề nghị kết thông gia gả con trai mình là trọng thủy Cho Mị Châu con gái ẩn Dương Vương",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 183.667,
+      "timestamp_end": 186.833,
+      "script_text": "Và mục tiêu tiếp theo của ông ta — là Âu Lạc."
     },
     {
       "scene_number": 36,
-      "timestamp_start": 226.73,
-      "timestamp_end": 232.73,
-      "script_text": "đây An Dương Vương đồng ý đây là bước ngoặt một vị vua đã đánh thắng mọi cuộc tấn công",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 186.833,
+      "timestamp_end": 190.783,
+      "script_text": "Triệu Đà đem quân đánh Âu Lạc. Nhưng quân Nam Việt lần nào cũng thua."
     },
     {
       "scene_number": 37,
-      "timestamp_start": 232.97,
-      "timestamp_end": 239.37,
-      "script_text": "giờ lại mở cổng thành Cho chính con trai kẻ thù bước vào hãy nghĩ về điều này ông đã chứng kiến triệu Đà đánh mình bao nhiêu lần",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 190.783,
+      "timestamp_end": 197.016,
+      "script_text": "Thành Cổ Loa như một mê cung — quân Triệu Đà càng tiến sâu càng bị vây, tên đồng bắn như mưa từ trên các vòng thành."
     },
     {
       "scene_number": 38,
-      "timestamp_start": 239.8,
-      "timestamp_end": 245.17,
-      "script_text": "ông biết rõ đây là kẻ thù vậy mà ông vẫn đồng ý tại SAO có thể vì",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 197.016,
+      "timestamp_end": 201.433,
+      "script_text": "Nỏ liên châu quét sạch từng đợt tấn công. Hào nước ngăn mọi đường tiếp cận."
     },
     {
       "scene_number": 39,
-      "timestamp_start": 245.3,
-      "timestamp_end": 252.27,
-      "script_text": "an Dương Vương tin rằng mình bất khả chiến bại có thành có nỏ AI phá nổi hòa hay chiến ta đều không sợ",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 201.433,
+      "timestamp_end": 204.25,
+      "script_text": "Triệu Đà thất bại hoàn toàn trên chiến trường."
     },
     {
       "scene_number": 40,
-      "timestamp_start": 253.17,
-      "timestamp_end": 259.87,
-      "script_text": "sự chủ quan đó chính là vết nứt đầu tiên trong bức tường thành kiên cố nhất trọng thủy và của loa sống cùng Mị Châu",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 204.25,
+      "timestamp_end": 206.9,
+      "script_text": "Nhưng Triệu Đà không phải người dễ bỏ cuộc."
     },
     {
       "scene_number": 41,
-      "timestamp_start": 260.2,
-      "timestamp_end": 266.33,
-      "script_text": "nhưng nhiệm vụ thực sự của y không phải làm chồng mà là làm gián điệp ngày qua ngày trọng thủy quan sát",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 206.9,
+      "timestamp_end": 213.133,
+      "script_text": "Sau nhiều lần thua trận, ông ta rút ra một kết luận: không thể phá thành từ bên ngoài, thì phải phá từ bên trong."
     },
     {
       "scene_number": 42,
-      "timestamp_start": 266.77,
-      "timestamp_end": 273.47,
-      "script_text": "cách bố trí quân lính đường đi trong các vòng thành và quan trọng nhất bí mật của nọ liên châu Theo sử sách",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 213.133,
+      "timestamp_end": 220.75,
+      "script_text": "Vũ khí mới của Triệu Đà không phải gươm giáo. Mà là mưu kế. Triệu Đà xin giảng hòa. Hai bên ngừng chiến."
     },
     {
       "scene_number": 43,
-      "timestamp_start": 273.73,
-      "timestamp_end": 279.93,
-      "script_text": "trọng Thủy đã tìm cách tiếp cận bí mật quân sự quan trọng nhất của Âu Lạc lấy nỏ thần lấy nỏ bộ phận cốt lõi",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 220.75,
+      "timestamp_end": 226.467,
+      "script_text": "Rồi ông ta đề nghị kết thông gia — gả con trai mình là Trọng Thủy cho Mỵ Châu, con gái An Dương Vương."
     },
     {
       "scene_number": 44,
-      "timestamp_start": 280.17,
-      "timestamp_end": 287.77,
-      "script_text": "hay còn gọi là vứt rùa vàng trong truyền thuyết chính là thứ khiến nỏ liên Châu có sức mạnh vượt trội không có lấy này nỏ chỉ là một cây nỏ bình thường",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 226.467,
+      "timestamp_end": 228.633,
+      "script_text": "An Dương Vương đồng ý."
     },
     {
       "scene_number": 45,
-      "timestamp_start": 288.73,
-      "timestamp_end": 294.57,
-      "script_text": "có nhiều cách kể khác nhau có thuyết nói trọng thủy đánh tráo lấy nỏ bằng một bàn SAO già có thuyết nói ị",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 228.633,
+      "timestamp_end": 230.4,
+      "script_text": "Đây là bước ngoặt."
     },
     {
       "scene_number": 46,
-      "timestamp_start": 294.6,
-      "timestamp_end": 301.77,
-      "script_text": "Xin Mị Châu Cho xem rồi lén SAO chép gửi về Cho triều Đà dù Theo cách nào kết quả đều giống nhau bí mật quân sự tối quan trọng của",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 230.4,
+      "timestamp_end": 239.583,
+      "script_text": "Một vị vua đã đánh thắng mọi cuộc tấn công, giờ lại mở cổng thành cho chính con trai kẻ thù bước vào. Hãy nghĩ về điều này — ông đã chứng kiến Triệu Đà đánh mình bao nhiêu lần."
     },
     {
       "scene_number": 47,
-      "timestamp_start": 301.9,
-      "timestamp_end": 309.1,
-      "script_text": "Âu Lạc bị đánh cắp và an Dương Vương không hề hay biết khi mọi thứ đã sẵn sàng trọng thủy viện cớ về thăm Cha",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 239.583,
+      "timestamp_end": 243.417,
+      "script_text": "Ông biết rõ đây là kẻ thù. Vậy mà ông vẫn đồng ý."
     },
     {
       "scene_number": 48,
-      "timestamp_start": 309.5,
-      "timestamp_end": 315.4,
-      "script_text": "trước khi đi y hỏi Mị Châu nếu có biến loạn ta biết tìm nàng ở đâu Mị Châu vô tình hay ngây thơ",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 243.417,
+      "timestamp_end": 247.816,
+      "script_text": "Tại sao? Có thể vì An Dương Vương tin rằng mình bất khả chiến bại."
     },
     {
       "scene_number": 49,
-      "timestamp_start": 315.53,
-      "timestamp_end": 322.27,
-      "script_text": "nói rằng nàng có áo lông ngỗng sẽ rắc lông dọc đường để trọng thủy tìm Theo câu hỏi đó ta biết tìm nàng ở đâu",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 247.816,
+      "timestamp_end": 252.716,
+      "script_text": "Có thành. Có nỏ. Ai phá nổi? Hòa hay chiến, ta đều không sợ."
     },
     {
       "scene_number": 50,
-      "timestamp_start": 322.37,
-      "timestamp_end": 327.53,
-      "script_text": "không phải lời của một người chồng lo lắng đó là câu hỏi của một gián điệp đang chuẩn bị Cho cuộc truy sát",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 252.716,
+      "timestamp_end": 257.283,
+      "script_text": "Sự chủ quan — đó chính là vết nứt đầu tiên trong bức tường thành kiên cố nhất."
     },
     {
       "scene_number": 51,
-      "timestamp_start": 328.37,
-      "timestamp_end": 334.0,
-      "script_text": "trọng tùy về nước và triều Đà lập tức phát động tổng tấn công lần này mọi thứ khác hẳn",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 257.283,
+      "timestamp_end": 264.25,
+      "script_text": "Trọng Thủy vào Cổ Loa, sống cùng Mỵ Châu. Nhưng nhiệm vụ thực sự của y không phải làm chồng — mà là làm gián điệp."
     },
     {
       "scene_number": 52,
-      "timestamp_start": 334.8,
-      "timestamp_end": 342.8,
-      "script_text": "quân triệu Đà kéo đến An Dương Vương bình thản ông đã thắng bao nhiêu lần rồi lần này cũng vậy thôi ông tự tin lấy nỏ thần Ra bắn",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 264.25,
+      "timestamp_end": 273.6,
+      "script_text": "Ngày qua ngày, Trọng Thủy quan sát. Cách bố trí quân lính. Đường đi trong các vòng thành. Và quan trọng nhất — bí mật của nỏ liên châu."
     },
     {
       "scene_number": 53,
-      "timestamp_start": 343.53,
-      "timestamp_end": 350.33,
-      "script_text": "nhưng đò không còn hiệu nghiệm lẫy đã bị đánh tráo mũi tên rơi Ra yếu ớt không có sức mạnh như trước 4",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 273.6,
+      "timestamp_end": 278.283,
+      "script_text": "Theo sử sách, Trọng Thủy đã tìm cách tiếp cận bí mật quân sự quan trọng nhất của Âu Lạc: lẫy nỏ thần."
     },
     {
       "scene_number": 54,
-      "timestamp_start": 350.47,
-      "timestamp_end": 356.57,
-      "script_text": "thanh cổ loa pháo đài bất khả xâm phạm giờ chỉ là những bức tường đất không có vũ khí bảo vệ BA vòng thành xoắn ốc",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 278.283,
+      "timestamp_end": 285.15,
+      "script_text": "Lẫy nỏ — bộ phận cốt lõi, hay còn gọi là \"vuốt rùa vàng\" trong truyền thuyết — chính là thứ khiến nỏ liên châu có sức mạnh vượt trội."
     },
     {
       "scene_number": 55,
-      "timestamp_start": 356.67,
-      "timestamp_end": 363.47,
-      "script_text": "vô nghĩa khi quân phòng thủ không còn hòa lực áp đảo An Dương Vương hoàng hốt đặt Mị Châu lên ngựa rồi chạy về phương Nam",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 285.15,
+      "timestamp_end": 288.25,
+      "script_text": "Không có lẫy này, nỏ chỉ là một cây nỏ bình thường."
     },
     {
       "scene_number": 56,
-      "timestamp_start": 363.97,
-      "timestamp_end": 371.87,
-      "script_text": "Mị Châu vẫn rác lông ngỗng dọc đường không biết rằng mình đang dẫn đường Cho quân địch truy đuổi Cha mình một khi đến bờ biển An Dương Vương cùng đường",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 288.25,
+      "timestamp_end": 293.55,
+      "script_text": "Có nhiều cách kể khác nhau: có thuyết nói Trọng Thủy đánh tráo lẫy nỏ bằng một bản sao giả."
     },
     {
       "scene_number": 57,
-      "timestamp_start": 372.2,
-      "timestamp_end": 379.3,
-      "script_text": "trước mặt là biển cả sau lưng là quân triệu Đà lúc này ông mới nhìn lại và nhận Ra sự thật lông ngỗng giải xuất con đường",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 293.55,
+      "timestamp_end": 298.033,
+      "script_text": "Có thuyết nói y xin Mỵ Châu cho xem rồi lén sao chép, gửi về cho Triệu Đà."
     },
     {
       "scene_number": 58,
-      "timestamp_start": 379.77,
-      "timestamp_end": 385.7,
-      "script_text": "chính con gái mình đã vô tình giúp kẻ thù An Dương Vương rút gươm chém Mị Châu rồi Lao xuống biển",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 298.033,
+      "timestamp_end": 303.183,
+      "script_text": "Dù theo cách nào, kết quả đều giống nhau — bí mật quân sự tối quan trọng của Âu Lạc bị đánh cắp."
     },
     {
       "scene_number": 59,
-      "timestamp_start": 386.53,
-      "timestamp_end": 393.6,
-      "script_text": "nước Âu Lạc từ đó không còn nữa người Việt bước vào hơn 1.000 năm Bắc thuộc Theo truyền thuyết máu mị trâu chảy xuống biển",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 303.183,
+      "timestamp_end": 305.65,
+      "script_text": "Và An Dương Vương không hề hay biết."
     },
     {
       "scene_number": 60,
-      "timestamp_start": 393.93,
-      "timestamp_end": 400.33,
-      "script_text": "trai ăn phải hóa thành Ngọc trọng thủy khi quay lại của loài không tìm thấy vợ đau đớn nhảy xuống giếng trong thành mà chết",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 305.65,
+      "timestamp_end": 309.3,
+      "script_text": "Khi mọi thứ đã sẵn sàng, Trọng Thủy viện cớ về thăm cha."
     },
     {
       "scene_number": 61,
-      "timestamp_start": 400.73,
-      "timestamp_end": 408.9,
-      "script_text": "người đời sau kể rằng lấy ngọc trai rửa bằng nước giếng ấy thì Ngọc sáng lên rực rỡ đó là phần truyền thuyết có thể tin có thể không",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 309.3,
+      "timestamp_end": 313.633,
+      "script_text": "Trước khi đi, y hỏi Mỵ Châu: \"Nếu có biến loạn, ta biết tìm nàng ở đâu?\""
     },
     {
       "scene_number": 62,
-      "timestamp_start": 409.4,
-      "timestamp_end": 415.73,
-      "script_text": "nhưng bài học lịch sử thì rất thực nước Âu Lạc sụp đổ không phải vì thiếu thành thiếu vũ khí thiếu quân",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 313.633,
+      "timestamp_end": 319.933,
+      "script_text": "Mỵ Châu — vô tình hay ngây thơ — nói rằng nàng có áo lông ngỗng, sẽ rắc lông dọc đường để Trọng Thủy tìm theo."
     },
     {
       "scene_number": 63,
-      "timestamp_start": 416.17,
-      "timestamp_end": 421.53,
-      "script_text": "mà vì sự chủ quan của người cầm quyền anh An Dương Vương quá tin vào sức mạnh vật chất thành Cao",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 319.933,
+      "timestamp_end": 324.233,
+      "script_text": "Câu hỏi đó — \"ta biết tìm nàng ở đâu\" — không phải lời của một người chồng lo lắng."
     },
     {
       "scene_number": 64,
-      "timestamp_start": 421.77,
-      "timestamp_end": 425.77,
-      "script_text": "hào sâu nỏ mạnh mà quên mất rằng phong thủ quan trọng nhất là cảnh giác",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 324.233,
+      "timestamp_end": 327.95,
+      "script_text": "Đó là câu hỏi của một gián điệp đang chuẩn bị cho cuộc truy sát."
     },
     {
       "scene_number": 65,
-      "timestamp_start": 426.07,
-      "timestamp_end": 431.27,
-      "script_text": "ông mở cổng thành Cho con trai kẻ thù bước vào vì nghĩ rằng dù SAO cũng không AI phá nổi mình",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 327.95,
+      "timestamp_end": 332.033,
+      "script_text": "Trọng Thủy về nước. Và Triệu Đà lập tức phát động tổng tấn công."
     },
     {
       "scene_number": 66,
-      "timestamp_start": 431.87,
-      "timestamp_end": 436.33,
-      "script_text": "ông không kiểm soát thông tin quân sự ông không nghi ngờ khi kẻ thù đột nhiên Xin hòa",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 332.033,
+      "timestamp_end": 334.4,
+      "script_text": "Lần này, mọi thứ khác hẳn."
     },
     {
       "scene_number": 67,
-      "timestamp_start": 436.8,
-      "timestamp_end": 441.73,
-      "script_text": "BA sức mạnh quân sự thua sức mạnh tình báo hành trì kiên cố thua một mưu kế kiên nhẫn",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 334.4,
+      "timestamp_end": 336.25,
+      "script_text": "Quân Triệu Đà kéo đến."
     },
     {
       "scene_number": 68,
-      "timestamp_start": 442.53,
-      "timestamp_end": 448.13,
-      "script_text": "và đây là điều đáng suy ngẫm bài học này không chỉ xảy Ra một lần suốt hàng ngàn năm lịch sử Việt Nam sau đó",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 336.25,
+      "timestamp_end": 343.167,
+      "script_text": "An Dương Vương bình thản — ông đã thắng bao nhiêu lần rồi, lần này cũng vậy thôi. Ông tự tin lấy nỏ thần ra bắn."
     },
     {
       "scene_number": 69,
-      "timestamp_start": 448.53,
-      "timestamp_end": 453.07,
-      "script_text": "mỗi khi dân tộc này chủ quan mất cảnh giác thì nguy cơ mất nước lại cận kề",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 343.167,
+      "timestamp_end": 346.5,
+      "script_text": "Nhưng nỏ không còn hiệu nghiệm. Lẫy đã bị đánh tráo."
     },
     {
       "scene_number": 70,
-      "timestamp_start": 453.47,
-      "timestamp_end": 460.4,
-      "script_text": "nhưng mỗi khi người Việt cảnh giác đoàn kết thì không thế lực nào khuất phục nổi thanh cổ loa ngày nay vẫn còn dấu tích ở Đông anh",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 346.5,
+      "timestamp_end": 350.4,
+      "script_text": "Mũi tên rời rạc, yếu ớt, không có sức mạnh như trước."
     },
     {
       "scene_number": 71,
-      "timestamp_start": 460.6,
-      "timestamp_end": 466.07,
-      "script_text": "Hà Nội những vòng thành đất những hào nước cũ hàng vạn mũi tên đồng trong bảo tàng tất cả vẫn ở đó",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 350.4,
+      "timestamp_end": 355.266,
+      "script_text": "Thành Cổ Loa — pháo đài bất khả xâm phạm — giờ chỉ là những bức tường đất không có vũ khí bảo vệ."
     },
     {
       "scene_number": 72,
-      "timestamp_start": 466.33,
-      "timestamp_end": 471.37,
-      "script_text": "nhắc nhở một câu hỏi mà hơn 2.000 năm vẫn chưa cũ có sức mạnh mà không cảnh giác",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 355.266,
+      "timestamp_end": 359.566,
+      "script_text": "Ba vòng thành xoắn ốc vô nghĩa khi quân phòng thủ không còn hỏa lực áp đảo."
     },
     {
       "scene_number": 73,
-      "timestamp_start": 471.67,
-      "timestamp_end": 477.1,
-      "script_text": "thì sức mạnh ấy có nghĩa gì 4 câu chuyện của loa chỉ là khởi đầu sau khi Âu Lạc sụp đổ",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 359.566,
+      "timestamp_end": 363.716,
+      "script_text": "An Dương Vương hoảng hốt, đặt Mỵ Châu lên ngựa rồi chạy về phương Nam."
     },
     {
       "scene_number": 74,
-      "timestamp_start": 477.27,
-      "timestamp_end": 482.9,
-      "script_text": "người Việt bước vào hơn 1.000 năm Bắc thuộc nhưng chưa bao giờ ngừng đấu tranh từ 2 bà chừng đến ly bí",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 363.716,
+      "timestamp_end": 369.116,
+      "script_text": "Mỵ Châu vẫn rắc lông ngỗng dọc đường — không biết rằng mình đang dẫn đường cho quân địch truy đuổi cha mình."
     },
     {
       "scene_number": 75,
-      "timestamp_start": 483.07,
-      "timestamp_end": 488.1,
-      "script_text": "từ Ngô quyền đến trận Bạch Đằng mỗi thế hệ đều đứng lên nếu bạn muốn biết chuyện gì",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 369.116,
+      "timestamp_end": 375.217,
+      "script_text": "Khi đến bờ biển, An Dương Vương cùng đường. Trước mặt là biển cả, sau lưng là quân Triệu Đà."
     },
     {
       "scene_number": 76,
-      "timestamp_start": 488.4,
-      "timestamp_end": 492.93,
-      "script_text": "xảy Ra tiếp Theo hãy đăng ký kênh và bật chuông thông báo hẹn gặp lại ở tập tiếp Theo",
-      "visual_type": "image",
-      "mood": ""
+      "timestamp_start": 375.217,
+      "timestamp_end": 379.533,
+      "script_text": "Lúc này ông mới nhìn lại — và nhận ra sự thật: lông ngỗng rải suốt con đường."
+    },
+    {
+      "scene_number": 77,
+      "timestamp_start": 379.533,
+      "timestamp_end": 382.3,
+      "script_text": "Chính con gái mình đã vô tình giúp kẻ thù."
+    },
+    {
+      "scene_number": 78,
+      "timestamp_start": 382.3,
+      "timestamp_end": 386.117,
+      "script_text": "An Dương Vương rút gươm chém Mỵ Châu, rồi lao xuống biển."
+    },
+    {
+      "scene_number": 79,
+      "timestamp_start": 386.117,
+      "timestamp_end": 391.05,
+      "script_text": "Nước Âu Lạc — từ đó — không còn nữa. Người Việt bước vào hơn một ngàn năm Bắc thuộc."
+    },
+    {
+      "scene_number": 80,
+      "timestamp_start": 391.05,
+      "timestamp_end": 395.333,
+      "script_text": "Theo truyền thuyết, máu Mỵ Châu chảy xuống biển, trai ăn phải hóa thành ngọc."
+    },
+    {
+      "scene_number": 81,
+      "timestamp_start": 395.333,
+      "timestamp_end": 400.533,
+      "script_text": "Trọng Thủy khi quay lại Cổ Loa, không tìm thấy vợ, đau đớn nhảy xuống giếng trong thành mà chết."
+    },
+    {
+      "scene_number": 82,
+      "timestamp_start": 400.533,
+      "timestamp_end": 405.966,
+      "script_text": "Người đời sau kể rằng lấy ngọc trai rửa bằng nước giếng ấy thì ngọc sáng lên rực rỡ."
+    },
+    {
+      "scene_number": 83,
+      "timestamp_start": 405.966,
+      "timestamp_end": 411.583,
+      "script_text": "Đó là phần truyền thuyết — có thể tin, có thể không. Nhưng bài học lịch sử thì rất thực."
+    },
+    {
+      "scene_number": 84,
+      "timestamp_start": 411.583,
+      "timestamp_end": 418.683,
+      "script_text": "Nước Âu Lạc sụp đổ không phải vì thiếu thành, thiếu vũ khí, thiếu quân. Mà vì sự chủ quan của người cầm quyền."
+    },
+    {
+      "scene_number": 85,
+      "timestamp_start": 418.683,
+      "timestamp_end": 425.916,
+      "script_text": "An Dương Vương quá tin vào sức mạnh vật chất — thành cao, hào sâu, nỏ mạnh — mà quên mất rằng phòng thủ quan trọng nhất là cảnh giác."
+    },
+    {
+      "scene_number": 86,
+      "timestamp_start": 425.916,
+      "timestamp_end": 431.566,
+      "script_text": "Ông mở cổng thành cho con trai kẻ thù bước vào, vì nghĩ rằng dù sao cũng không ai phá nổi mình."
+    },
+    {
+      "scene_number": 87,
+      "timestamp_start": 431.566,
+      "timestamp_end": 436.567,
+      "script_text": "Ông không kiểm soát thông tin quân sự. Ông không nghi ngờ khi kẻ thù đột nhiên xin hòa."
+    },
+    {
+      "scene_number": 88,
+      "timestamp_start": 436.567,
+      "timestamp_end": 442.133,
+      "script_text": "Sức mạnh quân sự thua sức mạnh tình báo. Thành trì kiên cố thua một mưu kế kiên nhẫn."
+    },
+    {
+      "scene_number": 89,
+      "timestamp_start": 442.133,
+      "timestamp_end": 445.95,
+      "script_text": "Và đây là điều đáng suy ngẫm: bài học này không chỉ xảy ra một lần."
+    },
+    {
+      "scene_number": 90,
+      "timestamp_start": 445.95,
+      "timestamp_end": 453.266,
+      "script_text": "Suốt hàng ngàn năm lịch sử Việt Nam sau đó, mỗi khi dân tộc này chủ quan, mất cảnh giác — thì nguy cơ mất nước lại cận kề."
+    },
+    {
+      "scene_number": 91,
+      "timestamp_start": 453.266,
+      "timestamp_end": 457.55,
+      "script_text": "Nhưng mỗi khi người Việt cảnh giác, đoàn kết — thì không thế lực nào khuất phục nổi."
+    },
+    {
+      "scene_number": 92,
+      "timestamp_start": 457.55,
+      "timestamp_end": 469.483,
+      "script_text": "Thành Cổ Loa ngày nay vẫn còn dấu tích ở Đông Anh, Hà Nội. Những vòng thành đất, những hào nước cũ, hàng vạn mũi tên đồng trong bảo tàng — tất cả vẫn ở đó, nhắc nhở một câu hỏi mà hơn 2000 năm vẫn chưa cũ:"
+    },
+    {
+      "scene_number": 93,
+      "timestamp_start": 469.483,
+      "timestamp_end": 473.25,
+      "script_text": "Có sức mạnh mà không cảnh giác — thì sức mạnh ấy có nghĩa gì?"
+    },
+    {
+      "scene_number": 94,
+      "timestamp_start": 473.25,
+      "timestamp_end": 475.633,
+      "script_text": "Câu chuyện Cổ Loa chỉ là khởi đầu."
+    },
+    {
+      "scene_number": 95,
+      "timestamp_start": 475.633,
+      "timestamp_end": 481.033,
+      "script_text": "Sau khi Âu Lạc sụp đổ, người Việt bước vào hơn 1000 năm Bắc thuộc — nhưng chưa bao giờ ngừng đấu tranh."
+    },
+    {
+      "scene_number": 96,
+      "timestamp_start": 481.033,
+      "timestamp_end": 486.55,
+      "script_text": "Từ Hai Bà Trưng đến Lý Bí, từ Ngô Quyền đến trận Bạch Đằng — mỗi thế hệ đều đứng lên."
+    },
+    {
+      "scene_number": 97,
+      "timestamp_start": 486.55,
+      "timestamp_end": 491.4,
+      "script_text": "Nếu bạn muốn biết chuyện gì xảy ra tiếp theo — hãy đăng ký kênh và bật chuông thông báo."
+    },
+    {
+      "scene_number": 98,
+      "timestamp_start": 491.4,
+      "timestamp_end": 492.933,
+      "script_text": "Hẹn gặp lại ở tập tiếp theo."
     }
   ]
 }

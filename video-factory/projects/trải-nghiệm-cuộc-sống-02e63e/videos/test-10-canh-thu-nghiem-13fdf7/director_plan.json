@@ -1,0 +1,47 @@
+{
+  "segments": [
+    {
+      "name": "Hook - Ông già của giải đấu ở ván thứ năm",
+      "scene_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "description": "Mở đầu POV: bạn 29 tuổi, ngồi trong buồng thi đấu ở ván 5 chung kết thế giới, tỷ số 2-2. Hai vạn khán giả im bặt, bình luận viên gọi bạn là ông già của giải đấu, đối thủ đường giữa trẻ hơn bạn cả một thế hệ. Bạn đẩy gọng kính và gõ ba lần ngón tay lên mặt bàn, thói quen mười ba năm chưa bỏ.",
+      "mood_progression": "epic, choáng ngợp → nín thở căng thẳng → áp lực tuổi tác → tĩnh lặng, tập trung tuyệt đối",
+      "color_tone": "Neon xanh tím, tương phản mạnh, ánh sân khấu và LED, rim light lạnh trên nền khán đài tối. Cảnh 6-7 thu hẹp ánh sáng về màn hình và mặt bàn (xanh lam lạnh, thêm chút ấm từ màn hình) để tạo khoảng lặng.",
+      "characters": {
+        "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "29-year-old Korean man, lean mature face with defined jawline, calm veteran gaze, slightly tired but composed eyes. Neat short black hair with light side-parted bangs. Thin black rectangular glasses with rounded corners. Slim build, straight posture in a gaming chair. Deep red and black fitted esports jersey with no logos, black gaming headset around the neck or on the ears. Same outfit in every scene of this segment. Signature gesture: pushes up glasses with one finger, then taps the desk three times with his fingertips.",
+        "Đường giữa đối thủ (chung kết năm 29 tuổi)": "Korean young man around 19-20 years old, clearly a generation younger than the protagonist. Rounder boyish face with soft cheeks, NO glasses, ash-brown fluffy medium-length hair with a center part, wide confident eyes, slight cocky smile. Slightly broader shoulders. White and teal esports jersey with no logos, white headset. Usually in the opposite booth, slightly blurred or in the background, with less detail than the protagonist."
+      },
+      "camera_notes": "Xoay vòng 4 kiểu shot, không để hai shot liên tiếp cùng kiểu. Cảnh 1: cận mặt Quỷ Vương 29 tuổi, đèn sân khấu phản chiếu trên tròng kính (hook). Cảnh 2: toàn cảnh nhà thi đấu, màn LED lớn hiện chữ tiếng Việt 'CHUNG KẾT THẾ GIỚI – VÁN 5' và 'TỶ SỐ 2 – 2'. Cảnh 3: toàn cảnh khán đài hai vạn người nhìn từ sau lưng buồng thi đấu, lightstick đứng yên, hoặc cận đồ vật là chiếc cúp trên bục giữa sân khấu. Cảnh 4: cận đồ vật ở bàn bình luận, micro và màn hình hiện dòng chữ 'ÔNG GIÀ CỦA GIẢI ĐẤU', bình luận viên mờ ở hậu cảnh. Cảnh 5: trung cảnh đối thủ đường giữa trẻ tuổi ở buồng đối diện, nhìn qua vai nhân vật chính, hậu cảnh mờ. Cảnh 6: góc nhìn thứ nhất, tay của bạn trên mặt bàn cạnh bàn phím và chuột, ngón tay đang gõ, màn hình hiện 'ĐANG TẢI TRẬN ĐẤU'. Cảnh 7: cận đồ vật, macro đầu ngón tay chạm mặt bàn, gọng kính phản sáng, chiều sâu trường ảnh rất nông.",
+      "video_count": 2
+    },
+    {
+      "name": "Hồi tưởng - Mười ba năm lên đỉnh, ngã xuống và leo lại",
+      "scene_numbers": [
+        8,
+        9,
+        10
+      ],
+      "description": "Lướt nhanh mười ba năm: vô địch thế giới ở tuổi mười bảy, khóc trước bốn vạn khán giả, bảy năm không chạm được vào cúp. Kết bằng lời hứa của video: sống lại cuộc đời của một người lên đỉnh quá sớm rồi phải học cách leo lên lần nữa.",
+      "mood_progression": "vinh quang, ấm áp → sụp đổ, xấu hổ, cô đơn → trầm lắng → quyết tâm",
+      "color_tone": "Cảnh 8: vàng hoàng hôn, hơi bloom, pháo giấy vàng. Cảnh 9: chuyển rõ sang xanh xám lạnh, nhạt màu, đèn trắng xanh. Cảnh 10: quay về neon xanh tím của sân khấu hiện tại, pha một vệt vàng ấm để nối quá khứ với hiện tại.",
+      "characters": {
+        "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)": "Slim Korean teenage boy, 17 years old in scene 8 and about 21 in scene 9, narrow shoulders, thin frame. Small monolid eyes, soft youthful face. Straight black hair with thick, slightly messy bangs covering the forehead. Thick black rectangular plastic-framed glasses, clearly chunkier than the adult version's. Red-and-black esports jersey with white piping and no brand logos, same outfit across the whole segment. Scene 8: quiet shy smile, lifting a large silver trophy under golden confetti. Scene 9: head bowed over the desk, hands covering his face, tears behind the glasses, shoulders trembling.",
+        "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "29-year-old Korean man, lean mature face with defined jawline, calm determined veteran gaze. Neat short black hair with light side-parted bangs. Thin black rectangular glasses with rounded corners. Deep red and black fitted esports jersey with no logos, black headset. Same outfit as in the hook segment. Appears in scene 10 only, eyes steady and resolved."
+      },
+      "camera_notes": "Cảnh 8: toàn cảnh góc thấp, thiếu niên 17 tuổi nâng cúp giữa mưa pháo giấy vàng, khán đài mờ phía sau, màn LED hiện 'VÔ ĐỊCH THẾ GIỚI'. Cảnh 9: cận mặt thiếu niên gục đầu khóc trong buồng thi đấu, bốn vạn khán giả là biển đèn mờ lạnh ở hậu cảnh, màn hình hiện 'THẤT BẠI'. Có thể chia đôi khung hình với cận đồ vật: chiếc cúp sau lớp kính, bàn tay không chạm tới. Cảnh 10: góc nhìn thứ nhất, tay người 29 tuổi đặt lên chuột và bàn phím, bóng phản chiếu của chính mình thời thiếu niên trên màn hình tối. Hoặc cận mặt câu chốt với ánh mắt quyết tâm. Cả đoạn dùng ảnh tĩnh, chuyển động nhẹ kiểu zoom hoặc pan chậm.",
+      "video_count": 0
+    }
+  ],
+  "global_rules": {
+    "art_style": "Anime 2D kiểu Studio Ghibli / Makoto Shinkai pha manhwa Hàn. Nét viền mảnh, sạch, không đậm kiểu flat cartoon. Soft cel shading, có rim light và ánh sáng môi trường. Background vẽ kỹ gần như ảnh thật, nhiều chi tiết thật: buồng thi đấu, màn LED, dây cáp, bàn phím, ghế gaming, khán đài. Chiều sâu trường ảnh nông, tiền cảnh hoặc hậu cảnh hơi mờ. Chữ trong ảnh (màn hình, bảng tỷ số, biển hiệu) là tiếng Việt đọc được. Màu theo cảm xúc: thi đấu và cao trào dùng neon xanh tím tương phản mạnh; hồi tưởng vinh quang dùng vàng hoàng hôn hơi bloom; thất bại và áp lực dùng xanh xám lạnh nhạt màu; cố gắng và cô đơn dùng cam ấm trên nền tối. Chuyển tông rõ khi sang đoạn mới. Xoay vòng 4 kiểu shot (góc nhìn thứ nhất, cận mặt, toàn cảnh, cận đồ vật), không để hai shot liên tiếp cùng kiểu. Biểu cảm rõ và hơi phóng đại. Không dùng logo hay thương hiệu thật. Tổng cảnh video là 2/10, cả hai nằm ở đoạn Hook; các cảnh còn lại là ảnh tĩnh với chuyển động nhẹ.",
+    "character_distinction": "Quỷ Vương 29 tuổi: mặt gầy trưởng thành, xương hàm rõ, tóc ngắn gọn rẽ ngôi lệch, kính gọng mảnh bo góc, áo đấu đỏ đậm và đen ôm người, ánh mắt điềm tĩnh. Quỷ Vương thiếu niên (16–21 tuổi): mặt non, vai hẹp, tóc mái dày hơi rối che trán, kính nhựa đen gọng dày, áo đấu đỏ đen viền trắng. Hai phiên bản là cùng một người ở hai tuổi, phân biệt bằng độ dày gọng kính, kiểu tóc mái và độ góc cạnh của mặt. Đường giữa đối thủ: khoảng 19-20 tuổi, không đeo kính, tóc nâu tro bồng rẽ ngôi giữa, mặt tròn trẻ, áo đấu trắng và xanh ngọc, không được giống nhân vật chính. Bình luận viên và khán giả: cùng art style nhưng ít chi tiết, mờ hoặc ở hậu cảnh, khác kiểu tóc, tuổi và dáng, không đeo kính chữ nhật đen, không mặc áo đỏ đen. Bà nội, Huấn luyện viên và Đối thủ kỳ cựu không xuất hiện trong 10 cảnh này.",
+    "consistency_notes": "Cùng đoạn thì cùng trang phục. Quỷ Vương 29 tuổi luôn mặc áo đấu đỏ đậm và đen không logo, đeo kính gọng mảnh, headset đen ở cả cảnh 1-7 và cảnh 10 vì cùng một trận chung kết. Quỷ Vương thiếu niên luôn mặc áo đấu đỏ đen viền trắng, đeo kính gọng dày ở cảnh 8-9. Đối thủ đường giữa luôn mặc áo trắng và xanh ngọc. Mỗi lần tạo ảnh đều gắn ảnh reference đúng phiên bản tuổi của nhân vật. Cử chỉ đẩy gọng kính rồi gõ ba lần ngón tay lên mặt bàn phải vẽ giống nhau mỗi lần xuất hiện: cùng bàn tay, cùng mặt bàn. Nhà thi đấu, buồng thi đấu, màn LED và bảng tỷ số 2-2 giữ nguyên thiết kế trong cả đoạn Hook và cảnh 10. Chữ trong ảnh luôn là tiếng Việt có dấu, đúng chính tả. Tông màu chủ đạo giữ nguyên trong một đoạn, chỉ đổi khi sang đoạn mới hoặc ở bước ngoặt cảm xúc đã ghi trong color_tone."
+  }
+}

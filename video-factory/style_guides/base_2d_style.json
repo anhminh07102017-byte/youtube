@@ -1,12 +1,12 @@
 {
-  "style_name": "Vietnamese History 2D Animation",
-  "base_prompt_prefix": "2D animated cartoon style, flat shading, clean bold outlines, simple but expressive character designs, educational history animation aesthetic, vibrant but historically appropriate colors",
+  "style_name": "2D Animated Cartoon",
+  "base_prompt_prefix": "2D animated cartoon style, flat shading, clean bold outlines, simple but expressive character designs, educational animation aesthetic, vibrant but historically appropriate colors",
   "base_prompt_suffix": "high quality illustration, consistent art style, no text in image",
   "character_rules": {
     "face": "simple expressive features, dot eyes or almond eyes, small nose",
     "body": "slightly stylized proportions, clear silhouettes",
     "clothing": "historically accurate but simplified for animation style",
-    "skin_tone": "warm Vietnamese skin tones"
+    "skin_tone": "appropriate to character ethnicity and era"
   },
   "background_rules": {
     "detail_level": "medium - detailed enough for context, simple enough for 2D style",
@@ -20,5 +20,5 @@
     "emotion": "close-up on face, blurred background",
     "transition": "landscape/scenery shot"
   },
-  "negative_prompts": "realistic, 3D render, photorealistic, photograph, blurry, low quality, text, watermark, modern elements, anime style, manga style, chibi, pixel art"
+  "negative_prompts": "realistic, 3D render, photorealistic, photograph, blurry, low quality, text, watermark, anime style, manga style, chibi, pixel art"
 }

@@ -1,0 +1,47 @@
+{
+  "segments": [
+    {
+      "name": "Level 1 - Thần đồng gục ngã (17–22 tuổi)",
+      "scene_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "description": "Hook: at 17 you win the world championship 3–0. The next year you fail to qualify. You come back and win two more titles, and everyone thinks you can't lose. At 21 you are swept in the final and cry in the player booth in front of 40,000 people. A year later your team falls to 7th in the domestic league, you are benched, and people say you are finished. The first two scenes are glory; from scene 3 on it is a steady collapse.",
+      "mood_progression": "explosive glory → unbeatable confidence → public heartbreak → humiliation, washed-up",
+      "color_tone": "Scenes 1–2: high-contrast neon blue-purple with stage LEDs and gold confetti. Scenes 3–5: clear shift to cold, washed-out blue-gray under white-blue fluorescent light. Whole segment has a cinematic, slightly desaturated feel.",
+      "characters": {
+        "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)": "17–22-year-old slim Korean young man with narrow shoulders, a pale thin face, small monolid eyes, thick black rectangular plastic-framed glasses, and straight black hair with thick slightly messy bangs covering his forehead. Calm, quiet, focused face that shifts to exaggerated emotion: wide-eyed disbelief while lifting the trophy, then teary eyes and a trembling lip behind his glasses in the booth, then a lowered head and empty stare on the bench. Outfit for the whole segment: red-and-black esports jersey with white piping, no brand logos, plus a black gaming headset (hung around his neck when off stage). Habit: taps the desk three times with his fingertips.",
+        "Huấn luyện viên": "Korean man in his late 30s, clearly different from the protagonist: round face, full cheeks, slightly heavy build, short neat black hair, NO glasses, clean-shaven. Wears a black team jacket with red trim over a dark shirt and holds a tablet or clipboard. Background figure, slightly blurred: pats the player's shoulder after the lost final and points at a tactics board when the player is benched."
+      },
+      "camera_notes": "Vertical 9:16, 1080x1920, subject centered in the frame. Rotate shot types and never use the same type twice in a row: Scene 1 extreme close-up of the teen's face under neon light with confetti falling (hook, red POV title on top). Scene 2 first-person view: your hands lifting the trophy / your hand on the mouse, with a blurred crowd and an LED scoreboard behind. Scene 3 close-up of the face crying inside the soundproof booth, glass in the foreground, a dark mass of 40,000 spectators blurred behind. Scene 4 object close-up: a Vietnamese standings board showing the team in 'HẠNG 7' circled in red, under fluorescent light. Scene 5 low-angle shot of a lone figure on a bench in the corner of the practice room, the coach and teammates blurred in the background. Prefer close-ups over wide shots.",
+      "video_count": 3
+    },
+    {
+      "name": "Level 2 - Quỷ Vương bất tử (26–30 tuổi)",
+      "scene_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "description": "At 26 you reach the final again and lose 2–3 to an underdog team. The next year a wrist injury keeps you out for weeks, yet at the end of that year you lift the trophy at home after seven years of waiting. Then two more titles: six world championships, 30 years old and still not retired. It ends on the question: 'Người này có thật. Bạn đoán được là ai không?'",
+      "mood_progression": "bitter → painful, lonely → glorious comeback → legendary, mysterious (open-ended question)",
+      "color_tone": "Scene 6: cold blue-gray with dim stage light. Scene 7: warm orange on a dark background (desk lamp, lonely rehab at night). Scene 8: dazzling neon blue-purple mixed with gold confetti and bloom. Scene 9: golden glow on six trophies. Scene 10: deep neon with a strong backlight that throws the face half into shadow, mysterious.",
+      "characters": {
+        "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "26–30-year-old Korean man, lean and mature, with a defined jawline. Thin black rectangular glasses with rounded corners (thinner and more refined than the teen version). Neat short black hair with light side-parted bangs, forehead partly visible. Calm, seasoned veteran gaze. Expressions: jaw clenched holding back tears after the 2–3 loss, a wince of pain while gripping a wrist wrapped in white athletic tape, an exploding smile with misty eyes while raising the trophy, then a quiet faint smile at the end. Outfit for the whole segment: fitted deep red and black esports jersey, no logos; in scene 7 the same jersey with a dark hoodie over it and a white wrist brace on the right wrist. Signature gestures: pushes up his glasses, taps the desk three times.",
+        "Đường giữa đối thủ (chung kết năm 29 tuổi)": "Background rival in his early 20s, clearly different from the protagonist: NO glasses, dyed light ash-brown hair in a short undercut, broad shoulders, sharp angular face. Wears a white and teal esports jersey with no logos. Only appears blurred behind the protagonist in the scene 6 final, celebrating the win."
+      },
+      "camera_notes": "Vertical 9:16, 1080x1920. Scene 6 wide shot to open the Level: a giant LED screen showing '2 – 3', the protagonist small and alone at center stage with the rival team blurred behind him. Scene 7 object close-up: the wrist in white tape on a desk under a lamp, a calendar crossing off the weeks of rest. Scene 8 first-person view: your hands raising the trophy over a home crowd, confetti, a Vietnamese banner 'SAU 7 NĂM CHỜ ĐỢI'. Scene 9 object close-up: six trophies lined up on a glass shelf, golden light, shallow depth of field. Scene 10 close-up of the face from 3/4 to front-on, pushing up the glasses, backlit with the face half in shadow, staring straight into the camera (the closing line, held 4–5s). Prefer close-ups.",
+      "video_count": 0
+    }
+  ],
+  "global_rules": {
+    "art_style": "2D anime in the Studio Ghibli / Makoto Shinkai style blended with manhwa. Thin, clean line art (not bold flat cartoon). Soft cel shading with rim light and ambient light. Detailed, near-photoreal backgrounds of real esports stages, practice rooms and arenas: LED screens, soundproof booths, cables, gaming chairs, mechanical keyboards. Shallow depth of field with a blurred foreground or background. All text in the image (scoreboards, standings, banners, screens) must be readable Vietnamese, e.g. '3 – 0', 'HẠNG 7', 'VÔ ĐỊCH THẾ GIỚI'. Color follows emotion: failure = cold blue-gray under fluorescent light; effort/loneliness = warm orange on dark; glory = golden bloom; competition/climax = high-contrast neon blue-purple. The color shift must be clear when moving between Levels. Expressions are clear and slightly exaggerated. Every prompt must end with: 'Vertical 9:16 aspect ratio, 1080x1920'. Vertical composition with the subject centered and more close-ups than wide shots. Rotate 4 shot types (first-person view, face close-up, wide shot, object close-up) and never use the same type twice in a row. Only scenes 1–3 are video (image-to-video with small motion); scenes 4–10 are still images.",
+    "character_distinction": "The protagonist has two clearly separate age versions. Teen (Level 1): thick black plastic glasses, thick bangs covering the forehead, pale thin face, gangly build. Age 29 (Level 2): thin refined glasses with rounded corners, side-parted bangs, a mature defined jawline. The coach has NO glasses, a round face with full cheeks, a slightly heavy build and is older. The rival mid laner has NO glasses, dyed ash-brown undercut hair, broad shoulders and a white-teal jersey. Crowd members and teammates never share the protagonist's glasses and bangs combination, and are always blurred in the background with less detail.",
+    "consistency_notes": "Same segment = same outfit. Level 1: the teen wears the red-and-black jersey with white piping plus a headset for all of scenes 1–5. Level 2: the 29-year-old wears the deep red and black fitted jersey for all of scenes 6–10 (scene 7 only adds a dark hoodie and a wrist brace on the right wrist, and the brace must not appear in scene 8 onward). The coach always wears the black jacket with red trim. Every image is generated with the matching age-version reference image attached. No real team or brand logos. Keep the signature details: the three desk taps and pushing up the glasses."
+  }
+}

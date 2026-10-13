@@ -12,8 +12,9 @@
     "Đại Nam Thực Lục|||https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Nam_th%E1%BB%B1c_l%E1%BB%A5c"
   ],
   "notes": "Dự án kênh YouTube về lịch sử Việt Nam từ thời dựng nước đến hiện đại, phong cách hoạt hình 2D.",
+  "base_style": "base_2d_style",
   "style_override": null,
-  "flow_project_id": "22630a5c-d01a-466f-ab0c-4eaf5f1a2b4d",
+  "flow_project_id": "a36d0b06-66e6-44e8-a961-eade453dd332",
   "created_at": "2026-10-05T07:59:39.265321",
-  "updated_at": "2026-10-06T03:27:28.063546"
+  "updated_at": "2026-10-06T13:30:04.356071"
 }

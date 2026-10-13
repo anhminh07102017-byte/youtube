@@ -106,6 +106,11 @@ Web UI (Docker, localhost:3000)          Claude Code (terminal)
 - User review trên Web UI (tab "Lên kịch bản" và tab "Kịch bản")
 - Nếu user muốn chỉnh, quay lại chat tiếp → "Chốt" lại
 
+### Khởi động dự án ("Start dự án" / "Mở dự án lên")
+Khi user nói start/mở dự án, Claude chạy **cả 2**:
+1. `docker compose up -d` — khởi động Web UI (backend + frontend)
+2. `bash start_chat.sh &` — khởi động Chat Bridge (SDK warm pool, port 8001)
+
 ### Pipeline sản xuất
 1. User tạo project/video trên **Web UI** → mở terminal tab mới → "Làm việc với project X"
 2. User chat với Claude để **lên kịch bản** → khi hài lòng nói **"Chốt"** → Claude ghi file

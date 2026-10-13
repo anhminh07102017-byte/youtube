@@ -1,0 +1,281 @@
+[
+  {
+    "scene_number": 6,
+    "visual_brief": "Wide shot opening Level 2 in a huge world-final esports arena. A giant LED screen above the stage reads '2 – 3' in readable Vietnamese-style scoreboard text with the line 'CHUNG KẾT THẾ GIỚI', and below it the 26-year-old protagonist stands small and alone at center stage. He has thin black rectangular glasses with rounded corners, neat short black hair with side-parted bangs and a defined jawline, and wears a fitted deep red and black esports jersey with no logos. His jaw is clenched as he holds back tears, and his hands hang beside an empty gaming chair, a mechanical keyboard and tangled cables. Behind him, blurred in shallow depth of field, the rival team celebrates: the mid laner has NO glasses, dyed light ash-brown undercut hair, broad shoulders and a white and teal jersey with no logos, and his teammates are blurred with varied hairstyles and no glasses. The image uses a cold blue-gray palette with dim, desaturated stage spotlights, a faint cold rim light on the protagonist, a hazy blurred audience, thin clean line art and soft cel shading in a 2D anime Ghibli/Shinkai and manhwa style. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "26–30-year-old Korean man, lean and mature, with a defined jawline. Thin black rectangular glasses with rounded corners (thinner and more refined than the teen version). Neat short black hair with light side-parted bangs, forehead partly visible. Calm, seasoned veteran gaze. Expressions: jaw clenched holding back tears after the 2–3 loss, a wince of pain while gripping a wrist wrapped in white athletic tape, an exploding smile with misty eyes while raising the trophy, then a quiet faint smile at the end. Outfit for the whole segment: fitted deep red and black esports jersey, no logos; in scene 7 the same jersey with a dark hoodie over it and a white wrist brace on the right wrist. Signature gestures: pushes up his glasses, taps the desk three times.",
+      "Đường giữa đối thủ (chung kết năm 29 tuổi)": "Background rival in his early 20s, clearly different from the protagonist: NO glasses, dyed light ash-brown hair in a short undercut, broad shoulders, sharp angular face. Wears a white and teal esports jersey with no logos. Only appears blurred behind the protagonist in the scene 6 final, celebrating the win."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)",
+      "Đường giữa đối thủ (chung kết năm 29 tuổi)"
+    ],
+    "story_segment": "Level 2 - Quỷ Vương bất tử (26–30 tuổi)",
+    "visual_type": "image",
+    "mood": "sad",
+    "color_tone": "cool",
+    "edit_plan": {
+      "transition_in": "fade_from_black (after the Level 2 card: black background, red Bebas Neue text, 0.3s fade in, 2–3s hold, 0.3s fade out)",
+      "transition_out": "cut",
+      "ken_burns": "very slow zoom in from the full stage toward the small protagonist at center, slight downward tilt to emphasize loneliness",
+      "pacing": "4.5s hold to match the narration, the zoom lands on the protagonist as '2 – 3' is spoken",
+      "text_overlay": "Level card before the scene: 'LEVEL 2' / 'QUỶ VƯƠNG BẤT TỬ'; in-scene corner caption: '26 TUỔI'",
+      "sound_note": "Music drops to a low, lonely synth pad; the rival crowd cheers muffled and distant, as if heard underwater"
+    }
+  },
+  {
+    "scene_number": 7,
+    "visual_brief": "Object close-up on a wooden desk at night. The protagonist's right wrist is wrapped in white athletic tape with a white wrist brace and rests beside a mechanical keyboard; the sleeve of a dark hoodie worn over his fitted deep red and black esports jersey is visible, and in the blurred background his face winces in pain behind thin black rounded-corner glasses with side-parted bangs. Under a single desk lamp, a wall calendar in the shallow-focus background has several weeks crossed out in red marker with the Vietnamese label 'NGHỈ THI ĐẤU', next to a turned-off monitor, a cold cup of tea and a blister pack of medicine. The palette is warm orange lamplight on a near-black background, lonely and quiet, with soft cel shading, a warm rim light on the tape, thin clean line art and a near-photoreal practice-room background. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "26–30-year-old Korean man, lean and mature, with a defined jawline. Thin black rectangular glasses with rounded corners (thinner and more refined than the teen version). Neat short black hair with light side-parted bangs, forehead partly visible. Calm, seasoned veteran gaze. Expressions: jaw clenched holding back tears after the 2–3 loss, a wince of pain while gripping a wrist wrapped in white athletic tape, an exploding smile with misty eyes while raising the trophy, then a quiet faint smile at the end. Outfit for the whole segment: fitted deep red and black esports jersey, no logos; in scene 7 the same jersey with a dark hoodie over it and a white wrist brace on the right wrist. Signature gestures: pushes up his glasses, taps the desk three times."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)"
+    ],
+    "story_segment": "Level 2 - Quỷ Vương bất tử (26–30 tuổi)",
+    "visual_type": "image",
+    "mood": "sad",
+    "color_tone": "warm",
+    "edit_plan": {
+      "transition_in": "cut",
+      "transition_out": "crossfade",
+      "ken_burns": "slow pan from the taped wrist up and left toward the calendar with crossed-out weeks",
+      "pacing": "3s hold, quiet and slow",
+      "text_overlay": "'27 TUỔI' in the corner of the frame",
+      "sound_note": "Music almost silent, a single soft piano note; faint clock ticking and the hum of the desk lamp"
+    }
+  },
+  {
+    "scene_number": 8,
+    "visual_brief": "First-person view: the protagonist's own two hands, in the sleeves of his fitted deep red and black esports jersey (no wrist brace, no tape), raise a huge silver-gold world championship trophy overhead toward the arena ceiling. Below is a packed home crowd, blurred and less detailed, with varied ages and hairstyles and nobody wearing glasses with side-parted bangs. In the crowd, a large handmade banner reads 'SAU 7 NĂM CHỜ ĐỢI' and the LED screen reads 'VÔ ĐỊCH THẾ GIỚI'. Gold confetti rains through dazzling neon blue-purple stage lights, with strong golden bloom, lens flare, high contrast and shallow depth of field, rendered with thin clean line art and soft cel shading in a 2D anime Shinkai and manhwa style. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "26–30-year-old Korean man, lean and mature, with a defined jawline. Thin black rectangular glasses with rounded corners (thinner and more refined than the teen version). Neat short black hair with light side-parted bangs, forehead partly visible. Calm, seasoned veteran gaze. Expressions: jaw clenched holding back tears after the 2–3 loss, a wince of pain while gripping a wrist wrapped in white athletic tape, an exploding smile with misty eyes while raising the trophy, then a quiet faint smile at the end. Outfit for the whole segment: fitted deep red and black esports jersey, no logos; in scene 7 the same jersey with a dark hoodie over it and a white wrist brace on the right wrist. Signature gestures: pushes up his glasses, taps the desk three times."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)"
+    ],
+    "story_segment": "Level 2 - Quỷ Vương bất tử (26–30 tuổi)",
+    "visual_type": "image",
+    "mood": "epic",
+    "color_tone": "vibrant",
+    "edit_plan": {
+      "transition_in": "crossfade (short, about 0.3s, with a white flash to explode the color from orange to neon)",
+      "transition_out": "crossfade",
+      "ken_burns": "fast zoom out followed by a slow push in toward the trophy, light camera shake as if the trophy is being lifted",
+      "pacing": "4.3s, beat-synced: the flash and bloom land on 'nâng cúp'",
+      "text_overlay": "'SÂN NHÀ – 27 TUỔI'",
+      "sound_note": "Epic music swells; the home crowd roars, the confetti cannon bursts, the drums climax"
+    }
+  },
+  {
+    "scene_number": 9,
+    "visual_brief": "Object close-up of six world championship trophies lined up on a long glass shelf, the nearest in sharp focus and the rest falling into soft blur. Small plaques read 'VÔ ĐỊCH THẾ GIỚI' with different years. Golden glow and soft bloom wash the trophies, with warm reflections on the glass. In the blurred background, the protagonist's figure is faintly reflected in the glass: thin black rounded-corner glasses, side-parted bangs and a fitted deep red and black esports jersey with no wrist brace. The style is a 2D anime Ghibli/Shinkai look with thin clean line art, soft cel shading, a near-photoreal trophy-room background and shallow depth of field. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "26–30-year-old Korean man, lean and mature, with a defined jawline. Thin black rectangular glasses with rounded corners (thinner and more refined than the teen version). Neat short black hair with light side-parted bangs, forehead partly visible. Calm, seasoned veteran gaze. Expressions: jaw clenched holding back tears after the 2–3 loss, a wince of pain while gripping a wrist wrapped in white athletic tape, an exploding smile with misty eyes while raising the trophy, then a quiet faint smile at the end. Outfit for the whole segment: fitted deep red and black esports jersey, no logos; in scene 7 the same jersey with a dark hoodie over it and a white wrist brace on the right wrist. Signature gestures: pushes up his glasses, taps the desk three times."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)"
+    ],
+    "story_segment": "Level 2 - Quỷ Vương bất tử (26–30 tuổi)",
+    "visual_type": "image",
+    "mood": "epic",
+    "color_tone": "warm",
+    "edit_plan": {
+      "transition_in": "crossfade",
+      "transition_out": "cut",
+      "ken_burns": "slow pan from left to right across the row of six trophies, with a focus pull from the first to the last",
+      "pacing": "3.5s; a light flash on each trophy can be synced to the counting rhythm",
+      "text_overlay": "'6 CÚP VÔ ĐỊCH THẾ GIỚI' (large gold text with a slight glow, centered in the lower third)",
+      "sound_note": "Music stays majestic but softens; a light metallic 'ding' as each trophy is revealed"
+    }
+  },
+  {
+    "scene_number": 10,
+    "visual_brief": "Face close-up of the 30-year-old protagonist, turning from a 3/4 angle to front-on. He uses his index finger to push up his thin black rectangular glasses with rounded corners, with neat short black side-parted bangs, a defined jawline and a quiet faint smile, staring straight into the camera. He wears a fitted deep red and black esports jersey with no logos and no wrist brace. Strong neon blue-purple backlight from a blurred arena LED screen throws half his face into deep shadow, with a sharp neon rim light on his hair, jaw and glasses frame and a small glint on the lens. The mood is mysterious, rendered with thin clean line art, soft cel shading and a heavily blurred background in a 2D anime Shinkai and manhwa style. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)": "26–30-year-old Korean man, lean and mature, with a defined jawline. Thin black rectangular glasses with rounded corners (thinner and more refined than the teen version). Neat short black hair with light side-parted bangs, forehead partly visible. Calm, seasoned veteran gaze. Expressions: jaw clenched holding back tears after the 2–3 loss, a wince of pain while gripping a wrist wrapped in white athletic tape, an exploding smile with misty eyes while raising the trophy, then a quiet faint smile at the end. Outfit for the whole segment: fitted deep red and black esports jersey, no logos; in scene 7 the same jersey with a dark hoodie over it and a white wrist brace on the right wrist. Signature gestures: pushes up his glasses, taps the desk three times."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (29 tuổi, chung kết thế giới)"
+    ],
+    "story_segment": "Level 2 - Quỷ Vương bất tử (26–30 tuổi)",
+    "visual_type": "image",
+    "mood": "mysterious",
+    "color_tone": "dark",
+    "edit_plan": {
+      "transition_in": "cut",
+      "transition_out": "fade_to_black",
+      "ken_burns": "very slow push in toward the eyes behind the glasses, ending on an extreme close-up of the gaze into the camera",
+      "pacing": "4.5s total; the final question line holds 4–5s before the fade to black",
+      "text_overlay": "'30 TUỔI – CHƯA GIẢI NGHỆ' → then 'NGƯỜI NÀY CÓ THẬT.' / 'BẠN ĐOÁN ĐƯỢC LÀ AI KHÔNG?' (large red text, Bebas Neue, centered)",
+      "sound_note": "Music cuts out abruptly, leaving a soft low bass hum and three light desk taps (the signature gesture); silence on the closing question"
+    }
+  },
+  {
+    "scene_number": 1,
+    "visual_brief": "Extreme close-up of the 17-year-old slim Korean teen centered in the frame: pale thin face, small monolid eyes wide in disbelief behind thick black rectangular plastic-framed glasses, thick slightly messy black bangs covering his forehead, wearing the red-and-black esports jersey with white piping (no brand logos) and a black gaming headset over his ears. He stands on a huge world championship stage, and the giant LED screen behind him is blurred but readable in Vietnamese: 'VÔ ĐỊCH THẾ GIỚI' and '3 – 0'. Gold confetti drifts through the foreground with shallow depth of field. High-contrast neon blue-purple stage lighting with a cyan rim light on his cheek and glasses, warm golden bloom from the confetti, cinematic and slightly desaturated. Thin clean line art, soft cel shading, 2D anime in the Studio Ghibli / Makoto Shinkai style blended with manhwa. Leave empty space in the upper third for the title. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)": "17–22-year-old slim Korean young man with narrow shoulders, a pale thin face, small monolid eyes, thick black rectangular plastic-framed glasses, and straight black hair with thick slightly messy bangs covering his forehead. Calm, quiet, focused face that shifts to exaggerated emotion: wide-eyed disbelief while lifting the trophy, then teary eyes and a trembling lip behind his glasses in the booth, then a lowered head and empty stare on the bench. Outfit for the whole segment: red-and-black esports jersey with white piping, no brand logos, plus a black gaming headset (hung around his neck when off stage). Habit: taps the desk three times with his fingertips."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)"
+    ],
+    "story_segment": "Level 1 - Thần đồng gục ngã (17–22 tuổi)",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "vibrant",
+    "edit_plan": {
+      "transition_in": "cut",
+      "transition_out": "cut",
+      "ken_burns": null,
+      "pacing": "Hook shot, 5.8s. Hold the face for the first 3s under the POV title. From 'Năm sau...' add a short desaturation pulse to set up the fall, but stay on the same shot.",
+      "text_overlay": "POV: BẠN LÀ THẦN ĐỒNG ESPORTS (large red condensed all-caps text, top of frame, 0–3s); small line '17 TUỔI – VÔ ĐỊCH THẾ GIỚI 3 – 0' at 0.5–3s",
+      "sound_note": "Explosive stage music with a crowd cheer and a bass hit at 0s. At 'Năm sau...' the music dips suddenly (low-pass) for 0.5s, then comes back up."
+    },
+    "duration": "6s",
+    "timeline_hints": [
+      {
+        "time": "0-2s",
+        "action": "Extreme close-up on the teen's face frozen in wide-eyed disbelief, neon blue-purple stage light flickering across his glasses, gold confetti falling slowly through the foreground in soft focus"
+      },
+      {
+        "time": "2-4s",
+        "action": "His lips part and his breath catches, he slowly pushes his thick glasses up with one finger, a cyan rim light pulses on his cheek, and the LED glow behind him strobes softly"
+      },
+      {
+        "time": "4-6s",
+        "action": "Very slow push-in toward his eyes as a few confetti pieces stick to his bangs, the stage lights briefly dim and the colors desaturate slightly, hinting at what comes next"
+      }
+    ],
+    "camera_style": "cinematic slow push-in, locked center framing, shallow depth of field",
+    "audio_direction": "Subtle low-volume crowd roar in the distance, soft rustle of falling confetti, faint electric hum of the LED screens. No voice, no speech, no dialogue, no narration."
+  },
+  {
+    "scene_number": 2,
+    "visual_brief": "First-person view through the teen's eyes: his own two pale slim hands, with red-and-black jersey sleeves and white piping (no brand logos) visible at the wrists, lifting a gleaming silver championship trophy toward the camera, and a black gaming headset cord dangling from his neck at the bottom edge of the frame. Behind the trophy, a sea of blurred spectators waving neon lightsticks and a huge LED scoreboard readable in Vietnamese: 'VÔ ĐỊCH LẦN THỨ 3'. Crowd members are anonymous, blurred, with little detail, and none wear thick black glasses with heavy bangs. High-contrast neon blue-purple stage lighting, gold confetti, and a golden bloom on the trophy's metal, cinematic and slightly desaturated. Thin clean line art, soft cel shading, 2D anime in the Studio Ghibli / Makoto Shinkai style blended with manhwa. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)": "17–22-year-old slim Korean young man with narrow shoulders, a pale thin face, small monolid eyes, thick black rectangular plastic-framed glasses, and straight black hair with thick slightly messy bangs covering his forehead. Calm, quiet, focused face that shifts to exaggerated emotion: wide-eyed disbelief while lifting the trophy, then teary eyes and a trembling lip behind his glasses in the booth, then a lowered head and empty stare on the bench. Outfit for the whole segment: red-and-black esports jersey with white piping, no brand logos, plus a black gaming headset (hung around his neck when off stage). Habit: taps the desk three times with his fingertips."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)"
+    ],
+    "story_segment": "Level 1 - Thần đồng gục ngã (17–22 tuổi)",
+    "visual_type": "video",
+    "mood": "epic",
+    "color_tone": "vibrant",
+    "edit_plan": {
+      "transition_in": "cut",
+      "transition_out": "cut",
+      "ken_burns": null,
+      "pacing": "Fast and confident, 4.4s. Use the first 4.4s of the clip and hard-cut on 'không bao giờ thua'.",
+      "text_overlay": "'×2 VÔ ĐỊCH' (small gold text, shown briefly at 0.5–2.5s)",
+      "sound_note": "Triumphant music at full volume with an extra crowd cheer layer. Cut to silence right on the cut out to create the collapse."
+    },
+    "duration": "5s",
+    "timeline_hints": [
+      {
+        "time": "0-2s",
+        "action": "First-person view as the slim pale hands grip the silver trophy and raise it overhead, the camera tilts up with the motion, and confetti swirls past the lens"
+      },
+      {
+        "time": "2-3.5s",
+        "action": "The trophy reaches its peak and catches a golden flare of stage light, the blurred crowd below waves neon lightsticks in rhythm, and the LED scoreboard glows blue-purple"
+      },
+      {
+        "time": "3.5-5s",
+        "action": "The hands hold the trophy steady and confident, the camera settles with a slight handheld sway, and the lights hold at full brightness"
+      }
+    ],
+    "camera_style": "handheld first-person POV, tilt up following the hands",
+    "audio_direction": "Subtle low-volume stadium crowd cheering, a soft metallic clink of the trophy, confetti cannons popping faintly in the distance. No voice, no speech, no dialogue, no narration."
+  },
+  {
+    "scene_number": 3,
+    "visual_brief": "Close-up of the 21-year-old teen's face, centered inside a soundproof player booth: thick black rectangular plastic-framed glasses fogged at the bottom edge, tears running down his pale thin cheeks, lip trembling, thick messy black bangs falling over his forehead. He wears the red-and-black esports jersey with white piping (no brand logos), and the black gaming headset has slipped down around his neck. The booth glass in the foreground is soft-focus with smudges and reflections. Behind him, through the back glass, is a dark blurred mass of 40,000 spectators, and an LED screen readable in Vietnamese shows '0 – 3'. At the edge of the frame, out of focus, is the coach: a Korean man in his late 30s with a round face and full cheeks, slightly heavy build, short neat black hair, NO glasses, wearing a black team jacket with red trim, opening the booth door. Clear shift to cold, washed-out blue-gray under harsh white-blue light, with the neon gone, cinematic and desaturated. Thin clean line art, soft cel shading, 2D anime in the Studio Ghibli / Makoto Shinkai style blended with manhwa. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)": "17–22-year-old slim Korean young man with narrow shoulders, a pale thin face, small monolid eyes, thick black rectangular plastic-framed glasses, and straight black hair with thick slightly messy bangs covering his forehead. Calm, quiet, focused face that shifts to exaggerated emotion: wide-eyed disbelief while lifting the trophy, then teary eyes and a trembling lip behind his glasses in the booth, then a lowered head and empty stare on the bench. Outfit for the whole segment: red-and-black esports jersey with white piping, no brand logos, plus a black gaming headset (hung around his neck when off stage). Habit: taps the desk three times with his fingertips.",
+      "Huấn luyện viên": "Korean man in his late 30s, clearly different from the protagonist: round face, full cheeks, slightly heavy build, short neat black hair, NO glasses, clean-shaven. Wears a black team jacket with red trim over a dark shirt and holds a tablet or clipboard. Background figure, slightly blurred: pats the player's shoulder after the lost final and points at a tactics board when the player is benched."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)",
+      "Huấn luyện viên"
+    ],
+    "story_segment": "Level 1 - Thần đồng gục ngã (17–22 tuổi)",
+    "visual_type": "video",
+    "mood": "sad",
+    "color_tone": "cool",
+    "edit_plan": {
+      "transition_in": "cut",
+      "transition_out": "crossfade",
+      "ken_burns": null,
+      "pacing": "Slow and heavy, 5.3s. Let the face hold so the emotion lands, then use a short 0.4s crossfade into scene 4.",
+      "text_overlay": "'21 TUỔI – CHUNG KẾT 0 – 3' (small white text, bottom of frame, 0.5–3s)",
+      "sound_note": "Music cut almost to nothing. Keep only a low drone pad and a muffled crowd sound as if heard through the booth glass. Emotional piano note comes in at 'ngồi khóc'."
+    },
+    "duration": "6s",
+    "timeline_hints": [
+      {
+        "time": "0-2s",
+        "action": "Close-up through the smudged booth glass, the young man sits motionless and stares at the dark screen, cold blue-gray light falls flat on his face, and the dark crowd behind him is a blurred mass"
+      },
+      {
+        "time": "2-4s",
+        "action": "His lip trembles and tears spill under his thick glasses, his shoulders shake slightly, he pulls the headset down around his neck, and the fluorescent light flickers faintly"
+      },
+      {
+        "time": "4-6s",
+        "action": "Very slow push-in on his face as a blurred heavy-set figure in a black jacket opens the booth door at the frame edge, and a hand rests on his shoulder in soft focus"
+      }
+    ],
+    "camera_style": "cinematic slow push-in through foreground glass, rack focus kept on the face",
+    "audio_direction": "Muffled distant crowd murmur through glass, subtle low-volume air conditioning hum inside the booth, a soft shaky breath, the faint click of the booth door opening. No voice, no speech, no dialogue, no narration."
+  },
+  {
+    "scene_number": 4,
+    "visual_brief": "Object close-up of a domestic league standings board printed on paper and pinned to a practice room wall, readable in Vietnamese: the header 'BẢNG XẾP HẠNG GIẢI QUỐC NỘI' and a row 'HẠNG 7' for the protagonist's team (red-and-black logo, no real brand) circled roughly in red marker. In the soft-focus foreground at the bottom edge of the frame is the blurred shoulder and back of the young man's head: thick messy black bangs, the arm of his thick black rectangular glasses, and the red-and-black esports jersey with white piping (no brand logos) with a black gaming headset hanging around his neck. Cold, washed-out blue-gray under white-blue fluorescent tube light, with pushpins, a scuffed wall and a tangle of cables, cinematic and desaturated. Thin clean line art, soft cel shading, near-photoreal background, 2D anime in the Studio Ghibli / Makoto Shinkai style blended with manhwa. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)": "17–22-year-old slim Korean young man with narrow shoulders, a pale thin face, small monolid eyes, thick black rectangular plastic-framed glasses, and straight black hair with thick slightly messy bangs covering his forehead. Calm, quiet, focused face that shifts to exaggerated emotion: wide-eyed disbelief while lifting the trophy, then teary eyes and a trembling lip behind his glasses in the booth, then a lowered head and empty stare on the bench. Outfit for the whole segment: red-and-black esports jersey with white piping, no brand logos, plus a black gaming headset (hung around his neck when off stage). Habit: taps the desk three times with his fingertips."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)"
+    ],
+    "story_segment": "Level 1 - Thần đồng gục ngã (17–22 tuổi)",
+    "visual_type": "image",
+    "mood": "sad",
+    "color_tone": "muted",
+    "edit_plan": {
+      "transition_in": "crossfade",
+      "transition_out": "cut",
+      "ken_burns": "slow zoom in toward the red-circled 'HẠNG 7' row",
+      "pacing": "Quick 2.7s hold. The zoom ends right on the words 'hạng bảy'.",
+      "text_overlay": "'1 NĂM SAU' (small white text, top left, 0–1.5s)",
+      "sound_note": "Low-pitched thud SFX when 'HẠNG 7' comes into focus. Background stays as a cold, sparse drone."
+    },
+    "duration": null
+  },
+  {
+    "scene_number": 5,
+    "visual_brief": "Low-angle wide shot of the young man sitting alone on a metal bench in the corner of the practice room, centered in the frame, head lowered with an empty stare: thick black rectangular plastic-framed glasses sliding down his nose, thick messy black bangs covering his forehead, pale thin face, wearing the red-and-black esports jersey with white piping (no brand logos) and a black gaming headset hung around his neck, his fingertips resting still on his knee. In the blurred background is a row of glowing monitors, gaming chairs and mechanical keyboards where the teammates sit with their backs turned (different hairstyles, no glasses, little detail). The coach, a round-faced Korean man in his late 30s with full cheeks, slightly heavy build, short neat black hair, NO glasses, wearing a black team jacket with red trim, points at a tactics board and does not look at him. A whiteboard is readable in Vietnamese: 'ĐỘI HÌNH THI ĐẤU', with his name crossed out. Cold, washed-out blue-gray under white-blue fluorescent light, long empty floor space around him to show isolation, cinematic and desaturated. Thin clean line art, soft cel shading, 2D anime in the Studio Ghibli / Makoto Shinkai style blended with manhwa. Vertical 9:16 aspect ratio, 1080x1920",
+    "characters": {
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)": "17–22-year-old slim Korean young man with narrow shoulders, a pale thin face, small monolid eyes, thick black rectangular plastic-framed glasses, and straight black hair with thick slightly messy bangs covering his forehead. Calm, quiet, focused face that shifts to exaggerated emotion: wide-eyed disbelief while lifting the trophy, then teary eyes and a trembling lip behind his glasses in the booth, then a lowered head and empty stare on the bench. Outfit for the whole segment: red-and-black esports jersey with white piping, no brand logos, plus a black gaming headset (hung around his neck when off stage). Habit: taps the desk three times with his fingertips.",
+      "Huấn luyện viên": "Korean man in his late 30s, clearly different from the protagonist: round face, full cheeks, slightly heavy build, short neat black hair, NO glasses, clean-shaven. Wears a black team jacket with red trim over a dark shirt and holds a tablet or clipboard. Background figure, slightly blurred: pats the player's shoulder after the lost final and points at a tactics board when the player is benched."
+    },
+    "flow_characters": [
+      "Bạn – Quỷ Vương (thời niên thiếu, 16–21 tuổi)",
+      "Huấn luyện viên"
+    ],
+    "story_segment": "Level 1 - Thần đồng gục ngã (17–22 tuổi)",
+    "visual_type": "image",
+    "mood": "sad",
+    "color_tone": "cool",
+    "edit_plan": {
+      "transition_in": "cut",
+      "transition_out": "fade_to_black",
+      "ken_burns": "slow pull-back (zoom out) from the lone figure to make the empty space around him feel bigger",
+      "pacing": "4.1s hold, slow. Start a 0.3s fade to black right after 'hết thời' to lead into the next Level card.",
+      "text_overlay": "'HẾT THỜI?' (red text, small, low in the frame, 2.5–4s)",
+      "sound_note": "Faint keyboard clicks and indistinct teammate chatter in the background, kept very quiet. The drone fades out completely into the next Level card."
+    },
+    "duration": null
+  }
+]

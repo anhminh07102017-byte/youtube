@@ -29,9 +29,11 @@ async def list_templates():
     """List all templates grouped by category."""
     image_styles = _load_templates("image_styles")
     edit_styles = _load_templates("edit_styles")
+    storytelling_profiles = _load_templates("storytelling_profiles")
     return {
         "image_styles": image_styles,
         "edit_styles": edit_styles,
+        "storytelling_profiles": storytelling_profiles,
     }
 
 
@@ -58,20 +60,29 @@ class ApplyBody(BaseModel):
 TARGET_TO_FILE = {
     "project_style_guide": "style_guide",
     "project_content_guide": "content_guide",
+    "project_storytelling_guide": "storytelling_guide",
     "video_visual_guide": "visual_guide",
     "video_edit_guide": "edit_guide",
     "video_content_brief": "content_brief",
     # Also accept direct file names
     "style_guide": "style_guide",
     "content_guide": "content_guide",
+    "storytelling_guide": "storytelling_guide",
     "visual_guide": "visual_guide",
     "edit_guide": "edit_guide",
     "content_brief": "content_brief",
 }
 
 
-VALID_CATEGORIES = {"image_styles", "edit_styles", "image_style", "edit_style"}
-CATEGORY_NORMALIZE = {"image_style": "image_styles", "edit_style": "edit_styles"}
+VALID_CATEGORIES = {
+    "image_styles", "edit_styles", "storytelling_profiles",
+    "image_style", "edit_style", "storytelling_profile",
+}
+CATEGORY_NORMALIZE = {
+    "image_style": "image_styles",
+    "edit_style": "edit_styles",
+    "storytelling_profile": "storytelling_profiles",
+}
 
 
 @router.post("/{category}/{template_id}/apply/{project_id}")

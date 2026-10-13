@@ -8,7 +8,7 @@ from fastapi.staticfiles import StaticFiles
 
 from src.db.database import create_tables, async_session
 from src.services.file_sync import scan_projects
-from src.api import projects, videos, scenes, characters, guides, templates, settings
+from src.api import projects, videos, scenes, characters, guides, templates, settings, shorts
 
 
 @asynccontextmanager
@@ -58,6 +58,7 @@ app.include_router(characters.router)
 app.include_router(guides.router)
 app.include_router(templates.router)
 app.include_router(settings.router)
+app.include_router(shorts.router)
 
 
 # Serve project files (character images, assets, etc.)

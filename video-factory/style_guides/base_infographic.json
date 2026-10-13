@@ -1,0 +1,24 @@
+{
+  "style_name": "Infographic & Motion Graphics",
+  "base_prompt_prefix": "clean infographic style, flat design, modern vector graphics, bold geometric shapes, data visualization aesthetic, minimalist layout, clear visual hierarchy, icon-based illustration",
+  "base_prompt_suffix": "high quality infographic, clean design, professional, no unnecessary clutter",
+  "character_rules": {
+    "face": "simplified icon-style faces, minimal features, geometric shapes",
+    "body": "flat stylized proportions, geometric silhouettes, consistent line weight",
+    "clothing": "simplified, color-coded for clarity",
+    "skin_tone": "neutral tones or brand-colored fills"
+  },
+  "background_rules": {
+    "detail_level": "minimal - solid colors or subtle gradients, focus on data/content",
+    "perspective": "flat, isometric when showing spatial concepts",
+    "colors": "limited palette (3-5 colors), high contrast, brand-consistent"
+  },
+  "camera_shots": {
+    "establishing": "full-frame diagram or map with labeled elements",
+    "dialogue": "split-frame comparison or versus layout",
+    "action": "process flow diagram, step-by-step visual",
+    "emotion": "large icon or symbol with emphasis effects",
+    "transition": "gradient or geometric transition frame"
+  },
+  "negative_prompts": "realistic, photograph, 3D render, blurry, low quality, watermark, painterly, watercolor, hand-drawn sketch, complex textures, photorealistic"
+}

@@ -7,11 +7,11 @@ from typing import Optional, List
 
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
-from sqlalchemy import select
+from sqlalchemy import select, func
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.db.database import get_db
-from src.db.models import Project
+from src.db.models import Project, Video
 
 router = APIRouter(prefix="/api/projects", tags=["projects"])
 
@@ -27,6 +27,7 @@ class ProjectCreate(BaseModel):
     target_duration: int = 600
     sources: List[str] = []
     notes: Optional[str] = None
+    base_style: Optional[str] = "base_2d_style"
     style_override: Optional[str] = None
 
 
@@ -39,6 +40,7 @@ class ProjectUpdate(BaseModel):
     target_duration: Optional[int] = None
     sources: Optional[List[str]] = None
     notes: Optional[str] = None
+    base_style: Optional[str] = None
     style_override: Optional[str] = None
     flow_project_id: Optional[str] = None
 
@@ -70,7 +72,20 @@ async def list_projects(db: AsyncSession = Depends(get_db)):
 
     result = await db.execute(select(Project).order_by(Project.created_at.desc()))
     projects = result.scalars().all()
-    return [p.to_dict() for p in projects]
+
+    # Count videos per project
+    count_result = await db.execute(
+        select(Video.project_id, func.count(Video.id).label("cnt"))
+        .group_by(Video.project_id)
+    )
+    video_counts = {row.project_id: row.cnt for row in count_result}
+
+    out = []
+    for p in projects:
+        d = p.to_dict()
+        d["video_count"] = video_counts.get(p.id, 0)
+        out.append(d)
+    return out
 
 
 @router.post("", status_code=201)
@@ -88,6 +103,7 @@ async def create_project(body: ProjectCreate, db: AsyncSession = Depends(get_db)
         target_duration=body.target_duration,
         sources=body.sources,
         notes=body.notes,
+        base_style=body.base_style,
         style_override=body.style_override,
     )
     db.add(project)
@@ -113,7 +129,12 @@ async def get_project(project_id: str, db: AsyncSession = Depends(get_db)):
     project = result.scalar_one_or_none()
     if project is None:
         raise HTTPException(status_code=404, detail="Project not found")
-    return project.to_dict()
+    count_result = await db.execute(
+        select(func.count(Video.id)).where(Video.project_id == project_id)
+    )
+    d = project.to_dict()
+    d["video_count"] = count_result.scalar() or 0
+    return d
 
 
 @router.put("/{project_id}")

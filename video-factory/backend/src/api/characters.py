@@ -11,7 +11,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from src.db.database import get_db
 from src.db.models import Character
 
-router = APIRouter(prefix="/api/projects/{project_id}/characters", tags=["characters"])
+router = APIRouter(prefix="/api/projects/{project_id}/videos/{video_id}/characters", tags=["characters"])
 
 
 class CharacterCreate(BaseModel):
@@ -48,20 +48,50 @@ def _generate_id(name: str) -> str:
 
 
 @router.get("")
-async def list_characters(project_id: str, db: AsyncSession = Depends(get_db)):
-    """List all characters in a project."""
+async def list_characters(project_id: str, video_id: str, db: AsyncSession = Depends(get_db)):
+    """List all characters in a video."""
     result = await db.execute(
         select(Character)
-        .where(Character.project_id == project_id)
+        .where(Character.project_id == project_id, Character.video_id == video_id)
         .order_by(Character.name)
     )
     characters = result.scalars().all()
     return [c.to_dict() for c in characters]
 
 
+@router.delete("/images")
+async def clear_all_character_images(
+    project_id: str, video_id: str, db: AsyncSession = Depends(get_db)
+):
+    """Xóa tất cả ảnh nhân vật đã tạo."""
+    import shutil
+    from pathlib import Path
+
+    result = await db.execute(
+        select(Character).where(
+            Character.project_id == project_id, Character.video_id == video_id
+        )
+    )
+    characters = result.scalars().all()
+    cleared = 0
+    for char in characters:
+        if char.reference_image_path:
+            char.reference_image_path = None
+            cleared += 1
+    await db.commit()
+
+    # Xóa thư mục characters trên disk (scoped to video)
+    projects_dir = os.getenv("PROJECTS_DIR", "/app/projects")
+    chars_dir = Path(projects_dir) / project_id / "videos" / video_id / "characters"
+    if chars_dir.exists():
+        shutil.rmtree(chars_dir)
+
+    return {"status": "ok", "cleared": cleared}
+
+
 @router.post("", status_code=201)
 async def create_character(
-    project_id: str, body: CharacterCreate, db: AsyncSession = Depends(get_db)
+    project_id: str, video_id: str, body: CharacterCreate, db: AsyncSession = Depends(get_db)
 ):
     """Create a new character."""
     character_id = _generate_id(body.name)
@@ -69,6 +99,7 @@ async def create_character(
     character = Character(
         id=character_id,
         project_id=project_id,
+        video_id=video_id,
         name=body.name,
         historical_name=body.historical_name,
         era=body.era,
@@ -87,12 +118,14 @@ async def create_character(
 
 @router.get("/{character_id}")
 async def get_character(
-    project_id: str, character_id: str, db: AsyncSession = Depends(get_db)
+    project_id: str, video_id: str, character_id: str, db: AsyncSession = Depends(get_db)
 ):
     """Get a single character."""
     result = await db.execute(
         select(Character).where(
-            Character.id == character_id, Character.project_id == project_id
+            Character.id == character_id,
+            Character.project_id == project_id,
+            Character.video_id == video_id,
         )
     )
     character = result.scalar_one_or_none()
@@ -104,6 +137,7 @@ async def get_character(
 @router.put("/{character_id}")
 async def update_character(
     project_id: str,
+    video_id: str,
     character_id: str,
     body: CharacterUpdate,
     db: AsyncSession = Depends(get_db),
@@ -111,7 +145,9 @@ async def update_character(
     """Update a character."""
     result = await db.execute(
         select(Character).where(
-            Character.id == character_id, Character.project_id == project_id
+            Character.id == character_id,
+            Character.project_id == project_id,
+            Character.video_id == video_id,
         )
     )
     character = result.scalar_one_or_none()
@@ -130,12 +166,14 @@ async def update_character(
 
 @router.delete("/{character_id}", status_code=204)
 async def delete_character(
-    project_id: str, character_id: str, db: AsyncSession = Depends(get_db)
+    project_id: str, video_id: str, character_id: str, db: AsyncSession = Depends(get_db)
 ):
     """Delete a character."""
     result = await db.execute(
         select(Character).where(
-            Character.id == character_id, Character.project_id == project_id
+            Character.id == character_id,
+            Character.project_id == project_id,
+            Character.video_id == video_id,
         )
     )
     character = result.scalar_one_or_none()

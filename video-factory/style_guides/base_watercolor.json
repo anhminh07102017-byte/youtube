@@ -1,0 +1,24 @@
+{
+  "style_name": "Watercolor Illustration",
+  "base_prompt_prefix": "watercolor painting style, soft washes of color, visible brush strokes, delicate ink outlines, slightly bleeding edges, artistic hand-painted feel, gentle color gradients, textured paper background",
+  "base_prompt_suffix": "high quality watercolor illustration, artistic, atmospheric, no text in image",
+  "character_rules": {
+    "face": "soft features, expressive eyes, gentle watercolor details",
+    "body": "natural proportions, flowing silhouettes, soft edges",
+    "clothing": "historically accurate, rendered with layered watercolor washes",
+    "skin_tone": "appropriate to character ethnicity and era, rendered in warm watercolor tones"
+  },
+  "background_rules": {
+    "detail_level": "atmospheric - detailed focal areas with softer, more abstract edges",
+    "perspective": "natural perspective, painterly depth through color values",
+    "colors": "harmonious color palette, transparent washes, white paper showing through highlights"
+  },
+  "camera_shots": {
+    "establishing": "wide atmospheric shot with environmental detail fading at edges",
+    "dialogue": "medium shot with intimate watercolor detail on faces",
+    "action": "dynamic composition with energetic brush strokes and splatter effects",
+    "emotion": "close-up portrait with delicate washes and expressive details",
+    "transition": "landscape/scenery with atmospheric perspective"
+  },
+  "negative_prompts": "3D render, photorealistic, photograph, blurry, low quality, text, watermark, digital art, flat shading, cartoon, anime, pixel art, sharp vector edges"
+}

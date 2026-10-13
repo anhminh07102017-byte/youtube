@@ -1,0 +1,67 @@
+{
+  "project_id": "trải-nghiệm-cuộc-sống-02e63e",
+  "video_id": "trai-nghiem-lam-game-thu-lien-minh-huyen-thoai-bb8894",
+  "total_scenes": 10,
+  "scenes": [
+    {
+      "scene_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 5.8,
+      "script_text": "Mười bảy tuổi, bạn vô địch thế giới với tỷ số ba – không. Năm sau, bạn không có nổi một tấm vé dự giải,"
+    },
+    {
+      "scene_number": 2,
+      "timestamp_start": 5.8,
+      "timestamp_end": 10.217,
+      "script_text": "nhưng rồi bạn quay lại, vô địch thêm hai lần, và ai cũng tin bạn sẽ không bao giờ thua."
+    },
+    {
+      "scene_number": 3,
+      "timestamp_start": 10.217,
+      "timestamp_end": 15.5,
+      "script_text": "Cho đến năm hai mốt tuổi, bạn thua trắng trận chung kết, ngồi khóc trong cabin trước bốn vạn người."
+    },
+    {
+      "scene_number": 4,
+      "timestamp_start": 15.5,
+      "timestamp_end": 18.233,
+      "script_text": "Một năm sau, đội bạn rơi xuống hạng bảy trong nước."
+    },
+    {
+      "scene_number": 5,
+      "timestamp_start": 18.233,
+      "timestamp_end": 22.317,
+      "script_text": "Có những trận bạn phải ngồi ngoài, và người ta bảo bạn hết thời."
+    },
+    {
+      "scene_number": 6,
+      "timestamp_start": 22.317,
+      "timestamp_end": 26.883,
+      "script_text": "Hai sáu tuổi, bạn lại vào chung kết, và lại thua hai – ba trước một đội không ai đặt cược."
+    },
+    {
+      "scene_number": 7,
+      "timestamp_start": 26.883,
+      "timestamp_end": 29.95,
+      "script_text": "Một năm sau, cổ tay chấn thương, bạn phải nghỉ nhiều tuần,"
+    },
+    {
+      "scene_number": 8,
+      "timestamp_start": 29.95,
+      "timestamp_end": 34.25,
+      "script_text": "vậy mà cuối năm ấy, bạn nâng cúp ngay trên sân nhà, sau bảy năm chờ đợi."
+    },
+    {
+      "scene_number": 9,
+      "timestamp_start": 34.25,
+      "timestamp_end": 37.733,
+      "script_text": "Rồi bạn vô địch thêm hai lần nữa. Sáu chiếc cúp thế giới,"
+    },
+    {
+      "scene_number": 10,
+      "timestamp_start": 37.733,
+      "timestamp_end": 42.266,
+      "script_text": "ba mươi tuổi, vẫn chưa giải nghệ. Người này có thật. Bạn đoán được là ai không?"
+    }
+  ]
+}

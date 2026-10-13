@@ -1,0 +1,655 @@
+{
+  "project_id": "trải-nghiệm-cuộc-sống-02e63e",
+  "video_id": "trai-nghiem-lam-game-thu-lien-minh-huyen-thoai-bb8894",
+  "total_scenes": 108,
+  "scenes": [
+    {
+      "scene_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 4.616,
+      "script_text": "Trải nghiệm cuộc sống hôm nay, bạn trở thành tuyển thủ Liên Minh Huyền Thoại vĩ đại nhất thế giới."
+    },
+    {
+      "scene_number": 2,
+      "timestamp_start": 4.616,
+      "timestamp_end": 9.816,
+      "script_text": "Bạn hai mươi chín tuổi. Ván thứ năm của trận chung kết thế giới, tỷ số đang là hai đều."
+    },
+    {
+      "scene_number": 3,
+      "timestamp_start": 9.816,
+      "timestamp_end": 12.65,
+      "script_text": "Hai vạn khán giả trong nhà thi đấu bỗng im bặt."
+    },
+    {
+      "scene_number": 4,
+      "timestamp_start": 12.65,
+      "timestamp_end": 16.066,
+      "script_text": "Trên bàn bình luận, người ta gọi bạn là ông già của giải đấu."
+    },
+    {
+      "scene_number": 5,
+      "timestamp_start": 16.066,
+      "timestamp_end": 20.566,
+      "script_text": "Người đường giữa bên kia, lúc bạn nâng chiếc cúp đầu tiên, vẫn còn đang học tiểu học."
+    },
+    {
+      "scene_number": 6,
+      "timestamp_start": 20.566,
+      "timestamp_end": 25.017,
+      "script_text": "Trước khi ván đấu bắt đầu, bạn đẩy gọng kính, gõ ba lần ngón tay lên mặt bàn."
+    },
+    {
+      "scene_number": 7,
+      "timestamp_start": 25.017,
+      "timestamp_end": 28.15,
+      "script_text": "Đó là thói quen mười ba năm nay bạn chưa bỏ lần nào."
+    },
+    {
+      "scene_number": 8,
+      "timestamp_start": 28.15,
+      "timestamp_end": 32.283,
+      "script_text": "Mười ba năm ấy, bạn đã đứng trên đỉnh thế giới khi mới mười bảy tuổi."
+    },
+    {
+      "scene_number": 9,
+      "timestamp_start": 32.283,
+      "timestamp_end": 37.4,
+      "script_text": "Bạn đã từng khóc trước bốn vạn người. Và đã có bảy năm, bạn không chạm được vào chiếc cúp."
+    },
+    {
+      "scene_number": 10,
+      "timestamp_start": 37.4,
+      "timestamp_end": 43.75,
+      "script_text": "Hôm nay, bạn sẽ trải nghiệm lại cuộc đời của một người lên đỉnh quá sớm, rồi phải học cách leo lên lần nữa."
+    },
+    {
+      "scene_number": 11,
+      "timestamp_start": 43.75,
+      "timestamp_end": 46.583,
+      "script_text": "Level 1: Cái tên không ai biết."
+    },
+    {
+      "scene_number": 12,
+      "timestamp_start": 46.583,
+      "timestamp_end": 50.05,
+      "script_text": "Bạn mười sáu tuổi, sống với bà nội trong một căn nhà nhỏ."
+    },
+    {
+      "scene_number": 13,
+      "timestamp_start": 50.05,
+      "timestamp_end": 55.133,
+      "script_text": "Ở lớp, bạn là đứa ít nói nhất, lúc nào cũng đeo cặp kính gọng đen mua ở tiệm đầu chợ."
+    },
+    {
+      "scene_number": 14,
+      "timestamp_start": 55.133,
+      "timestamp_end": 59.216,
+      "script_text": "Nhưng mỗi tối, khi màn hình máy tính sáng lên, bạn trở thành một người khác."
+    },
+    {
+      "scene_number": 15,
+      "timestamp_start": 59.216,
+      "timestamp_end": 66.6,
+      "script_text": "Bà không hiểu trò chơi ấy. Bà chỉ lặng lẽ đặt bát cơm cạnh bàn phím rồi dặn: \"Chơi thì chơi, nhưng phải ăn cơm đã.\""
+    },
+    {
+      "scene_number": 16,
+      "timestamp_start": 66.6,
+      "timestamp_end": 70.7,
+      "script_text": "Bạn chơi trên một tài khoản đặt tên vớ vẩn. Không ai biết bạn là ai."
+    },
+    {
+      "scene_number": 17,
+      "timestamp_start": 70.7,
+      "timestamp_end": 78.5,
+      "script_text": "Nhưng cái tên ấy cứ lặng lẽ leo lên bảng xếp hạng, từng bậc, từng bậc, rồi một sáng thức dậy, bạn thấy nó đứng ở vị trí số một máy chủ."
+    },
+    {
+      "scene_number": 18,
+      "timestamp_start": 78.5,
+      "timestamp_end": 82.2,
+      "script_text": "Các tuyển thủ chuyên nghiệp bắt đầu hỏi nhau: \"Thằng này là ai vậy?\""
+    },
+    {
+      "scene_number": 19,
+      "timestamp_start": 82.2,
+      "timestamp_end": 88.816,
+      "script_text": "Trước mỗi trận, bạn có một thói quen nhỏ: gõ ba lần ngón tay lên mặt bàn, như để tự nhắc mình tập trung."
+    },
+    {
+      "scene_number": 20,
+      "timestamp_start": 88.816,
+      "timestamp_end": 91.983,
+      "script_text": "Một tuần sau, một đội tuyển chuyên nghiệp nhắn tin cho bạn."
+    },
+    {
+      "scene_number": 21,
+      "timestamp_start": 91.983,
+      "timestamp_end": 95.516,
+      "script_text": "Bà hỏi: \"Chơi game mà cũng thành nghề được à cháu?\""
+    },
+    {
+      "scene_number": 22,
+      "timestamp_start": 95.516,
+      "timestamp_end": 102.217,
+      "script_text": "Bạn không biết trả lời thế nào. Bạn chỉ biết đây là lần đầu tiên trong đời có một thứ bạn giỏi hơn tất cả mọi người."
+    },
+    {
+      "scene_number": 23,
+      "timestamp_start": 102.217,
+      "timestamp_end": 105.233,
+      "script_text": "Level 2: Mười giây đổi đời."
+    },
+    {
+      "scene_number": 24,
+      "timestamp_start": 105.233,
+      "timestamp_end": 107.616,
+      "script_text": "Mười bảy tuổi, bạn ra mắt chuyên nghiệp."
+    },
+    {
+      "scene_number": 25,
+      "timestamp_start": 107.616,
+      "timestamp_end": 113.166,
+      "script_text": "Đối thủ đường giữa là một tuyển thủ kỳ cựu, nổi tiếng nhất giải đấu. Cả hai cùng cầm Zed."
+    },
+    {
+      "scene_number": 26,
+      "timestamp_start": 113.166,
+      "timestamp_end": 118.6,
+      "script_text": "Máu bạn chỉ còn một vạch mỏng. Đối thủ lao vào để kết liễu. Bạn né chiêu thứ nhất."
+    },
+    {
+      "scene_number": 27,
+      "timestamp_start": 118.6,
+      "timestamp_end": 123.767,
+      "script_text": "Né chiêu thứ hai. Rồi trong đúng mười giây, bạn lật ngược tất cả và hạ gục anh ta."
+    },
+    {
+      "scene_number": 28,
+      "timestamp_start": 123.767,
+      "timestamp_end": 131.083,
+      "script_text": "Khán giả đứng bật dậy. Đêm đó, đoạn clip ấy lan khắp thế giới, và người ta đặt cho bạn một biệt danh: Quỷ Vương."
+    },
+    {
+      "scene_number": 29,
+      "timestamp_start": 131.083,
+      "timestamp_end": 137.867,
+      "script_text": "Điện thoại của bạn rung liên tục. Hàng nghìn bình luận bằng đủ thứ tiếng, cùng chung một ý: \"Thằng nhóc này không phải người.\""
+    },
+    {
+      "scene_number": 30,
+      "timestamp_start": 137.867,
+      "timestamp_end": 143.583,
+      "script_text": "Cuối tuần về nhà, bạn thấy bà đã cắt bài báo có ảnh bạn, dán ngay ngắn lên cửa tủ bếp."
+    },
+    {
+      "scene_number": 31,
+      "timestamp_start": 143.583,
+      "timestamp_end": 146.817,
+      "script_text": "Bà không đọc được hết chữ, nhưng nhìn tấm ảnh ấy rất lâu."
+    },
+    {
+      "scene_number": 32,
+      "timestamp_start": 146.817,
+      "timestamp_end": 155.066,
+      "script_text": "Bạn cứ nghĩ cảm giác này sẽ kéo dài mãi. Cuối năm đó, bạn lên máy bay sang nửa bên kia trái đất, để dự giải đấu lớn nhất thế giới."
+    },
+    {
+      "scene_number": 33,
+      "timestamp_start": 155.066,
+      "timestamp_end": 158.1,
+      "script_text": "Level 3: Chiếc vương miện quá sớm."
+    },
+    {
+      "scene_number": 34,
+      "timestamp_start": 158.1,
+      "timestamp_end": 164.166,
+      "script_text": "Chung kết thế giới, bạn thắng ba không. Mười bảy tuổi, bạn nâng chiếc cúp nặng hơn mọi thứ bạn từng cầm."
+    },
+    {
+      "scene_number": 35,
+      "timestamp_start": 164.166,
+      "timestamp_end": 167.516,
+      "script_text": "Người ta gọi đó là thiên tài. Bạn cũng tin như vậy."
+    },
+    {
+      "scene_number": 36,
+      "timestamp_start": 167.516,
+      "timestamp_end": 172.083,
+      "script_text": "Nhưng năm mười tám tuổi, đội của bạn không giành nổi một tấm vé dự giải thế giới."
+    },
+    {
+      "scene_number": 37,
+      "timestamp_start": 172.083,
+      "timestamp_end": 177.666,
+      "script_text": "Chỉ sau một năm, những người từng gọi bạn là thiên tài đã quay sang nói: \"Năm ngoái chỉ là ăn may.\""
+    },
+    {
+      "scene_number": 38,
+      "timestamp_start": 177.666,
+      "timestamp_end": 180.116,
+      "script_text": "Bạn bắt đầu tập mười bốn tiếng mỗi ngày."
+    },
+    {
+      "scene_number": 39,
+      "timestamp_start": 180.116,
+      "timestamp_end": 189.883,
+      "script_text": "Ba giờ sáng, cả nhà chung đã ngủ, chỉ còn bạn với màn hình xanh lạnh và tiếng chuột lách cách. Huấn luyện viên bảo: \"Em nghỉ đi.\" Bạn trả lời: \"Em chưa hết sai.\""
+    },
+    {
+      "scene_number": 40,
+      "timestamp_start": 189.883,
+      "timestamp_end": 193.567,
+      "script_text": "Mười chín tuổi, bạn vô địch thế giới lần thứ hai, ba một."
+    },
+    {
+      "scene_number": 41,
+      "timestamp_start": 193.567,
+      "timestamp_end": 199.566,
+      "script_text": "Lần này bạn không reo hò nhiều như trước. Bạn chỉ thở ra một hơi rất dài, như vừa trả xong một món nợ."
+    },
+    {
+      "scene_number": 42,
+      "timestamp_start": 199.566,
+      "timestamp_end": 205.4,
+      "script_text": "Đó là lần đầu tiên bạn hiểu ra: một khi đã đội vương miện, bạn không còn được phép thua nữa."
+    },
+    {
+      "scene_number": 43,
+      "timestamp_start": 205.4,
+      "timestamp_end": 207.75,
+      "script_text": "Level 4: Bất tử."
+    },
+    {
+      "scene_number": 44,
+      "timestamp_start": 207.75,
+      "timestamp_end": 211.983,
+      "script_text": "Hai mươi tuổi, chung kết thế giới, ván thứ năm. Bạn thắng ba hai."
+    },
+    {
+      "scene_number": 45,
+      "timestamp_start": 211.983,
+      "timestamp_end": 217.15,
+      "script_text": "Ba chức vô địch thế giới khi còn chưa đến hai mươi mốt tuổi. Chưa từng có ai làm được điều đó."
+    },
+    {
+      "scene_number": 46,
+      "timestamp_start": 217.15,
+      "timestamp_end": 223.883,
+      "script_text": "Pháo giấy rơi kín sân khấu. Báo chí đặt cho bạn một danh hiệu mới: Quỷ Vương bất tử."
+    },
+    {
+      "scene_number": 47,
+      "timestamp_start": 223.883,
+      "timestamp_end": 228.017,
+      "script_text": "Có người viết: \"Câu hỏi bây giờ không phải là ai vô địch, mà là ai có thể đánh bại cậu ta.\""
+    },
+    {
+      "scene_number": 48,
+      "timestamp_start": 228.017,
+      "timestamp_end": 231.416,
+      "script_text": "Trong mắt cả thế giới, bạn đang đứng trên đỉnh cao nhất."
+    },
+    {
+      "scene_number": 49,
+      "timestamp_start": 231.416,
+      "timestamp_end": 236.733,
+      "script_text": "Nhưng trong phòng khách sạn đêm hôm ấy, bạn ngồi một mình, nhìn chiếc huy chương, và nhận ra một điều lạ:"
+    },
+    {
+      "scene_number": 50,
+      "timestamp_start": 236.733,
+      "timestamp_end": 240.483,
+      "script_text": "Bạn không thấy vui. Bạn chỉ thấy nhẹ nhõm, vì mình lại không thua."
+    },
+    {
+      "scene_number": 51,
+      "timestamp_start": 240.483,
+      "timestamp_end": 245.25,
+      "script_text": "Các đồng đội lần lượt rời đi, sang những đội khác, với những bản hợp đồng lớn hơn."
+    },
+    {
+      "scene_number": 52,
+      "timestamp_start": 245.25,
+      "timestamp_end": 249.566,
+      "script_text": "Bạn ở lại. Bạn tự nhủ chỉ cần mình còn ở đây thì đội vẫn sẽ thắng."
+    },
+    {
+      "scene_number": 53,
+      "timestamp_start": 249.566,
+      "timestamp_end": 253.416,
+      "script_text": "Bạn chưa biết rằng sự nhẹ nhõm ấy chính là lời cảnh báo đầu tiên."
+    },
+    {
+      "scene_number": 54,
+      "timestamp_start": 253.416,
+      "timestamp_end": 256.7,
+      "script_text": "Level 5: Bốn vạn người im lặng."
+    },
+    {
+      "scene_number": 55,
+      "timestamp_start": 256.7,
+      "timestamp_end": 263.05,
+      "script_text": "Hai mươi mốt tuổi, bạn lại vào chung kết thế giới, lần thứ tư. Sân vận động bốn vạn chỗ ngồi, chật kín."
+    },
+    {
+      "scene_number": 56,
+      "timestamp_start": 263.05,
+      "timestamp_end": 266.017,
+      "script_text": "Đối thủ là đội bóng bạn đã đánh bại ở chung kết năm ngoái."
+    },
+    {
+      "scene_number": 57,
+      "timestamp_start": 266.017,
+      "timestamp_end": 272.533,
+      "script_text": "Ván một, thua. Ván hai, thua. Ván ba, nhà chính của bạn nổ tung. Ba không."
+    },
+    {
+      "scene_number": 58,
+      "timestamp_start": 272.533,
+      "timestamp_end": 276.983,
+      "script_text": "Đối thủ ôm nhau ăn mừng. Còn bạn vẫn ngồi trên ghế, không đứng dậy được."
+    },
+    {
+      "scene_number": 59,
+      "timestamp_start": 276.983,
+      "timestamp_end": 280.55,
+      "script_text": "Bạn đưa hai tay lên che mặt, nhưng nước mắt cứ chảy qua kẽ tay."
+    },
+    {
+      "scene_number": 60,
+      "timestamp_start": 280.55,
+      "timestamp_end": 285.783,
+      "script_text": "Mấy chiếc máy quay chĩa thẳng vào bạn, và bốn vạn người nhìn thấy Quỷ Vương bất tử đang khóc."
+    },
+    {
+      "scene_number": 61,
+      "timestamp_start": 285.783,
+      "timestamp_end": 292.333,
+      "script_text": "Năm sau còn tệ hơn. Đội của bạn xếp thứ bảy giải quốc nội. Không có chung kết, cũng không có giải thế giới."
+    },
+    {
+      "scene_number": 62,
+      "timestamp_start": 292.333,
+      "timestamp_end": 297.65,
+      "script_text": "Tối hôm giải thế giới khai mạc, bạn ngồi ở phòng tập, xem các đội khác thi đấu trên màn hình."
+    },
+    {
+      "scene_number": 63,
+      "timestamp_start": 297.65,
+      "timestamp_end": 301.45,
+      "script_text": "Lần đầu tiên sau năm năm, bạn chỉ còn là khán giả."
+    },
+    {
+      "scene_number": 64,
+      "timestamp_start": 301.45,
+      "timestamp_end": 304.317,
+      "script_text": "Level 6: Bát cơm của bà."
+    },
+    {
+      "scene_number": 65,
+      "timestamp_start": 304.317,
+      "timestamp_end": 310.966,
+      "script_text": "Hai mươi ba tuổi, có những trận bạn phải ngồi dự bị. Bạn ngồi trên băng ghế, nhìn một người khác chơi ở vị trí của mình."
+    },
+    {
+      "scene_number": 66,
+      "timestamp_start": 310.966,
+      "timestamp_end": 315.716,
+      "script_text": "Trên mạng, một tiêu đề được chia sẻ hàng chục nghìn lần: \"Quỷ Vương đã hết thời?\""
+    },
+    {
+      "scene_number": 67,
+      "timestamp_start": 315.716,
+      "timestamp_end": 320.516,
+      "script_text": "Bạn xin về nhà vài hôm. Suốt đường về, bạn không mở điện thoại lần nào."
+    },
+    {
+      "scene_number": 68,
+      "timestamp_start": 320.516,
+      "timestamp_end": 325.517,
+      "script_text": "Bà vẫn ở trong bếp. Bà không hỏi gì về trận đấu, cũng không hỏi gì về bài báo."
+    },
+    {
+      "scene_number": 69,
+      "timestamp_start": 325.517,
+      "timestamp_end": 332.683,
+      "script_text": "Bà chỉ đặt bát cơm xuống trước mặt bạn, giống hệt năm bạn mười sáu tuổi. \"Chơi thì chơi, nhưng phải ăn cơm đã.\""
+    },
+    {
+      "scene_number": 70,
+      "timestamp_start": 332.683,
+      "timestamp_end": 338.166,
+      "script_text": "Sau bữa cơm, bà lấy ra một chiếc hộp bánh cũ. Bên trong là tất cả những bài báo có tên bạn,"
+    },
+    {
+      "scene_number": 71,
+      "timestamp_start": 338.166,
+      "timestamp_end": 344.333,
+      "script_text": "từ bài đầu tiên năm mười bảy tuổi, đến cả những bài viết về trận thua ba không. Bà cắt hết, không bỏ bài nào."
+    },
+    {
+      "scene_number": 72,
+      "timestamp_start": 344.333,
+      "timestamp_end": 348.617,
+      "script_text": "\"Bà không hiểu cháu thắng hay thua. Bà chỉ thấy cháu bà gầy đi.\""
+    },
+    {
+      "scene_number": 73,
+      "timestamp_start": 348.617,
+      "timestamp_end": 353.0,
+      "script_text": "Đêm đó, Quỷ Vương bất tử ngồi trong căn phòng cũ, khóc như một đứa trẻ."
+    },
+    {
+      "scene_number": 74,
+      "timestamp_start": 353.0,
+      "timestamp_end": 358.467,
+      "script_text": "Không phải vì những trận đã thua, mà vì bạn chợt nhận ra có một người chưa bao giờ cần bạn phải thắng."
+    },
+    {
+      "scene_number": 75,
+      "timestamp_start": 358.467,
+      "timestamp_end": 361.267,
+      "script_text": "Level 7: Cổ tay biết đau."
+    },
+    {
+      "scene_number": 76,
+      "timestamp_start": 361.267,
+      "timestamp_end": 369.717,
+      "script_text": "Hai mươi lăm tuổi, đội của bạn được xây lại với những đồng đội nhỏ hơn bạn năm, sáu tuổi. Chúng gọi bạn là anh, nghe bạn nói như nghe thầy giảng."
+    },
+    {
+      "scene_number": 77,
+      "timestamp_start": 369.717,
+      "timestamp_end": 374.417,
+      "script_text": "Bạn bắt đầu học một việc mới: không gánh cả đội, mà làm cho cả đội cùng mạnh lên."
+    },
+    {
+      "scene_number": 78,
+      "timestamp_start": 374.417,
+      "timestamp_end": 381.267,
+      "script_text": "Hai mươi sáu tuổi, bạn trở lại chung kết thế giới sau năm năm. Thua hai ba, trước một đội mà gần như không ai đặt cược."
+    },
+    {
+      "scene_number": 79,
+      "timestamp_start": 381.267,
+      "timestamp_end": 387.333,
+      "script_text": "Lần này bạn không khóc. Bạn bước sang, bắt tay từng người bên kia, rồi đứng ở cánh gà vỗ tay cho họ."
+    },
+    {
+      "scene_number": 80,
+      "timestamp_start": 387.333,
+      "timestamp_end": 393.033,
+      "script_text": "Hai mươi bảy tuổi, cổ tay phải của bạn bắt đầu đau, đau đến mức không cầm nổi chuột quá một tiếng."
+    },
+    {
+      "scene_number": 81,
+      "timestamp_start": 393.033,
+      "timestamp_end": 398.767,
+      "script_text": "Bác sĩ yêu cầu nghỉ. Nhiều tuần liền, bạn ngồi dưới khán đài xem đồng đội thi đấu mà không có mình."
+    },
+    {
+      "scene_number": 82,
+      "timestamp_start": 398.767,
+      "timestamp_end": 406.283,
+      "script_text": "Tuần đầu, chỉ được tập vật lý trị liệu. Tuần thứ ba, bạn cầm chuột được ba mươi phút. Tuần thứ năm, bạn được đánh trọn một trận."
+    },
+    {
+      "scene_number": 83,
+      "timestamp_start": 406.283,
+      "timestamp_end": 412.533,
+      "script_text": "Cuối năm đó, chung kết thế giới diễn ra ngay trên quê nhà. Ba không. Lần vô địch đầu tiên sau bảy năm."
+    },
+    {
+      "scene_number": 84,
+      "timestamp_start": 412.533,
+      "timestamp_end": 417.55,
+      "script_text": "Cả nhà thi đấu gào tên bạn. Còn bạn chỉ nhìn xuống cổ tay mình, và mỉm cười."
+    },
+    {
+      "scene_number": 85,
+      "timestamp_start": 417.55,
+      "timestamp_end": 420.483,
+      "script_text": "Level 8: Đỉnh núi lần thứ hai."
+    },
+    {
+      "scene_number": 86,
+      "timestamp_start": 420.483,
+      "timestamp_end": 426.983,
+      "script_text": "Hai mươi tám tuổi, bạn vào chung kết thế giới lần nữa. Ván năm, thắng ba hai. Hai chức vô địch liên tiếp."
+    },
+    {
+      "scene_number": 87,
+      "timestamp_start": 426.983,
+      "timestamp_end": 429.567,
+      "script_text": "Những người từng viết \"hết thời\" bắt đầu viết lại."
+    },
+    {
+      "scene_number": 88,
+      "timestamp_start": 429.567,
+      "timestamp_end": 435.6,
+      "script_text": "Rồi đến năm hai mươi chín tuổi. Chung kết thế giới, ván thứ năm, hai đều. Hai vạn người im lặng."
+    },
+    {
+      "scene_number": 89,
+      "timestamp_start": 435.6,
+      "timestamp_end": 439.666,
+      "script_text": "Người đường giữa bên kia trẻ hơn, nhanh tay hơn, và đang đánh rất hay."
+    },
+    {
+      "scene_number": 90,
+      "timestamp_start": 439.666,
+      "timestamp_end": 443.05,
+      "script_text": "Bạn đẩy gọng kính. Gõ ba lần lên mặt bàn."
+    },
+    {
+      "scene_number": 91,
+      "timestamp_start": 443.05,
+      "timestamp_end": 448.266,
+      "script_text": "Bạn biết đôi tay mình không còn nhanh như năm mười bảy tuổi. Nhưng bạn biết một thứ cậu ta chưa biết:"
+    },
+    {
+      "scene_number": 92,
+      "timestamp_start": 448.266,
+      "timestamp_end": 454.233,
+      "script_text": "Bạn đã từng thua ở đúng khoảnh khắc này, và bạn biết cảm giác đó như thế nào. Vậy nên tay bạn không run."
+    },
+    {
+      "scene_number": 93,
+      "timestamp_start": 454.233,
+      "timestamp_end": 461.917,
+      "script_text": "Bốn mươi phút sau, nhà chính bên kia nổ tung. Ba hai. Ba chức vô địch liên tiếp, sáu chức vô địch thế giới trong sự nghiệp."
+    },
+    {
+      "scene_number": 94,
+      "timestamp_start": 461.917,
+      "timestamp_end": 469.4,
+      "script_text": "Lần này bạn không khóc, cũng không thấy nhẹ nhõm như năm hai mươi tuổi. Lần đầu tiên sau mười ba năm, bạn thấy vui, một niềm vui trọn vẹn."
+    },
+    {
+      "scene_number": 95,
+      "timestamp_start": 469.4,
+      "timestamp_end": 472.7,
+      "script_text": "Level 9: Người già nhất sân khấu."
+    },
+    {
+      "scene_number": 96,
+      "timestamp_start": 472.7,
+      "timestamp_end": 479.033,
+      "script_text": "Bây giờ bạn ba mươi tuổi. Cậu tân binh mới vào đội năm nay sinh ra đúng vào năm bạn bắt đầu chơi chuyên nghiệp."
+    },
+    {
+      "scene_number": 97,
+      "timestamp_start": 479.033,
+      "timestamp_end": 485.6,
+      "script_text": "Cậu ta lớn lên bằng những đoạn clip của bạn, và lần đầu gặp mặt, cậu ta xin chữ ký trước khi xin chỉ giáo."
+    },
+    {
+      "scene_number": 98,
+      "timestamp_start": 485.6,
+      "timestamp_end": 490.233,
+      "script_text": "Bài kiểm tra phản xạ cho thấy bạn đã chậm hơn năm mười bảy tuổi. Bạn không giấu điều đó."
+    },
+    {
+      "scene_number": 99,
+      "timestamp_start": 490.233,
+      "timestamp_end": 493.933,
+      "script_text": "Bạn bù lại bằng cách đọc trận đấu sớm hơn người khác vài giây."
+    },
+    {
+      "scene_number": 100,
+      "timestamp_start": 493.933,
+      "timestamp_end": 503.067,
+      "script_text": "Ở mỗi buổi họp báo đều có một câu hỏi quen thuộc: \"Bao giờ anh giải nghệ?\" Bạn luôn trả lời giống nhau: \"Khi nào tôi không còn muốn thắng nữa.\""
+    },
+    {
+      "scene_number": 101,
+      "timestamp_start": 503.067,
+      "timestamp_end": 509.05,
+      "script_text": "Có đội từng gửi cho bạn một bản hợp đồng để tự điền con số. Bạn trả lại, vì có những thứ không thể đổi bằng tiền."
+    },
+    {
+      "scene_number": 102,
+      "timestamp_start": 509.05,
+      "timestamp_end": 516.45,
+      "script_text": "Bạn ngủ trước mười một giờ, đọc sách, đi bộ. Người ta vinh danh bạn như một huyền thoại khi bạn vẫn còn đang thi đấu."
+    },
+    {
+      "scene_number": 103,
+      "timestamp_start": 516.45,
+      "timestamp_end": 521.017,
+      "script_text": "Trên khán đài bây giờ, những người hâm mộ năm xưa đã dắt theo con mình."
+    },
+    {
+      "scene_number": 104,
+      "timestamp_start": 521.017,
+      "timestamp_end": 526.617,
+      "script_text": "Hôm qua, bạn thấy một đứa bé chừng mười tuổi đeo cặp kính gọng đen, giống hệt cặp kính bạn mua ở tiệm đầu chợ năm nào."
+    },
+    {
+      "scene_number": 105,
+      "timestamp_start": 526.617,
+      "timestamp_end": 534.367,
+      "script_text": "Tối đó bạn gọi về cho bà. Tai bà đã kém, giọng bà đã yếu, nhưng câu đầu tiên bà nói vẫn vậy: \"Ăn cơm chưa cháu?\""
+    },
+    {
+      "scene_number": 106,
+      "timestamp_start": 534.367,
+      "timestamp_end": 541.317,
+      "script_text": "Lên đỉnh lần đầu cần tài năng. Lên đỉnh lần thứ hai cần một thứ khó hơn nhiều: chấp nhận rằng mình đã từng rơi."
+    },
+    {
+      "scene_number": 107,
+      "timestamp_start": 541.317,
+      "timestamp_end": 544.066,
+      "script_text": "Câu chuyện của Quỷ Vương đến đây vẫn chưa kết thúc."
+    },
+    {
+      "scene_number": 108,
+      "timestamp_start": 544.066,
+      "timestamp_end": 550.733,
+      "script_text": "Vì ở tuổi ba mươi, bạn vẫn kéo ghế ngồi xuống, đẩy gọng kính, gõ ba lần lên mặt bàn, và bắt đầu ván tiếp theo."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Loader2, Palette, Scissors, Eye, ChevronDown, ChevronUp, Check, ArrowRight } from "lucide-react";
+import { Loader2, Palette, Scissors, Eye, ChevronDown, ChevronUp, Check, ArrowRight, BookOpen } from "lucide-react";
 import { getTemplates, getProjects, getVideos, applyTemplateToProject, applyTemplateToVideo } from "@/lib/api";
 import type { Template, Project, Video } from "@/lib/api";
 
@@ -69,6 +69,7 @@ function TemplateCard({ template }: { template: Template }) {
                   <label className="block text-[12px] font-semibold text-gray-600 mb-1.5">Áp dụng vào:</label>
                   <div className="space-y-1.5">
                     {template.applies_to.includes("project_style_guide") && <label className="flex items-center gap-2 text-[12px] text-gray-500 cursor-pointer"><input type="radio" name={`t-${template.id}`} value="project_style_guide" checked={selectedTarget === "project_style_guide"} onChange={(e) => handleTargetChange(e.target.value)} className="text-indigo-500" /> Hình ảnh (dự án)</label>}
+                    {template.applies_to.includes("project_storytelling_guide") && <label className="flex items-center gap-2 text-[12px] text-gray-500 cursor-pointer"><input type="radio" name={`t-${template.id}`} value="project_storytelling_guide" checked={selectedTarget === "project_storytelling_guide"} onChange={(e) => handleTargetChange(e.target.value)} className="text-indigo-500" /> Kể chuyện (dự án)</label>}
                     {template.applies_to.includes("video_visual_guide") && <label className="flex items-center gap-2 text-[12px] text-gray-500 cursor-pointer"><input type="radio" name={`t-${template.id}`} value="video_visual_guide" checked={selectedTarget === "video_visual_guide"} onChange={(e) => handleTargetChange(e.target.value)} className="text-indigo-500" /> Hình ảnh (video)</label>}
                     {template.applies_to.includes("video_edit_guide") && <label className="flex items-center gap-2 text-[12px] text-gray-500 cursor-pointer"><input type="radio" name={`t-${template.id}`} value="video_edit_guide" checked={selectedTarget === "video_edit_guide"} onChange={(e) => handleTargetChange(e.target.value)} className="text-indigo-500" /> Hướng dẫn edit (video)</label>}
                   </div>
@@ -104,11 +105,12 @@ function TemplateCard({ template }: { template: Template }) {
 export default function TemplatesPage() {
   const [imageStyles, setImageStyles] = useState<Template[]>([]);
   const [editStyles, setEditStyles] = useState<Template[]>([]);
+  const [storytellingProfiles, setStorytellingProfiles] = useState<Template[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const f = async () => { try { setLoading(true); const d = await getTemplates(); setImageStyles(d.image_styles); setEditStyles(d.edit_styles); setError(null); } catch { setError("Không thể tải tài nguyên."); } finally { setLoading(false); } };
+    const f = async () => { try { setLoading(true); const d = await getTemplates(); setImageStyles(d.image_styles); setEditStyles(d.edit_styles); setStorytellingProfiles(d.storytelling_profiles || []); setError(null); } catch { setError("Không thể tải tài nguyên."); } finally { setLoading(false); } };
     f();
   }, []);
 
@@ -121,7 +123,7 @@ export default function TemplatesPage() {
 
       {loading ? <div className="flex items-center justify-center py-20"><Loader2 className="w-7 h-7 text-indigo-500 animate-spin" /></div>
         : error ? <div className="bg-rose-50 rounded-2xl p-6 text-center"><p className="text-[13px] text-rose-500">{error}</p></div>
-        : imageStyles.length === 0 && editStyles.length === 0 ? (
+        : imageStyles.length === 0 && editStyles.length === 0 && storytellingProfiles.length === 0 ? (
           <div className="bg-white rounded-2xl p-12 text-center">
             <div className="w-14 h-14 rounded-2xl bg-violet-50 flex items-center justify-center mx-auto mb-4"><Palette className="w-7 h-7 text-violet-500" /></div>
             <h3 className="text-[15px] font-semibold text-gray-600">Chưa có tài nguyên nào.</h3>
@@ -144,6 +146,15 @@ export default function TemplatesPage() {
                   <h2 className="text-[17px] font-bold text-gray-800">Phong cách edit</h2>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">{editStyles.map((t) => <TemplateCard key={t.id} template={t} />)}</div>
+              </section>
+            )}
+            {storytellingProfiles.length > 0 && (
+              <section>
+                <div className="flex items-center gap-2.5 mb-4">
+                  <div className="w-8 h-8 rounded-lg bg-violet-50 flex items-center justify-center"><BookOpen className="w-[18px] h-[18px] text-violet-500" /></div>
+                  <h2 className="text-[17px] font-bold text-gray-800">Cách kể chuyện</h2>
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">{storytellingProfiles.map((t) => <TemplateCard key={t.id} template={t} />)}</div>
               </section>
             )}
           </div>

@@ -1,26 +1,25 @@
 #!/bin/bash
 # Chat Bridge — chạy trên HOST (không phải Docker)
-# Cầu nối giữa Web UI và Claude Code CLI
+# Sử dụng Claude Agent SDK (warm pool) — latency ~1.5s/tin
 
 cd "$(dirname "$0")"
 
-# Check Python
-if ! command -v python3 &> /dev/null; then
-    echo "Lỗi: Cần cài Python 3"
+# Activate venv (Python 3.12 + claude-agent-sdk)
+if [ -f ".venv/bin/activate" ]; then
+    source .venv/bin/activate
+else
+    echo "Lỗi: Chưa có .venv. Chạy:"
+    echo "  uv venv --python 3.12 .venv"
+    echo "  source .venv/bin/activate"
+    echo "  uv pip install claude-agent-sdk fastapi uvicorn httpx aiohttp pydantic"
     exit 1
-fi
-
-# Check dependencies
-python3 -c "import fastapi, uvicorn" 2>/dev/null
-if [ $? -ne 0 ]; then
-    echo "Cài dependencies..."
-    pip3 install fastapi uvicorn
 fi
 
 # Check Claude CLI
 if ! command -v claude &> /dev/null; then
-    echo "Cảnh báo: Không tìm thấy Claude CLI. Chat sẽ không hoạt động."
+    echo "Cảnh báo: Không tìm thấy Claude CLI. SDK sẽ không hoạt động."
 fi
 
-echo "Khởi động Chat Bridge tại http://localhost:8001"
-python3 chat_bridge.py
+echo "Khởi động Chat Bridge (SDK warm pool) tại http://localhost:8001"
+echo "Pool size: ${SESSION_POOL_SIZE:-5} clients"
+python chat_bridge.py

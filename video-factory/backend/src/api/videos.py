@@ -30,6 +30,7 @@ class VideoCreate(BaseModel):
 class VideoUpdate(BaseModel):
     title: Optional[str] = None
     status: Optional[str] = None
+    flow_project_id: Optional[str] = None
 
 
 class ScriptBody(BaseModel):
@@ -107,6 +108,9 @@ async def create_video(project_id: str, body: VideoCreate, db: AsyncSession = De
     vdir.mkdir(parents=True, exist_ok=True)
     (vdir / "audio").mkdir(exist_ok=True)
     (vdir / "assets").mkdir(exist_ok=True)
+    (vdir / "shorts").mkdir(exist_ok=True)
+    (vdir / "shorts" / "audio").mkdir(exist_ok=True)
+    (vdir / "shorts" / "assets").mkdir(exist_ok=True)
 
     return video.to_dict()
 
@@ -250,6 +254,13 @@ async def upload_srt(
     return video.to_dict()
 
 
+@router.post("/{video_id}/export/capcut")
+async def export_capcut(project_id: str, video_id: str, db: AsyncSession = Depends(get_db)):
+    """Build CapCut project from approved scenes."""
+    video = await _get_video_or_404(project_id, video_id, db)
+    return {"status": "not_implemented", "message": "Chức năng xuất CapCut đang phát triển."}
+
+
 @router.get("/{video_id}/srt")
 async def get_srt(project_id: str, video_id: str, db: AsyncSession = Depends(get_db)):
     """Read the SRT file content."""
@@ -261,3 +272,19 @@ async def get_srt(project_id: str, video_id: str, db: AsyncSession = Depends(get
 
     content = srt_path.read_text(encoding="utf-8")
     return {"content": content, "exists": True}
+
+
+@router.delete("/{video_id}/srt")
+async def delete_srt(project_id: str, video_id: str, db: AsyncSession = Depends(get_db)):
+    """Xóa file SRT."""
+    video = await _get_video_or_404(project_id, video_id, db)
+
+    srt_path = _video_dir(project_id, video_id) / "audio" / "subtitles.srt"
+    if srt_path.exists():
+        srt_path.unlink()
+
+    video.srt_path = None
+    video.updated_at = datetime.now(timezone.utc)
+    await db.commit()
+
+    return {"status": "ok"}

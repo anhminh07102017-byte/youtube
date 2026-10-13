@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from sqlalchemy import Column, String, Integer, Float, Text, DateTime, ForeignKey, JSON
+from sqlalchemy import Column, String, Integer, Float, Text, DateTime, ForeignKey, JSON, Boolean
 from src.db.database import Base
 
 
@@ -19,6 +19,7 @@ class Project(Base):
     target_duration = Column(Integer, nullable=False, default=600)
     sources = Column(JSON, nullable=False, default=list)
     notes = Column(Text, nullable=True)
+    base_style = Column(String, nullable=True, default="base_2d_style")  # base style file name
     style_override = Column(String, nullable=True)
     flow_project_id = Column(String, nullable=True)  # Google Flow project ID
     created_at = Column(DateTime, default=utcnow)
@@ -35,6 +36,7 @@ class Project(Base):
             "target_duration": self.target_duration,
             "sources": self.sources or [],
             "notes": self.notes,
+            "base_style": self.base_style,
             "style_override": self.style_override,
             "flow_project_id": self.flow_project_id,
             "created_at": self.created_at.isoformat() if self.created_at else None,
@@ -56,6 +58,7 @@ class Video(Base):
     script_path = Column(String, nullable=True)
     audio_path = Column(String, nullable=True)
     shotlist_path = Column(String, nullable=True)
+    flow_project_id = Column(String, nullable=True)  # Google Flow project ID (per video)
     created_at = Column(DateTime, default=utcnow)
     updated_at = Column(DateTime, default=utcnow, onupdate=utcnow)
 
@@ -70,6 +73,7 @@ class Video(Base):
             "script_path": self.script_path,
             "audio_path": self.audio_path,
             "shotlist_path": self.shotlist_path,
+            "flow_project_id": self.flow_project_id,
             "created_at": self.created_at.isoformat() if self.created_at else None,
             "updated_at": self.updated_at.isoformat() if self.updated_at else None,
         }
@@ -80,6 +84,7 @@ class Character(Base):
 
     id = Column(String, primary_key=True)
     project_id = Column(String, nullable=False)
+    video_id = Column(String, nullable=True)
     name = Column(String, nullable=False)
     historical_name = Column(String, nullable=True)
     era = Column(String, nullable=False, default="")
@@ -98,6 +103,7 @@ class Character(Base):
         return {
             "id": self.id,
             "project_id": self.project_id,
+            "video_id": self.video_id,
             "name": self.name,
             "historical_name": self.historical_name,
             "era": self.era,
@@ -120,6 +126,7 @@ class Scene(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     video_id = Column(String, ForeignKey("videos.id", ondelete="CASCADE"), nullable=False)
     project_id = Column(String, nullable=False)
+    is_short = Column(Boolean, nullable=False, default=False)  # True = scene belongs to short
     scene_number = Column(Integer, nullable=False)
     timestamp_start = Column(Float, nullable=False, default=0.0)
     timestamp_end = Column(Float, nullable=False, default=0.0)
@@ -131,6 +138,8 @@ class Scene(Base):
     mood = Column(String, nullable=True)
     effect = Column(String, nullable=True)  # ken_burns_zoom_in, etc.
     text_overlay = Column(String, nullable=True)
+    edit_plan = Column(JSON, nullable=True)  # hướng dẫn edit cho CapCut: transition, ken_burns, pacing, text_overlay, sound
+    flow_characters = Column(JSON, nullable=True)  # danh sách tên nhân vật cho Google Flow @tag
     asset_path = Column(String, nullable=True)
     asset_version = Column(Integer, nullable=False, default=1)
     status = Column(String, nullable=False, default="pending")
@@ -143,6 +152,7 @@ class Scene(Base):
             "id": self.id,
             "video_id": self.video_id,
             "project_id": self.project_id,
+            "is_short": self.is_short,
             "scene_number": self.scene_number,
             "timestamp_start": self.timestamp_start,
             "timestamp_end": self.timestamp_end,
@@ -154,7 +164,10 @@ class Scene(Base):
             "mood": self.mood,
             "effect": self.effect,
             "text_overlay": self.text_overlay,
+            "edit_plan": self.edit_plan,
+            "flow_characters": self.flow_characters or [],
             "asset_path": self.asset_path,
+            "asset_url": f"/api/projects/{self.project_id}/videos/{self.video_id}/scenes/{self.scene_number}/asset" if self.asset_path else None,
             "asset_version": self.asset_version,
             "status": self.status,
             "created_at": self.created_at.isoformat() if self.created_at else None,

@@ -1,0 +1,260 @@
+{
+  "segments": [
+    {
+      "name": "Hook - Pháo đài bất khả xâm phạm",
+      "scene_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "description": "Mở đầu bí ẩn: một pháo đài cổ giữa đồng bằng Bắc Bộ với ba vòng thành xoắn ốc, hào nước và nỏ thần bắn ngàn mũi tên. Quân phương Bắc đánh mãi vẫn thua. Rồi pháo đài sụp đổ không phải do trận đánh mà do sai lầm của người bên trong. Kết đoạn bằng tên câu chuyện: thành Cổ Loa.",
+      "mood_progression": "mysterious → epic → ominous → suspenseful",
+      "color_tone": "golden-hour warm amber and earthy greens for the fortress, turning to desaturated cold blue-grey and deep shadows at scenes 6-8, ending on misty dawn gold for the title reveal",
+      "characters": {
+        "An Dương Vương": "Ancient Vietnamese king, age 50, strong square jaw, thick eyebrows, stern confident expression, short black beard. Bronze Dong Son-style crown with bird feather motif, dark red cape over one shoulder, bronze chest plate with spiral patterns, gold armband with coiled dragon on left bicep. Seen mostly as a heroic silhouette on top of the earthen rampart, back-lit, holding a large ornate bronze crossbow.",
+        "Trọng Thủy": "Only appears as a mysterious shadowy figure in scene 8: young slender man, age 22, face half-hidden in shadow, refined topknot with silver hairpin, light grey-blue silk robe, glancing sideways secretly inside the citadel. Identity must stay hidden — no full face reveal.",
+        "Quân phương Bắc": "Generic Qin-Han era invading soldiers in dark lamellar armor and conical helmets, carrying halberds and rectangular shields, shown as small crowd figures retreating in panic."
+      },
+      "camera_notes": "Sweeping aerial drone-like wide shots over the spiral citadel, fast push-in on the crossbow firing, low-angle shots of soldiers retreating, sudden dramatic tilt/shake for collapse; scene 8 an over-the-shoulder shadowy close-up; scene 9 a slow pull-back to a majestic wide title shot through morning mist.",
+      "video_count": 7
+    },
+    {
+      "name": "Bối cảnh - Thục Phán lập nước Âu Lạc",
+      "scene_numbers": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "description": "Thế kỷ 3 TCN: người Lạc Việt trồng lúa nước ở đồng bằng, người Âu Việt ở vùng núi phía Bắc. Vua Hùng suy yếu, Thục Phán đánh bại Hùng Vương thứ 18, thống nhất thành Âu Lạc, xưng An Dương Vương. Ông lo ngại mối đe dọa từ phương Bắc (nhà Tần), chọn Cổ Loa làm kinh đô nhờ vị trí ngã ba sông và đồng bằng phì nhiêu.",
+      "mood_progression": "calm, pastoral → tense conflict → triumphant → thoughtful, strategic",
+      "color_tone": "soft natural palette: lush rice-paddy greens, misty mountain blues, warm earthy browns; brighter gold for the coronation; map scenes in parchment beige",
+      "characters": {
+        "An Dương Vương": "As Thục Phán in scenes 10-12: Âu Việt highland chieftain, age 40-45, strong square jaw, thick eyebrows, sharp determined eyes, short black beard, long black hair tied back with a woven headband, bare muscular arms with tribal tattoos, rough brown hemp tunic with a dark red sash, carrying a bronze spear. From scene 13 (coronation): same face, now age ~45, wearing the bronze Dong Son-style crown with bird feather motif, dark red cape over one shoulder, bronze chest plate with spiral patterns, gold armband with coiled dragon on left bicep; regal, calm and calculating posture.",
+        "Hùng Vương thứ 18": "Elderly Lạc Việt king, age 65-70, thin face with long white beard and white hair in a topknot, tired weary eyes, wearing a faded feather crown of Dong Son style and a loose cream-and-ochre loincloth robe with bronze drum patterns; frail stooped posture conveying a declining dynasty. Must look clearly older and softer than Thục Phán.",
+        "Người Lạc Việt & Âu Việt": "Generic villagers: Lạc Việt farmers in simple loincloths and wrap skirts, short hair, working in flooded rice paddies with bronze sickles; Âu Việt highlanders in darker hemp tunics with woven headbands, living in stilt houses on misty mountains."
+      },
+      "camera_notes": "Wide establishing landscape shots (rice paddies, mountains), stylized illustrated map with two regions merging, medium shots for the confrontation between Thục Phán and Hùng Vương, low-angle hero shot for the coronation, then top-down map/aerial shot of the river confluence at Cổ Loa.",
+      "video_count": 2
+    },
+    {
+      "name": "Thành Cổ Loa và nỏ liên châu",
+      "scene_numbers": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "description": "Giải phẫu pháo đài: ba vòng thành xoắn ốc, thành ngoài cao 4-5m chân rộng 20m, hào nước nối sông Hoàng Giang, quân địch bị mắc kẹt giữa các vòng thành thành mục tiêu cho cung thủ. Giới thiệu nỏ liên châu bắn nhiều mũi tên, hàng vạn mũi tên đồng ba cạnh khai quật được. Kết: An Dương Vương có mọi thứ để giữ nước.",
+      "mood_progression": "awe, educational → tactical tension → proud, confident",
+      "color_tone": "warm earthy ochre ramparts, deep teal moat water, bright bronze highlights on arrowheads and crossbows; blueprint/diagram overlays in muted parchment tones",
+      "characters": {
+        "An Dương Vương": "Ancient Vietnamese king, age 48, strong square jaw, stern proud expression, short black beard. Bronze Dong Son-style crown with bird feather motif, dark red cape over one shoulder, bronze chest plate with spiral patterns, gold armband with coiled dragon on left bicep. Standing confidently on the inner rampart surveying his citadel, sometimes holding the large ornate bronze crossbow with a gleaming golden trigger mechanism.",
+        "Quân Âu Lạc": "Generic Âu Lạc archers and soldiers: short black hair with headbands, bronze-studded leather vests over loincloth wraps, Dong Son geometric patterns, holding bronze crossbows, lined up along earthen ramparts with wooden palisades."
+      },
+      "camera_notes": "Top-down aerial and isometric cutaway shots of the spiral walls, side cross-section of the rampart with scale reference, tracking shot along the moat with boats carrying supplies, high-angle shot from archers' POV over trapped enemies, extreme close-up macro of three-edged bronze arrowheads, final low-angle hero shot of the king.",
+      "video_count": 3
+    },
+    {
+      "name": "Triệu Đà trỗi dậy - Những cuộc tấn công thất bại",
+      "scene_numbers": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "description": "Phương Bắc biến động: nhà Tần sụp đổ, Triệu Đà tách khỏi Tần, chiếm Nam Hải, Quế Lâm, Tượng Quận, lập nước Nam Việt. Ông ta là tướng lão luyện, chiến lược gia biết tính đường dài, nhắm vào Âu Lạc. Nhưng mọi cuộc tấn công đều thất bại trước thành xoắn ốc, nỏ liên châu và hào nước.",
+      "mood_progression": "chaotic → menacing → intense battle → triumphant for Âu Lạc",
+      "color_tone": "for Nam Việt: cold dark navy, black and blood-red with smoky orange fire; battle scenes: dusty ochre with bright bronze arrow streaks; victory: warm sunlit gold",
+      "characters": {
+        "Triệu Đà": "Ruler of Nam Việt, age 45, calculating narrow eyes with a sly smirk, thin arched eyebrows, prominent cheekbones, thin pointed goatee, grey streaks at temples, black hair in a jade-pinned topknot. In scenes 30-35: dark navy blue Han-style robe with gold dragon embroidery, black lacquered belt, standing over a war map with a brush. In battle scenes 36-39: dark Qin-style black lamellar armor over the navy robe, red-tasseled helmet, riding a black horse at the rear, frustrated scowl.",
+        "An Dương Vương": "Age 48, strong square jaw, short black beard, fierce victorious expression. Battle attire: bronze Dong Son-style crown with bird feather motif, dark red cape over one shoulder, bronze chest plate with spiral patterns, gold armband with coiled dragon on left bicep, commanding archers from the rampart with a raised arm.",
+        "Quân Nam Việt": "Qin-Han style soldiers in black lamellar armor, conical helmets, red banners with Chinese-style characters, halberds and rectangular shields; overwhelmed and retreating in the maze of walls."
+      },
+      "camera_notes": "Fast montage of collapsing Qin palace and burning banners, animated map with Nam Việt territory spreading, medium close-up of Triệu Đà's cunning face, wide battle shots of soldiers trapped between spiral walls, dynamic low-angle arrow volleys, ending with Triệu Đà's defeated close-up.",
+      "video_count": 3
+    },
+    {
+      "name": "Mưu kế giảng hòa - Cuộc hôn nhân định mệnh",
+      "scene_numbers": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "description": "Triệu Đà đổi chiến lược: không phá được từ ngoài thì phá từ trong. Xin giảng hòa, đề nghị gả Trọng Thủy cho Mỵ Châu. An Dương Vương đồng ý vì tin mình bất khả chiến bại. Người kể phân tích: sự chủ quan chính là vết nứt đầu tiên trong bức tường thành.",
+      "mood_progression": "scheming → deceptively peaceful, festive → reflective, ominous",
+      "color_tone": "Triệu Đà's chambers in dim candlelit navy and amber; wedding/peace scenes in bright festive reds and golds; reflection scenes muted with a symbolic crack of shadow",
+      "characters": {
+        "Triệu Đà": "Age 46, narrow cunning eyes, sly smirk, thin pointed goatee, grey streaks at temples, jade-pinned topknot. No armor anymore — dark navy blue Han-style ceremonial robe with gold dragon embroidery and wide sleeves, holding a peace scroll, false friendly smile hiding schemes.",
+        "An Dương Vương": "Age 50, strong square jaw, short black beard, relaxed arrogant smile, chin raised. Court attire: bronze Dong Son-style crown with bird feather motif, dark red cape over one shoulder, bronze chest plate with spiral patterns, gold armband with coiled dragon on left bicep, seated on a carved wooden throne with bronze drum decorations.",
+        "Mỵ Châu": "Princess of Âu Lạc, age 18, gentle oval face, large innocent doe eyes, small nose, soft pink lips, shy blushing smile, long black hair partially tied with a bronze bird-shaped hair ornament and a small white feather accessory. Wedding outfit: cream-white tunic with red-bronze Dong Son geometric embroidery, plus a red ceremonial sash and bronze spiral bracelets on both wrists.",
+        "Trọng Thủy": "Young prince of Nam Việt, age 22, clean-shaven handsome face, sharp jawline, clear bright eyes with a hint of hidden intent, refined topknot with silver hairpin and two side strands. Wedding attire: light grey-blue silk Han-style robe with cloud patterns and a red ceremonial sash, polite charming bow. Slim, much younger and softer than Triệu Đà."
+      },
+      "camera_notes": "Close-up of Triệu Đà plotting in candlelight, symmetrical wide shot of the peace envoy, medium two-shot of Mỵ Châu and Trọng Thủy at the wedding, slow push-in on the open city gate, then a symbolic close-up of a crack spreading across the earthen wall.",
+      "video_count": 2
+    },
+    {
+      "name": "Gián điệp trong thành - Đánh cắp lẫy nỏ thần",
+      "scene_numbers": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "description": "Trọng Thủy sống cùng Mỵ Châu nhưng thực chất làm gián điệp: quan sát quân lính, đường đi trong thành, và nhắm vào lẫy nỏ thần ('vuốt rùa vàng'). Hai thuyết: đánh tráo lẫy bằng bản giả, hoặc lén sao chép gửi về cho Triệu Đà. Bí mật bị đánh cắp mà An Dương Vương không hay biết.",
+      "mood_progression": "tender, intimate → secretive, suspicious → tense, betrayal",
+      "color_tone": "warm intimate palace interiors in soft amber, shifting to night-time indigo and moonlight blue with sharp golden glow of the crossbow trigger; split-screen sepia for the two theories",
+      "characters": {
+        "Trọng Thủy": "Age 22, clean-shaven handsome face, sharp jawline, clear bright eyes that turn calculating when alone, refined topknot with silver hairpin and two side strands. Everyday attire: light grey-blue silk robe with cloud patterns, simple dark belt. In night spying scenes: a dark charcoal outer cloak over the robe, moving stealthily, holding a small oil lamp.",
+        "Mỵ Châu": "Age 18, gentle oval face, large innocent trusting doe eyes, warm loving smile, long black hair partially tied with a bronze bird-shaped hair ornament and a white feather accessory. Daily palace attire: cream-white tunic with red-bronze Dong Son geometric embroidery, bronze spiral bracelets on both wrists, proudly showing the sacred crossbow.",
+        "An Dương Vương": "Age 50, square jaw, short black beard, contented unaware expression. Bronze Dong Son-style crown with bird feather motif, dark red cape over one shoulder, bronze chest plate with spiral patterns, gold armband with coiled dragon; shown sleeping peacefully or feasting, oblivious.",
+        "Triệu Đà": "Brief appearance in scene 57: age 46, narrow cunning eyes, smug satisfied grin, thin goatee, grey temples, jade-pinned topknot, dark navy Han robe with gold dragon embroidery, receiving a secret sketch scroll from a messenger."
+      },
+      "camera_notes": "Soft medium two-shots of the couple, POV shots from Trọng Thủy observing soldiers and paths, extreme close-up of the glowing golden turtle-claw trigger, split-screen for two legend versions, ending on a slow push-in on the unaware king.",
+      "video_count": 2
+    },
+    {
+      "name": "Lời hẹn lông ngỗng",
+      "scene_numbers": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "description": "Trọng Thủy viện cớ về thăm cha, hỏi Mỵ Châu nếu biến loạn thì tìm nàng ở đâu. Mỵ Châu ngây thơ hứa rắc lông ngỗng dọc đường. Người kể vạch trần: đó là câu hỏi của gián điệp chuẩn bị cuộc truy sát.",
+      "mood_progression": "bittersweet farewell → innocent tenderness → chilling realization",
+      "color_tone": "melancholic dusk palette: soft lavender, rose and fading gold; white goose feathers glowing; final scenes shift to cold steel-blue shadows",
+      "characters": {
+        "Trọng Thủy": "Age 22, clean-shaven handsome face, sharp jawline, eyes appearing tender on the surface but cold in close-up, refined topknot with silver hairpin and two side strands. Travel attire: light grey-blue silk robe with cloud patterns under a dark grey travel cloak, leather belt with a small pouch, standing beside a saddled horse at the citadel gate.",
+        "Mỵ Châu": "Age 18, gentle oval face, large innocent doe eyes slightly teary, sweet trusting smile, long black hair with bronze bird-shaped hair ornament and white feather accessory. Wearing her signature white goose-feather cloak (fluffy white feathered mantle) over the cream-white tunic with red-bronze Dong Son embroidery, bronze spiral bracelets on both wrists."
+      },
+      "camera_notes": "Medium two-shot farewell at the gate, close-up of hands holding, close-up of a single goose feather in her palm, then a dramatic slow push-in on Trọng Thủy's face as the warm light turns cold and his eyes harden.",
+      "video_count": 1
+    },
+    {
+      "name": "Cao trào - Thành vỡ và cuộc chạy trốn về biển",
+      "scene_numbers": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "description": "Triệu Đà tổng tấn công. An Dương Vương tự tin lấy nỏ thần ra bắn nhưng lẫy đã bị tráo, tên rời rạc yếu ớt. Thành Cổ Loa mất hỏa lực. Vua đặt Mỵ Châu lên ngựa chạy về phương Nam, Mỵ Châu vẫn rắc lông ngỗng. Đến bờ biển cùng đường, vua nhận ra sự thật, rút gươm chém Mỵ Châu rồi lao xuống biển. Âu Lạc mất, mở đầu hơn ngàn năm Bắc thuộc.",
+      "mood_progression": "overconfident → shock → panic, chaos → desperate flight → tragic devastation → somber silence",
+      "color_tone": "high-contrast war palette: fiery orange and smoke-black over the citadel, blood-red sky; flight scenes in stormy grey-green; seashore in dark stormy teal and slate grey; final scene fades to near-monochrome grey-blue",
+      "characters": {
+        "An Dương Vương": "Age 52, strong square jaw, short black beard now disheveled. Full battle attire: bronze Dong Son-style crown with bird feather motif, dark red cape over one shoulder (torn and windswept during the flight), bronze chest plate with spiral patterns, gold armband with coiled dragon on left bicep, bronze sword at hip. Expression evolves: calm confident smirk → wide-eyed shock → panic → anguished heartbreak at the shore.",
+        "Mỵ Châu": "Age 18, gentle oval face, large innocent doe eyes full of fear and confusion, long black hair loosened and windswept with bronze bird-shaped hair ornament. Wearing the white goose-feather cloak over the cream-white tunic with red-bronze Dong Son embroidery, bronze spiral bracelets; plucking and scattering white feathers while riding behind her father on horseback. At the shore: kneeling, tearful, realizing the truth.",
+        "Triệu Đà": "Age 46, narrow cunning eyes, triumphant cold grin, thin pointed goatee, grey temples, jade-pinned topknot. Black Qin-style lamellar armor over the dark navy robe with gold dragon embroidery, red-tasseled helmet, riding a black warhorse at the head of the attacking army.",
+        "Trọng Thủy": "Age 22, clean-shaven, sharp jawline, refined topknot with silver hairpin and two side strands, dark grey-blue light armor over grey-blue silk robe, riding among pursuing troops following the feather trail, conflicted guilty expression.",
+        "Quân Nam Việt": "Massive army in black lamellar armor, conical helmets, red banners, siege ladders flooding through the spiral walls."
+      },
+      "camera_notes": "Hard cuts, fast pacing. Wide shot of the army surging, close-up of the king pulling the trigger, slow-motion of weak arrows falling short, wide shot of breached spiral walls, dynamic tracking shot of the horse galloping, close-up of feathers drifting on the road, wide silhouette at the cliff edge against stormy sea, the sword moment implied (no gore — cut to sword glint and falling feather), king walking into waves from behind, fade to black.",
+      "video_count": 4
+    },
+    {
+      "name": "Truyền thuyết ngọc trai giếng và bài học chủ quan",
+      "scene_numbers": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "description": "Truyền thuyết: máu Mỵ Châu hóa ngọc trai, Trọng Thủy nhảy giếng, ngọc rửa nước giếng sáng rực. Người kể tách biệt truyền thuyết và sử thực, rồi phân tích bài học: Âu Lạc mất vì sự chủ quan của người cầm quyền, quá tin sức mạnh vật chất, không kiểm soát thông tin quân sự, không nghi ngờ khi địch xin hòa. Sức mạnh quân sự thua sức mạnh tình báo.",
+      "mood_progression": "mystical, sorrowful → contemplative → analytical, sober",
+      "color_tone": "legend scenes: dreamy ethereal palette of pearl-white, soft moonlit blue and gentle glow; lesson scenes: muted parchment beige and faded earth tones with symbolic dark accents",
+      "characters": {
+        "Mỵ Châu": "Legend appearance only: age 18, serene peaceful face with eyes closed, long black hair flowing, bronze bird-shaped hair ornament, cream-white tunic with red-bronze Dong Son embroidery, rendered as a translucent glowing spirit dissolving into pearls in the sea.",
+        "Trọng Thủy": "Age 22, clean-shaven handsome face now gaunt with grief, red-rimmed despairing eyes, topknot loosened with silver hairpin askew and hair strands falling, wearing the plain light grey-blue silk robe without armor, kneeling at a stone well inside the abandoned Cổ Loa citadel.",
+        "An Dương Vương": "Lesson scenes in symbolic/flashback style: age 50, square jaw, short black beard, proud complacent expression, bronze Dong Son-style crown with bird feather motif, dark red cape, bronze chest plate with spiral patterns, gold dragon armband; shown as a faded sepia flashback figure opening the gate or sitting arrogantly on the throne."
+      },
+      "camera_notes": "Slow dreamy underwater shot of pearls forming, medium shot at the well with soft rim light, close-up of glowing pearl washed in well water; lesson scenes use slow Ken Burns zooms on symbolic compositions (wall vs. hidden spy, scales tipping), split comparisons, and calm centered framing.",
+      "video_count": 2
+    },
+    {
+      "name": "Cảnh tỉnh ngàn năm & Outro",
+      "scene_numbers": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "description": "Bài học lặp lại suốt lịch sử: chủ quan thì nguy cơ mất nước, cảnh giác đoàn kết thì không ai khuất phục nổi. Thành Cổ Loa ngày nay còn dấu tích ở Đông Anh. Câu hỏi đọng lại về sức mạnh và cảnh giác. Mở ra hơn 1000 năm Bắc thuộc và các anh hùng: Hai Bà Trưng, Lý Bí, Ngô Quyền, Bạch Đằng. Kêu gọi đăng ký kênh.",
+      "mood_progression": "reflective → hopeful, inspiring → epic anticipation → warm, friendly farewell",
+      "color_tone": "starts in soft reflective dusk tones, transitions to present-day Cổ Loa in fresh natural greens and morning sunlight, heroic montage in bold saturated reds and golds, outro in warm branded gold",
+      "characters": {
+        "Người Việt qua các thời đại": "Montage of generic Vietnamese people across eras, united and vigilant: ancient villagers, soldiers and farmers standing shoulder to shoulder holding bronze spears and torches, determined hopeful expressions, Dong Son-patterned clothing.",
+        "Hai Bà Trưng": "Teaser only: two sisters, age 25-30, riding war elephants side by side, golden armor over yellow tunics, black hair in high buns with golden headdresses, fierce heroic expressions.",
+        "Ngô Quyền": "Teaser only: Vietnamese general, age 40, square face with black mustache, bronze-red armor and red cape, standing on a wooden boat at Bạch Đằng River with sharpened wooden stakes in the water.",
+        "Lý Bí": "Teaser only: Vietnamese leader, age 45, dignified face with short beard, dark brown royal robe and simple crown, raising a sword before an army."
+      },
+      "camera_notes": "Slow contemplative pans over present-day Cổ Loa earthen walls and a small temple, close-up of bronze arrowheads in a museum case, centered framing for the rhetorical question; energetic fast-cut heroic montage for 95-96; outro with a friendly centered composition leaving space for subscribe button and end-screen elements.",
+      "video_count": 2
+    }
+  ],
+  "global_rules": {
+    "art_style": "Every scene uses the 3-layer prompt: (1) Base: '2D animated cartoon style, flat cel-shading, clean bold outlines, simple expressive characters, vibrant warm color palette, digital illustration, anime-influenced'; (2) Era: 'ancient Vietnamese Âu Lạc kingdom circa 3rd century BC, Dong Son bronze culture, earthen ramparts with wooden palisades, stilt houses with curved saddle roofs, bronze drums and geometric spiral motifs, rice paddies and rivers' — NOT pagodas or later Chinese/Buddhist architecture (anachronistic); Nam Việt/Qin side uses Qin-Han style dark armor, navy and black tones; (3) Character specific from the segment's character block. Slightly chibi proportions, big expressive eyes, simple backgrounds so characters stand out. Always append the negative prompt: 'realistic, photorealistic, 3D render, live action, Western features, modern clothing, anachronistic elements, Buddhist pagodas, Chinese imperial palaces for Âu Lạc, blurry, low quality, deformed faces, extra limbs, gore, blood splatter'. Violence (scene 78) must be implied, never graphic. 16:9 composition, readable on mobile.",
+    "character_distinction": "An Dương Vương: oldest Âu Lạc male (45-52), broad stocky build, square jaw, short black beard, bronze bird-feather crown + dark red cape + spiral bronze chest plate — the ONLY character wearing red cape and Dong Son crown. Triệu Đà: 40-50, lean angular build, narrow sly eyes, thin pointed goatee, grey temples, jade-pinned topknot, dark navy Han robe with gold dragons — the ONLY character in navy/gold dragon and with goatee + grey hair. Trọng Thủy: youngest male (20-25), slim tall build, clean-shaven, sharp jawline, silver hairpin topknot with two side strands, light grey-blue cloud-pattern silk robe — never bearded, never in navy. Mỵ Châu: the only young female lead (17-22), petite, oval face, big innocent doe eyes, bronze bird hair ornament + white feather, cream-white tunic with red-bronze Dong Son embroidery. Hùng Vương thứ 18: very old (65-70), long white beard, frail. Color coding: Âu Lạc = warm red/bronze/cream; Nam Việt = cold navy/grey-blue/black.",
+    "consistency_notes": "Within one segment, each character keeps exactly the same outfit, hairstyle, accessories and age as described in that segment's block — copy the character description verbatim into every scene prompt of the segment. Outfit changes only happen at segment boundaries when the story context changes (Thục Phán chieftain → king; Triệu Đà robe ↔ armor; Trọng Thủy wedding/daily/travel/armor/grief; Mỵ Châu tunic → goose-feather cloak from segment 'Lời hẹn lông ngỗng' onward). Consistency anchors that NEVER change: An Dương Vương's square jaw, crown, red cape, gold dragon armband; Mỵ Châu's doe eyes and bronze bird hair ornament; Triệu Đà's goatee, grey temples, jade topknot pin; Trọng Thủy's clean-shaven face and silver hairpin. The Cổ Loa citadel must always appear as three spiral earthen ramparts with moats and wooden palisades, never stone walls or Chinese-style gates. The sacred crossbow is always a large bronze crossbow with a glowing golden turtle-claw trigger. Video total = 28/98 scenes (~29%); all other scenes are still images animated with Ken Burns per the edit guide."
+  }
+}

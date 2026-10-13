@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Send, Trash2, CheckCircle2, Loader2, AlertCircle, WifiOff, Copy, Check, RotateCcw } from "lucide-react";
-import { getChatHistory, streamChatMessage, clearChatHistory, finalizeChatScript, checkChatHealth } from "@/lib/api";
+import { getChatHistory, streamChatMessage, clearChatHistory, finalizeChatScript, checkChatHealth, getShortChatHistory, streamShortChat, finalizeShort } from "@/lib/api";
 import type { ChatMessage } from "@/lib/api";
 
 interface DraftTag { tag: string; code: string; label: string }
@@ -11,14 +11,14 @@ function extractDraftTags(text: string): DraftTag[] {
   const tags: DraftTag[] = [];
   const kbMatches = text.match(/\[KB:(\d+)\]/g);
   if (kbMatches) {
-    for (const m of [...new Set(kbMatches)]) {
+    for (const m of Array.from(new Set(kbMatches))) {
       const code = m.replace(/\[KB:|]/g, '');
       tags.push({ tag: "KB", code, label: "Kịch bản" });
     }
   }
   const ndMatches = text.match(/\[ND:(\d+)\]/g);
   if (ndMatches) {
-    for (const m of [...new Set(ndMatches)]) {
+    for (const m of Array.from(new Set(ndMatches))) {
       const code = m.replace(/\[ND:|]/g, '');
       tags.push({ tag: "ND", code, label: "Nội dung" });
     }
@@ -26,9 +26,10 @@ function extractDraftTags(text: string): DraftTag[] {
   return tags;
 }
 
-interface ChatPanelProps { projectId: string; videoId: string; onFinalized?: () => void; }
+interface ChatPanelProps { projectId: string; videoId: string; onFinalized?: () => void; chatType?: "video" | "short"; }
 
-export function ChatPanel({ projectId, videoId, onFinalized }: ChatPanelProps) {
+export function ChatPanel({ projectId, videoId, onFinalized, chatType = "video" }: ChatPanelProps) {
+  const isShortChat = chatType === "short";
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [sending, setSending] = useState(false);
@@ -51,7 +52,7 @@ export function ChatPanel({ projectId, videoId, onFinalized }: ChatPanelProps) {
 
   useEffect(() => {
     let mounted = true;
-    const load = async () => { try { const data = await getChatHistory(projectId, videoId); if (mounted) { setMessages(data.messages || []); setError(null); } } catch { if (mounted && online !== false) setError("Không tải được lịch sử chat"); } };
+    const load = async () => { try { const data = isShortChat ? await getShortChatHistory(projectId, videoId) : await getChatHistory(projectId, videoId); if (mounted) { setMessages(data.messages || []); setError(null); } } catch { if (mounted && online !== false) setError("Không tải được lịch sử chat"); } };
     if (online !== false) load();
     return () => { mounted = false; };
   }, [projectId, videoId, online]);
@@ -66,7 +67,8 @@ export function ChatPanel({ projectId, videoId, onFinalized }: ChatPanelProps) {
     const userMsg: ChatMessage = { role: "user", content: text, timestamp: new Date().toISOString() };
     setMessages((prev) => [...prev, userMsg]);
     try {
-      await streamChatMessage(
+      const streamFn = isShortChat ? streamShortChat : streamChatMessage;
+      await streamFn(
         projectId, videoId, text,
         (delta) => { setStreamingText((prev) => prev + delta); },
         (fullText) => {
@@ -90,13 +92,25 @@ export function ChatPanel({ projectId, videoId, onFinalized }: ChatPanelProps) {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleSend(); } };
-  const handleClear = async () => { if (!confirm("Xóa toàn bộ lịch sử chat?")) return; try { await clearChatHistory(projectId, videoId); setMessages([]); setError(null); } catch { setError("Xóa thất bại"); } };
+  const handleClear = async () => {
+    if (!confirm("Xóa toàn bộ lịch sử chat?")) return;
+    try {
+      if (isShortChat) {
+        await fetch(`${process.env.NEXT_PUBLIC_CHAT_URL || 'http://localhost:8001'}/api/chat/${projectId}/${videoId}/short`, { method: 'DELETE' });
+      } else {
+        await clearChatHistory(projectId, videoId);
+      }
+      setMessages([]); setError(null);
+    } catch { setError("Xóa thất bại"); }
+  };
   const handleSaveDraft = async (tag?: string, code?: string) => {
     setFinalizing(true); setError(null);
     try {
       const kbCode = tag === "KB" ? code : undefined;
       const ndCode = tag === "ND" ? code : undefined;
-      const result = await finalizeChatScript(projectId, videoId, kbCode, ndCode);
+      const result = isShortChat
+        ? await finalizeShort(projectId, videoId)
+        : await finalizeChatScript(projectId, videoId, kbCode, ndCode);
       const savedParts = Object.keys(result.saved || {});
       const names = savedParts.map(k => k === "script" ? "kịch bản" : "nội dung").join(" + ");
       setMessages((prev) => [...prev, {

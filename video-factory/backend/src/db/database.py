@@ -43,16 +43,22 @@ def _add_missing_columns(conn):
         "videos": {
             "target_duration": "INTEGER",
             "srt_path": "VARCHAR",
+            "flow_project_id": "VARCHAR",
         },
         "scenes": {
             "content_tag": "VARCHAR",
+            "edit_plan": "TEXT",
+            "is_short": "BOOLEAN DEFAULT 0",
+            "flow_characters": "TEXT",
         },
         "projects": {
             "flow_project_id": "VARCHAR",
+            "base_style": "VARCHAR DEFAULT 'base_2d_style'",
         },
         "characters": {
             "reference_image_path": "VARCHAR",
             "flow_character_id": "VARCHAR",
+            "video_id": "VARCHAR",
         },
     }
     for table, columns in migrations.items():

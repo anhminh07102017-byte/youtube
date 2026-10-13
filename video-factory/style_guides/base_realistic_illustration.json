@@ -1,0 +1,24 @@
+{
+  "style_name": "Realistic Illustration",
+  "base_prompt_prefix": "detailed realistic illustration style, dramatic lighting, rich textures, cinematic composition, digital painting with realistic proportions, high detail, atmospheric depth",
+  "base_prompt_suffix": "high quality realistic illustration, detailed, cinematic, no text in image",
+  "character_rules": {
+    "face": "realistic proportions, detailed expressions, accurate features",
+    "body": "anatomically accurate, natural poses, detailed clothing folds",
+    "clothing": "historically accurate with realistic fabric textures and materials",
+    "skin_tone": "realistic skin rendering appropriate to character ethnicity"
+  },
+  "background_rules": {
+    "detail_level": "high - rich environmental detail with atmospheric depth",
+    "perspective": "natural perspective, cinematic camera angles",
+    "colors": "rich, cinematic color grading, realistic lighting"
+  },
+  "camera_shots": {
+    "establishing": "wide cinematic shot with environmental storytelling",
+    "dialogue": "medium shot with detailed character interaction",
+    "action": "dynamic angle with dramatic lighting and motion",
+    "emotion": "intimate close-up with detailed expression and rim lighting",
+    "transition": "sweeping landscape with atmospheric perspective"
+  },
+  "negative_prompts": "cartoon, anime, flat shading, bold outlines, chibi, pixel art, low quality, blurry, text, watermark, manga style, 3D render"
+}
